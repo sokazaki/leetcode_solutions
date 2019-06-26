@@ -44,7 +44,7 @@ Palindrome Pairs,Hard,,
 Design Search Autocomplete System,Hard,,
 ,,,
 LinkedList,,,
-Reverse Linked List,Easy,○,繰り返しと再帰の2ver.で解く (どちらも時間はO(N))
+Reverse Linked List,Easy,○,繰り返しと再帰の2ver.で解く (どちらも時間計算量はO(N))
 Linked List Cycle,Easy,○,ランナーテクニックでフロイドの循環検出法を実装
 Linked List Cycle II,Medium,○,実装は簡単。Noneの比較は==ではなくisで行う。
 Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
