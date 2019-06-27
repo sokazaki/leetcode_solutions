@@ -214,7 +214,7 @@ Counting Bits,Medium,,
 ,,,
 Sliding Window,,,
 Longest Repeating Character Replacement,Medium,,
-Longest Substring Without Repeating Characters,Medium,,
+Longest Substring Without Repeating Characters,Medium,○,しゃくとり法(Two Pointer, Sliding Window)を用いてO(N)で処理
 Minimum Size Subarray Sum,Medium,,O(NlogN)やO(N)に落とせる
 ,,,
 "Greedy, Backtracking",,,
