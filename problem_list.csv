@@ -86,7 +86,7 @@ Find Median from Data Stream,Hard,,
 "HashMap, HashTable",,,
 Subdomain Visit Count,Easy,,
 Jewels and Stones,Easy,,
-Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。hoge in dictはvalueではなくkeyを見つけることに注意。
+Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dictはvalueではなくkeyを見つける事に注意。
 Intersection of Two Arrays,Easy,,
 Intersection of Two Arrays II,Easy,,
 Valid Anagram,Easy,,
