@@ -24,6 +24,7 @@ class Test(unittest.TestCase):
         self.assertEqual(lengthOfLongestSubstring("abcabcbb"), 3)
         self.assertEqual(lengthOfLongestSubstring("bbbbb"), 1)
         self.assertEqual(lengthOfLongestSubstring("pwwkew"), 3)
+        self.assertEqual(lengthOfLongestSubstring("tmmzuxt"), 5)
         self.assertEqual(lengthOfLongestSubstring(""), 0)
 
 
