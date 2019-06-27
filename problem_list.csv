@@ -213,9 +213,9 @@ Missing Number,Easy,,
 Counting Bits,Medium,,
 ,,,
 Sliding Window,,,
-Longest Repeating Character Replacement,Medium,,
+Longest Repeating Character Replacement,Medium,○,尺取り法(Two Pointer/Sliding Window)を用いてO(N)で処理
 Longest Substring Without Repeating Characters,Medium,○,尺取り法(Two Pointer/Sliding Window)を用いてO(N)で処理
-Minimum Size Subarray Sum,Medium,,O(NlogN)やO(N)に落とせる
+Minimum Size Subarray Sum,Medium,○,O(NlogN)やO(N)に落とせる
 ,,,
 "Greedy, Backtracking",,,
 Permutations,Medium,,"Greedy+Recursion, O(N!)にしかならない"
