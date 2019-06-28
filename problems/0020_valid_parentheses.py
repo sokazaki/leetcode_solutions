@@ -2,12 +2,12 @@ import unittest
 
 def isValid(s):
     stack = []
-    d = {"]":"[", "}":"{", ")":"("}
+    dic = {"]":"[", "}":"{", ")":"("}
     for char in s:
-        if char in d.values():
+        if char in dic.values():
             stack.append(char)
-        elif char in d.keys():
-            if stack == [] or d[char] != stack.pop():
+        elif char in dic.keys():
+            if stack == [] or dic[char] != stack.pop():
                 return False
         else:
             return False
