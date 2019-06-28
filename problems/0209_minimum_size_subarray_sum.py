@@ -1,4 +1,4 @@
-# O(N) Solution with Two Pointer and Sliding Window
+# O(N) Solution with Two Pointers and Sliding Window
 # (Another: O(NlogN) Solution with Cumulative Sum + Binary Search)
 # (Another: O(N^2) Solution with Simple Brute-force approach)
 
