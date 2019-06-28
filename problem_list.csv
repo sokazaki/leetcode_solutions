@@ -211,7 +211,7 @@ Search in Rotated Sorted Array II,Medium,,
 Capacity To Ship Packages Within D Days,Medium,,
 Search a 2D Matrix,Medium,,
 Search a 2D Matrix II,Medium,,
-Median of Two Sorted Arrays,Hard,,
+Median of Two Sorted Arrays,Hard,○,場合分けがかなりややこしい。二分探索で解く。
 ,,,
 Recursion,,,
 Range Sum of BST,Easy,,
