@@ -4,13 +4,13 @@
 import unittest
 
 def twoSum(nums, target):
-    remainder = {}
+    rem = {}
     for i, n in enumerate(nums):
         m = target - n
-        if m in remainder:
-            return [remainder[m], i]
+        if m in rem:
+            return [rem[m], i]
         else:
-            remainder[n] = i
+            rem[n] = i
 
 class Test(unittest.TestCase):
 
