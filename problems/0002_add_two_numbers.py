@@ -7,7 +7,7 @@
 class Solution:
     def addTwoNumbers(self, l1, l2):
         carry = 0
-        n = root = ListNode(0)
+        dummy = cur = ListNode(0)
         while l1 or l2 or carry:
             if l1:
                 carry += l1.val
@@ -16,6 +16,6 @@ class Solution:
                 carry += l2.val
                 l2 = l2.next
             carry, val = divmod(carry, 10)
-            n.next = ListNode(val)
-            n = n.next
-        return root.next
+            cur.next = ListNode(val)
+            cur = cur.next
+        return dummy.next
