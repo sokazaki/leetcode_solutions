@@ -58,8 +58,8 @@ Linked List Cycle,Easy,○,ランナーテクニックでフロイドの循環�
 Linked List Cycle II,Medium,○,実装は簡単。Noneの比較は==ではなくisで行う。
 Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
 Remove Duplicates from Sorted List II,Medium,○,ダミーノードを作って上手く処理する
-Remove Nth Node From End of List,Medium,○,参照の代入に気を付ける。n+aのfast/slowランナーを利用。
 Add Two Numbers,Medium,○,ミュータブル/イミュータブル/参照の代入について理解する
+Remove Nth Node From End of List,Medium,○,参照の代入に気を付ける。n+aのfast/slowランナーを利用。
 Copy List with Random Pointer,Medium,○,辞書を使って連結リストを処理
 Reorder List,Medium,○,中央値発見/逆順並び替え/交互にマージの総合問題
 Merge Two Sorted Lists,Easy,○,None or TrueはTrueになることに注意する
