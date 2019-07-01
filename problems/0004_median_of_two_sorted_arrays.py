@@ -4,19 +4,31 @@
 import unittest
 
 def findMedianSortedArrays(nums1, nums2):
-    a, b = sorted((nums1, nums2), key=len)
-    m, n = len(a), len(b)
-    med_idx = int((m+n-1)/2)
-    lo, hi = 0, m
-    while lo < hi:
-        i = int((lo+hi)/2)
-        if med_idx-i-1 < 0 or a[i] >= b[med_idx-i-1]:
-            hi = i
+    m, n = len(nums1), len(nums2)
+    if m > n:
+        nums1, nums2, m, n = nums2, nums1, n, m
+
+    imin, imax, half_len = 0, m, int((m + n + 1) / 2)
+    while imin <= imax:
+        i = int((imin + imax) / 2)
+        j = half_len - i
+        if i < m and nums2[j-1] > nums1[i]:
+            imin = i + 1
+        elif i > 0 and nums1[i-1] > nums2[j]:
+            imax = i - 1
         else:
-            lo = i + 1
-    i = lo
-    med = sorted(a[i:i+2] + b[med_idx-i:med_idx-i+2])
-    return (med[0] + med[1-(m+n)%2]) / 2.0
+            if i == 0: max_of_left = nums2[j-1]
+            elif j == 0: max_of_left = nums1[i-1]
+            else: max_of_left = max(nums1[i-1], nums2[j-1])
+
+            if (m + n) % 2 == 1:
+                return max_of_left
+
+            if i == m: min_of_right = nums2[j]
+            elif j == n: min_of_right = nums1[i]
+            else: min_of_right = min(nums1[i], nums2[j])
+
+            return (max_of_left + min_of_right) / 2.0
 
 
 class Test(unittest.TestCase):
