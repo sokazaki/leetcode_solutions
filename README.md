@@ -10,7 +10,6 @@ https://pep8.org/
 
 [Software Engineering/Machine Learning News]  
 https://softwareengineeringdaily.com/  
-https://www.se-radio.net/  
 https://www.thetalkingmachines.com/  
 
 [Algorithm, Data Structure, and Design]  
