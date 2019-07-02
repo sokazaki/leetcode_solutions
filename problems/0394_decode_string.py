@@ -25,6 +25,7 @@ class Test(unittest.TestCase):
         self.assertEqual(decodeString("2[abc]3[cd]ef"), "abcabccdcdcdef")
         self.assertEqual(decodeString("1[]"), "")
         self.assertEqual(decodeString("10[]"), "")
+        self.assertEqual(decodeString("0[abc]"), "")
 
 if __name__ == "__main__":
 
