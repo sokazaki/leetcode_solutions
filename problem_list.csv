@@ -72,8 +72,8 @@ Stack,,,
 Valid Parentheses,Easy,○,辞書を使って解く(括弧の向きが逆になることに注意)
 Min Stack,Easy,○,最小値保存用のスタックを別に作成する
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
-Daily Temperature,Medium,○,標準的問題。スタックを用いて解く。
-Flatten Nested List Iterator,Medium,,
+Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
+Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
 Trapping Rain Water,Hard,,
 Odd Even Jump,Hard,,
 Basic Calculator,Hard,,
