@@ -14,7 +14,7 @@ def canAttendMeetings(intervals):
 
 class Test(unittest.TestCase):
 
-    def test_trap(self):
+    def test_canAttendMeetingsself):
         self.assertEqual(canAttendMeetings([[0,30],[50,60],[15,20]]), False)
         self.assertEqual(canAttendMeetings([[0,30],[5,10],[15,20]]), False)
         self.assertEqual(canAttendMeetings([[7,10],[2,4]]), True)
