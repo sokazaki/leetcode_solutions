@@ -32,8 +32,6 @@ String to Integer (atoi),Medium,,
 Encode and Decode Strings,Medium,,
 Insert Delete GetRandom O(1),Medium,,
 Find Duplicate File in System,Medium,,
-Meeting Rooms,Easy,,
-Meeting Rooms II,Medium,,
 Merge Intervals,Medium,,
 Non-overlapping Intervals,Medium,,
 Insert Interval,Hard,,
@@ -74,7 +72,8 @@ Min Stack,Easy,○,最小値保存用のスタックを別に作成する
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
 Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
 Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
-Trapping Rain Water,Hard,,
+Trapping Rain Water,Hard,○,Largest Rectangle in Histogramと似た問題。スタックを上手く使って解く。
+Largest Rectangle in Histogram,Hard,○,Trapping Rain Waterと似た問題。スタックを上手く使って解く。
 Odd Even Jump,Hard,,
 Basic Calculator,Hard,,
 Basic Calculator II,Medium,,
@@ -253,6 +252,8 @@ Sliding Window Maximum,Hard,,
 Longest Substring with At Most K Distinct Characters,Hard,,
 ,,,
 "Greedy, Backtracking",,,
+Meeting Rooms,Easy,○,開始時間でソートした後、前順にチェックしていくだけ
+Meeting Rooms II,Medium,○,開始時間でソートした後、heapで前順にチェックしていく(O(N)で済む)
 Permutations,Medium,,
 Permutations II,Medium,,
 Subsets,Medium,,
