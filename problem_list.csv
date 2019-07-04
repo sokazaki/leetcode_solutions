@@ -13,6 +13,7 @@ Plus One,Easy,,
 Reorder Log Files,Easy,,
 Roman to Integer,Easy,,
 Merge Sorted Array,Easy,,
+Add Binary,Easy,,
 Reverse String,Easy,,
 Reverse Integer,Easy,,
 Longest Common Prefix,Easy,,
@@ -34,6 +35,7 @@ Insert Delete GetRandom O(1),Medium,,
 Find Duplicate File in System,Medium,,
 Merge Intervals,Medium,,
 Non-overlapping Intervals,Medium,,
+Find the Celebrity,Medium,,
 Insert Interval,Hard,,
 Longest Consecutive Sequence,Hard,,
 First Missing Positive,Hard,,
@@ -72,6 +74,7 @@ Min Stack,Easy,○,最小値保存用のスタックを別に作成する
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
 Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
 Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
+Evaluate Reverse Polish Notation,Medium,,
 Trapping Rain Water,Hard,○,Largest Rectangle in Histogramと似た問題。スタックを上手く使って解く。
 Largest Rectangle in Histogram,Hard,○,Trapping Rain Waterと似た問題。スタックを上手く使って解く。
 Odd Even Jump,Hard,,
@@ -212,6 +215,7 @@ Frog Jump,Hard,,
 Binary Search,,,
 Sqrt(x),Easy,,
 Search Insert Position,Easy,,
+Two Sum II - Input array is sorted,Easy,,
 Is Subsequence,Medium,,
 Find Minimum in Rotated Sorted Array,Medium,,
 Find Minimum in Rotated Sorted Array II,Hard,,
