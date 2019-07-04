@@ -220,6 +220,7 @@ Search in Rotated Sorted Array II,Medium,,
 Capacity To Ship Packages Within D Days,Medium,,
 Search a 2D Matrix,Medium,,
 Search a 2D Matrix II,Medium,,
+Time Based Key-Value Store,Medium,,
 Median of Two Sorted Arrays,Hard,○,jをiで上手く固定した後、B[j-1]<=A[i]かつA[i-1]<=B[j]を満たすiを二分探索で求める。
 ,,,
 Recursion,,,
