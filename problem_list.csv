@@ -214,7 +214,7 @@ Wildcard Matching,Hard,,
 Frog Jump,Hard,,
 ,,,
 Binary Search,,,
-Sqrt(x),Easy,,
+Sqrt(x),Easy,○,二分探索で求める。ニュートン法でも求まるが、今回のテストケースの場合あまり速くならない。
 Search Insert Position,Easy,,
 Two Sum II - Input array is sorted,Easy,,
 Is Subsequence,Medium,,
