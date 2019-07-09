@@ -119,7 +119,7 @@ Island Perimeter,Easy,,
 Contains Duplicate,Easy,,
 Contains Duplicate II,Easy,,
 Contains Duplicate III,Medium,,
-Group Anagrams,Medium,,
+Group Anagrams,Medium,○,ハッシュテーブルを用いてO(N)で処理。dict.values()はPython3ではイテレータが返ってくることに注意。
 Encode and Decode TinyURL,Medium,,
 Subarray Sum Equals K,Medium,,
 Subarray Sums Divisible by K,Medium,,
