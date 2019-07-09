@@ -27,7 +27,7 @@ Container With Most Water,Medium,,
 Summary Ranges,Medium,,
 Product of Array Except Self,Medium,,
 Maximum Product Subarray,Medium,,
-Rotate Image,Medium,,
+Rotate Image,Medium,○,zip関数を使うと簡単。リストの中身がタプルとなることに注意。
 Spiral Matrix,Medium,,
 Set Matrix Zeroes,Medium,,
 ZigZag Conversion,Medium,,
