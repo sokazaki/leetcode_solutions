@@ -14,7 +14,8 @@ class Test(unittest.TestCase):
     def test_groupAnagrams(self):
         self.assertListEqual(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]), [["eat","tea","ate"],["tan","nat"],["bat"]])
         self.assertListEqual(groupAnagrams(["eat", "tea", "tbn", "ate", "nat", "bat"]), [["eat","tea","ate"],["tbn"],["nat"],["bat"]])
-        self.assertListEqual(groupAnagrams(["eat", "eat", "tbn", ]), [["eat","eat"],["tbn"]])
+        self.assertListEqual(groupAnagrams(["eat", "eat", "tbn"]), [["eat","eat"],["tbn"]])
+        self.assertListEqual(groupAnagrams([]), [])
 
 if __name__ == "__main__":
 
