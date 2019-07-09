@@ -22,7 +22,7 @@ Multiply Strings,Medium,,
 Longest Common Prefix,Easy,,
 Longest Absolute File Path,Medium,,
 Game of Life,Medium,,
-Next Permutation,Medium,,
+Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
 Container With Most Water,Medium,,
 Summary Ranges,Medium,,
 Product of Array Except Self,Medium,,
