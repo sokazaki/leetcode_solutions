@@ -1,4 +1,4 @@
-# O(N!) Solution with Built-In Function or Back-Tracking
+# O(N!) Solution with Built-In Function or Backtracking
 
 import unittest
 import collections
@@ -10,21 +10,21 @@ class Solution:
         return list(itertools.permutations(nums))
 
 
-    def dfs(self,end_len,path,recoder):
+    def dfs(self, end_len, path, recoder):
         if len(path) == end_len:
             self.res.append(path)
         else:
             for key in recoder:
                 if recoder[key] > 0:
                     recoder[key] -= 1
-                    self.dfs(end_len,path+[key],recoder)
+                    self.dfs(end_len, path+[key], recoder)
                     recoder[key] += 1
 
 
     def permute2(self, nums):
         recoder = collections.Counter(nums)
         self.res = []
-        self.dfs(len(nums),[],recoder)
+        self.dfs(len(nums), [], recoder)
         return self.res
 
 class Test(unittest.TestCase):
