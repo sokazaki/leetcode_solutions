@@ -238,7 +238,7 @@ Recursion,,,
 Range Sum of BST,Easy,,
 Longest Univalue Path,Easy,,
 Minimum Distance Between BST Nodes,Easy,,
-"Pow(x, n)",Medium,,
+"Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
 K-th Symbol in Grammar,Medium,,
 Partition to K Equal Sum Subsets,Medium,,
 Split BST,Medium,,
