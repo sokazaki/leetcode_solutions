@@ -284,8 +284,8 @@ Non-overlapping Intervals,Medium,,
 Course Schedule III,Medium,,
 ,,,
 "Backtracking",,,
-Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定解はおそらくDFS(バックトラック法)。
-Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はおそらくDFS(バックトラック法)。
+Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定解はDFS(バックトラック法)。
+Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はDFS(バックトラック法)。
 Subsets,Medium,,
 Subsets ll,Medium,,
 Letter Combinations of a Phone Number,Medium,,
