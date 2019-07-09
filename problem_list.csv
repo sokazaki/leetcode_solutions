@@ -270,8 +270,8 @@ Longest Substring with At Most K Distinct Characters,Hard,,
 "Greedy, Backtracking",,,
 Meeting Rooms,Easy,○,開始時間でソートした後、前順にチェックしていくだけ
 Meeting Rooms II,Medium,○,開始時間でソートした後、heapで前順にチェックしていく(O(N)で済む)
-Permutations,Medium,,
-Permutations II,Medium,,
+Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定解はおそらくDFS(バックトラック法)。
+Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はおそらくDFS(バックトラック法)。
 Subsets,Medium,,
 Subsets ll,Medium,,
 Letter Combinations of a Phone Number,Medium,,
