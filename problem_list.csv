@@ -291,6 +291,7 @@ Minimum Size Subarray Sum,Medium,○,尺取り法を用いてO(N)で処理。累
 Permutation in String,Medium,,
 Max Consecutive Ones III,Medium,,
 Sort Colors,Medium,,
+Interval List Intersections,Medium,,
 3Sum,Medium,,
 3Sum Closest,Medium,,
 Find the Duplicate Number,Medium,,
