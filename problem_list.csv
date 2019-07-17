@@ -69,14 +69,22 @@ Design Search Autocomplete System,Hard,,
 ,,,
 LinkedList,,,
 Reverse Linked List,Easy,○,繰り返しと再帰の2ver.で解く (どちらも時間計算量はO(N))
+Reverse Linked List II,Medium,,
+Reverse Nodes in k-Group,Hard,,
 Linked List Cycle,Easy,○,ランナーテクニックでフロイドの循環検出法を実装
 Linked List Cycle II,Medium,○,実装は簡単。Noneの比較は==ではなくisで行う。
+Add Two Numbers,Medium,○,ミュータブル/イミュータブル/参照の代入について理解する
+Add Two Numbers II,Medium,,
+Delete Node in a Linked List,Easy,,
 Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
 Remove Duplicates from Sorted List II,Medium,○,ダミーノードを作って上手く処理する
-Add Two Numbers,Medium,○,ミュータブル/イミュータブル/参照の代入について理解する
 Remove Nth Node From End of List,Medium,○,参照の代入に気を付ける。n+aのfast/slowランナーを利用。
 Copy List with Random Pointer,Medium,○,辞書を使って連結リストを処理
+Intersection of Two Linked Lists,Easy,,
+Palindrome Linked List,Easy,,
+Odd Even Linked List,Medium,,
 Reorder List,Medium,○,中央値発見/逆順並び替え/交互にマージの総合問題
+Sort List,Medium,,
 Merge Two Sorted Lists,Easy,○,None or TrueはTrueになることに注意する
 Merge k Sorted Lists,Hard,○,優先度付きキューを使う総合問題
 LRU Cache,Medium,○,双方向連結リスト＋辞書を使う総合問題
