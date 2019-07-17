@@ -90,6 +90,7 @@ Swap Nodes in Pairs,Medium,,
 Merge Two Sorted Lists,Easy,○,None or TrueはTrueになることに注意する
 Merge k Sorted Lists,Hard,○,優先度付きキューを使う総合問題
 Design Linked List,Easy,,
+Flatten Binary Tree to Linked List,Medium,,
 Convert Binary Search Tree to Sorted Doubly Linked List,Medium,,
 LRU Cache,Medium,○,双方向連結リスト＋辞書を使う総合問題
 ,,,
