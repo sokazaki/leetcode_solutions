@@ -252,6 +252,7 @@ Longest Valid Parentheses,Hard,,
 Wildcard Matching,Hard,,
 Frog Jump,Hard,,
 Distinct Subsequences,Hard,,
+Split Array Largest Sum,Hard,,
 ,,,
 Binary Search,,,
 Sqrt(x),Easy,○,二分探索で求める。ニュートン法でも求まるが、今回のテストケースの場合あまり速くならない。
