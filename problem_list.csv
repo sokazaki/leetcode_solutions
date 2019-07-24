@@ -17,7 +17,7 @@ Find All Numbers Disappeared in an Array,Easy,,
 Add Strings,Easy,,
 Reverse Vowels of a String,Easy,,
 Plus One,Easy,,
-Count and Say,Easy,,
+Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
 Reorder Log Files,Easy,,
 Roman to Integer,Easy,,
 Integer to Roman,Medium,,
