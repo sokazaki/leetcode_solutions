@@ -24,7 +24,7 @@ Integer to Roman,Medium,,
 Merge Sorted Array,Easy,,
 Add Binary,Easy,,
 Reverse String,Easy,,
-Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行う。
+Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
 Multiply Strings,Medium,,
 Remove Duplicates from Sorted Array,Easy,,
 Longest Common Prefix,Easy,,
