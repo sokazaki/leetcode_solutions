@@ -140,7 +140,7 @@ Unique Email Addresses,Easy,,
 First Unique Character in a String,Easy,,
 Find All Anagrams in a String,Easy,,
 Island Perimeter,Easy,,
-Contains Duplicate,Easy,,
+Contains Duplicate,Easy,○,ハッシュテーブルを用いて普通に解く。setはO(N)でlenはO(1)となる。
 Contains Duplicate II,Easy,,
 Contains Duplicate III,Medium,,
 Group Anagrams,Medium,○,ハッシュテーブルを用いてO(N)で処理。dict.values()はPython3ではイテレータが返ってくることに注意。
