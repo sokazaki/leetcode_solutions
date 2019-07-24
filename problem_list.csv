@@ -27,7 +27,7 @@ Reverse String,Easy,,
 Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
 Multiply Strings,Medium,,
 Remove Duplicates from Sorted Array,Easy,,
-Longest Common Prefix,Easy,,
+Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
 Longest Absolute File Path,Medium,,
 Game of Life,Medium,,
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
