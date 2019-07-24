@@ -39,7 +39,7 @@ Rotate Image,Medium,○,zip関数を使うと簡単。返却値(リストの中�
 Spiral Matrix,Medium,,
 Spiral Matrix II,Medium,,
 Set Matrix Zeroes,Medium,,
-ZigZag Conversion,Medium,,
+ZigZag Conversion,Medium,○,シンプルに走査するだけ。
 String to Integer (atoi),Medium,,
 Encode and Decode Strings,Medium,,
 Insert Delete GetRandom O(1),Medium,,
