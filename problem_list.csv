@@ -136,7 +136,7 @@ Intersection of Two Arrays II,Easy,,
 Valid Anagram,Easy,,
 Valid Palindrome,Easy,,
 Valid Palindrome II,Easy,,
-Unique Email Addresses,Easy,,
+Unique Email Addresses,Easy,○,ビルトインメソッドのsplitとreplaceを使うと簡単。
 First Unique Character in a String,Easy,,
 Find All Anagrams in a String,Easy,,
 Island Perimeter,Easy,,
