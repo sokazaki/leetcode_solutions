@@ -15,7 +15,6 @@ Robot Return to Origin,Easy,,
 Palindrome Number,Easy,,
 Find All Numbers Disappeared in an Array,Easy,,
 Add Strings,Easy,,
-Reverse Vowels of a String,Easy,,
 Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
 Reorder Log Files,Easy,,
@@ -24,6 +23,7 @@ Integer to Roman,Medium,,
 Merge Sorted Array,Easy,,
 Add Binary,Easy,,
 Reverse String,Easy,,
+Reverse Vowels of a String,Easy,○,小文字だけでなく大文字も母音となることに注意。
 Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
 Multiply Strings,Medium,,
 Remove Duplicates from Sorted Array,Easy,,
