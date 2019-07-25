@@ -43,6 +43,7 @@ ZigZag Conversion,Medium,○,シンプルに走査するだけ。
 String to Integer (atoi),Medium,,
 Encode and Decode Strings,Medium,,
 Insert Delete GetRandom O(1),Medium,,
+Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
 Find Duplicate File in System,Medium,,
 Simplify Path,Medium,,
 Merge Intervals,Medium,,
