@@ -22,7 +22,7 @@ Roman to Integer,Easy,,
 Integer to Roman,Medium,,
 Merge Sorted Array,Easy,,
 Add Binary,Easy,,
-Reverse String,Easy,○,reverseメソッドやリストのスライスの逆順操作を用いても0(1)のin-placeになる。
+Reverse String,Easy,○,reverseメソッドや、リストのスライスの逆順操作を用いても0(1)のin-placeになる。
 Reverse Vowels of a String,Easy,○,小文字だけでなく大文字も母音となることに注意。
 Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
 Multiply Strings,Medium,,
