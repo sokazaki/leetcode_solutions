@@ -1,4 +1,4 @@
-# Time: O(N)/Space: O(1) Solution with Sign Inversion
+# Time: O(N)/Space: O(1) Solution with Mark by Negating
 
 import unittest
 
