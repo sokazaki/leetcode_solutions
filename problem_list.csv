@@ -35,6 +35,7 @@ Container With Most Water,Medium,,
 Summary Ranges,Medium,,
 Product of Array Except Self,Medium,,
 Maximum Average Subarray I,Easy,○,Sliding Windowで解く。ブルートフォースだとO(nk)になってしまう。
+Maximum Average Subarray II,Hard,,
 Maximum Product Subarray,Medium,,
 Rotate Image,Medium,○,zip関数を使うと簡単。返却値(リストの中身)がタプルとなることに注意。
 Spiral Matrix,Medium,,
