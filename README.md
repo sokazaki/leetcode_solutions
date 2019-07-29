@@ -1,6 +1,10 @@
 # LeetCode problem's solutions in Python
 
 https://leetcode.com/  
+(my account : https://leetcode.com/sokazaki/ )  
+
+I referred many people's solution, like @caikehe, @stefanpochmann, @kitt, and more.  
+Thanks so much for their sofisticated codes and ideas.
 
 ## Useful Links
 [Time/Space Complexity, Coding Style]  
