@@ -9,7 +9,7 @@ Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,,
 Move Zeroes,Easy,,
 Flipping an Image,Easy,,
-Count Primes,Easy,,
+Count Primes,Easy,○,エラトステネスの篩で素数テーブルを作って、その長さを返す。
 Shortest Unsorted Continuous Subarray,Easy,,
 Robot Return to Origin,Easy,○,countメソッドを使っても良い。
 Palindrome Number,Easy,,
