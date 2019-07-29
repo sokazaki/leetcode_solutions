@@ -108,12 +108,13 @@ LRU Cache,Medium,○,双方向連結リスト＋辞書を使う総合問題
 Stack,,,
 Valid Parentheses,Easy,○,辞書を使って解く(括弧の向きが逆になることに注意)
 Min Stack,Easy,○,最小値保存用のスタックを別に作成する
-Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
-Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
-Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
+Max Stack,Easy,,
+Decode String,Medium,,繰り返し回数保存用のスタックを別に作成する
+Daily Temperature,Medium,,スタックを用いてforwardのループで上手く処理する
+Flatten Nested List Iterator,Medium,,pop()をO(1)で用いるために、最初にリストを逆順にする
 Evaluate Reverse Polish Notation,Medium,,
-Trapping Rain Water,Hard,○,Largest Rectangle in Histogramと似た問題。スタックを上手く使って解く。
-Largest Rectangle in Histogram,Hard,○,Trapping Rain Waterと似た問題。スタックを上手く使って解く。
+Trapping Rain Water,Hard,,Largest Rectangle in Histogramと似た問題。スタックを上手く使って解く。
+Largest Rectangle in Histogram,Hard,,Trapping Rain Waterと似た問題。スタックを上手く使って解く。
 Odd Even Jump,Hard,,
 Basic Calculator,Hard,,
 Basic Calculator II,Medium,,
