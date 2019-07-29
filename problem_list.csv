@@ -19,7 +19,7 @@ Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
 Reorder Log Files,Easy,,
 Roman to Integer,Easy,,
-Integer to Roman,Medium,,
+Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
 Merge Sorted Array,Easy,,
 Add Binary,Easy,○,再帰で解くと綺麗に書ける。リストのアクセスはO(1)なので計算量はO(N)となる。
 Reverse String,Easy,○,reverseメソッドや、リストのスライスの逆順操作を用いても0(1)のin-placeになる。
