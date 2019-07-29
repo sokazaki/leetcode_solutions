@@ -142,7 +142,7 @@ Valid Palindrome II,Easy,,
 Unique Email Addresses,Easy,○,ビルトインメソッドのsplitとreplaceを使うと簡単。
 First Unique Character in a String,Easy,,
 Find All Anagrams in a String,Easy,,
-Island Perimeter,Easy,,
+Island Perimeter,Easy,○,配列外へのアクセスエラーを防ぐために外周を0埋めしても良いが、工夫すれば埋めなくても解ける
 Contains Duplicate,Easy,○,ハッシュテーブルを用いて普通に解く。setはO(N)でlenはO(1)となる。
 Contains Duplicate II,Easy,,
 Contains Duplicate III,Medium,,
