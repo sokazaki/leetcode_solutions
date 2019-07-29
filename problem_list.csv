@@ -18,7 +18,7 @@ Add Strings,Easy,,
 Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
 Reorder Log Files,Easy,,
-Roman to Integer,Easy,,
+Roman to Integer,Easy,○,ハッシュテーブルを作ってやると簡単。
 Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
 Merge Sorted Array,Easy,,
 Add Binary,Easy,○,再帰で解くと綺麗に書ける。リストのアクセスはO(1)なので計算量はO(N)となる。
