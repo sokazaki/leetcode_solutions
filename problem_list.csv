@@ -20,7 +20,7 @@ Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実
 Reorder Log Files,Easy,,
 Roman to Integer,Easy,○,ハッシュテーブルを作ってやると簡単。
 Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
-Merge Sorted Array,Easy,,
+Merge Sorted Array,Easy,○,nums1とnums2を最後尾から比較しつつ、nums1に逆順で要素を入れていけば良い
 Add Binary,Easy,○,再帰で解くと綺麗に書ける。リストのアクセスはO(1)なので計算量はO(N)となる。
 Reverse String,Easy,○,reverseメソッドや、リストのスライスの逆順操作を用いても0(1)のin-placeになる。
 Reverse Vowels of a String,Easy,○,小文字だけでなく大文字も母音となることに注意。
