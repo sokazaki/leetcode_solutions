@@ -13,7 +13,7 @@ Count Primes,Easy,○,エラトステネスの篩で素数テーブルを作っ�
 Shortest Unsorted Continuous Subarray,Easy,,
 Robot Return to Origin,Easy,○,countメソッドを使っても良い。
 Palindrome Number,Easy,,
-Find All Numbers Disappeared in an Array,Easy,○,バケツソートorハッシュテーブルはO(N)だが、余分なメモリを使うのでダメ。
+Find All Numbers Disappeared in an Array,Easy,○,バケツソートorハッシュテーブルを用いた方法はO(N)だが、余分なメモリを使うのでダメ。
 Add Strings,Easy,,
 Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
