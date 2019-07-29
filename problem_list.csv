@@ -39,8 +39,8 @@ Maximum Average Subarray I,Easy,○,Sliding Windowで解く。ブルートフォ
 Maximum Average Subarray II,Hard,,
 Maximum Product Subarray,Medium,,
 Rotate Image,Medium,○,zip関数を使うと簡単。返却値(リストの中身)がタプルとなることに注意。
-Spiral Matrix,Medium,,
-Spiral Matrix II,Medium,,
+Spiral Matrix,Medium,○,テンプレなので解き方を覚える。len([])は通るが、len([][0])はアクセスエラーになることに注意。
+Spiral Matrix II,Medium,◯,上とほぼ同じ問題。テンプレなので解き方を覚える。
 Set Matrix Zeroes,Medium,,
 Largest Number,Medium,,
 ZigZag Conversion,Medium,○,シンプルに走査するだけ。
