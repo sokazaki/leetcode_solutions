@@ -140,8 +140,8 @@ Find K Pairs with Smallest Sums,Medium,,
 Find Median from Data Stream,Hard,,
 ,,,
 "HashMap, HashTable",,,
+Jewels and Stones,Easy,○,普通に解くだけ。
 Subdomain Visit Count,Easy,,
-Jewels and Stones,Easy,,
 Happy Number,Easy,○,ハッピー列が最終的に循環列になるという性質を利用する。
 Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dictはvalueではなくkeyを見つける事に注意。
 4Sum,Medium,,
