@@ -1,7 +1,5 @@
 # O(N) Solution with Postorder Traversal (with Pruning)
 
-import unittest
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
