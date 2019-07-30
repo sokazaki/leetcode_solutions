@@ -1,4 +1,4 @@
-# Solution with Simple Recursion
+# O(N) Solution with Preorder Traversal
 
 # Definition for a binary tree node.
 # class TreeNode:
