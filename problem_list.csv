@@ -172,6 +172,7 @@ Integer to English Words,Hard,,
 Same Tree,Easy,,
 Symmetric Tree,Easy,,
 Subtree of Another Tree,Easy,,
+Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索する。
 Balanced Binary Tree,Easy,,
 Invert Binary Tree,Easy,,
 Minimum Depth of Binary Tree,Easy,,
@@ -298,7 +299,6 @@ Random Pick with Weight,Medium,,
 Median of Two Sorted Arrays,Hard,○,jをiで上手く固定した後、B[j-1]<=A[i]かつA[i-1]<=B[j]を満たすiを二分探索で求める。
 ,,,
 Recursion,,,
-Range Sum of BST,Easy,,
 Longest Univalue Path,Easy,,
 Minimum Distance Between BST Nodes,Easy,,
 "Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
