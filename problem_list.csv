@@ -8,7 +8,7 @@ Rotate Array,Easy,,
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,,
 Excel Sheet Column Number,Easy,,
-Move Zeroes,Easy,,
+Move Zeroes,Easy,○,走査用ポインタに加えて、0と交換する為のポインタを作って利用する。
 Flipping an Image,Easy,,
 Count Primes,Easy,○,エラトステネスの篩で素数テーブルを作って、その長さを返す。
 Shortest Unsorted Continuous Subarray,Easy,,
