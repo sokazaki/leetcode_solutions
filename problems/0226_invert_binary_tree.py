@@ -1,4 +1,4 @@
-# O(N) Solution with BFS
+# O(N) Solution with BFS or DFS
 
 from collections import deque
 
@@ -9,7 +9,7 @@ from collections import deque
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_bfs:
     def invertTree(self, root):
         queue = deque([root])
         while queue:
@@ -18,4 +18,14 @@ class Solution:
                 node.left, node.right = node.right, node.left
                 queue.append(node.left)
                 queue.append(node.right)
+        return root
+
+class Solution_dfs:
+    def invertTree(self, root):
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            if node:
+                node.left, node.right = node.right, node.left
+                stack.extend([node.right, node.left])
         return root
