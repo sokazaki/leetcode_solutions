@@ -10,7 +10,7 @@ from collections import deque
 #         self.right = None
 
 class Solution_bfs:
-    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+    def isSameTree(self, p, q):
         queue = deque([[p, q]])
         while queue:
             node1, node2 = queue.popleft()
