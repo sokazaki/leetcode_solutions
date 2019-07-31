@@ -184,7 +184,7 @@ Symmetric Tree,Easy,,
 Subtree of Another Tree,Easy,,
 Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索する。
 Balanced Binary Tree,Easy,,
-Invert Binary Tree,Easy,,
+Invert Binary Tree,Easy,○,適当な走査法で全探索しつつ左右を反転していく。
 Binary Tree Paths,Easy,,
 Minimum Depth of Binary Tree,Easy,,
 Maximum Depth of Binary Tree,Easy,,
