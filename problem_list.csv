@@ -179,16 +179,16 @@ Binary Tree Vertical Order Traversal,Medium,,
 Integer to English Words,Hard,,
 ,,,
 "Tree, BST",,,
-Same Tree,Easy,,
+Same Tree,Easy,○,適当な走査法で全探索しつつ２つの木を比較していく。
 Symmetric Tree,Easy,,
+Merge Two Binary Trees,Easy,○,適当な走査法で全探索しつつ２つの木を足していく。
 Subtree of Another Tree,Easy,,
-Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索する。
 Balanced Binary Tree,Easy,,
 Invert Binary Tree,Easy,○,適当な走査法で全探索しつつ左右を反転していく。
+Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索していく。
 Binary Tree Paths,Easy,,
 Minimum Depth of Binary Tree,Easy,,
 Maximum Depth of Binary Tree,Easy,,
-Merge Two Binary Trees,Easy,○,適当な走査法で全探索する。
 Convert BST to Greater Tree,Easy,,
 Convert Sorted Array to Binary Search Tree,Easy,,
 Convert Sorted List to Binary Search Tree,Medium,,
