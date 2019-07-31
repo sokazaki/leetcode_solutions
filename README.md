@@ -1,4 +1,4 @@
-# LeetCode 400+ problem's solutions in Python
+# LeetCode 400+ problems' solutions in Python
 
 https://leetcode.com/  
 (my account : https://leetcode.com/sokazaki/ )  
