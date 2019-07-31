@@ -269,7 +269,7 @@ Sliding Puzzle,Hard,,
 Robot Room Cleaner,Hard,,
 ,,,
 Dynamic Programming,,,
-Climbing Stairs,Easy,,
+Climbing Stairs,Easy,○,フィボナッチ数列の計算と同値となる。
 Min Cost Climbing Stairs,Easy,,
 Paint Fence,Easy,,
 Longest Increasing Subsequence,Medium,,
