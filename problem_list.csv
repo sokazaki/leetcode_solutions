@@ -386,6 +386,7 @@ Remove Duplicate Letters,Hard,,
 Employee Free Time,Hard,,
 Candy,Hard,,
 Patching Array,Hard,,
+Minimum Number of K Consecutive Bit Flips,Hard,,
 ,,,
 "Backtracking",,,
 Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定解はDFS(バックトラック法)。
