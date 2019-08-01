@@ -191,7 +191,7 @@ Diameter of Binary Tree,Easy,,
 Minimum Depth of Binary Tree,Easy,,
 Maximum Depth of Binary Tree,Easy,,
 Convert BST to Greater Tree,Easy,,
-Convert Sorted Array to Binary Search Tree,Easy,,
+Convert Sorted Array to Binary Search Tree,Easy,○,再帰で解く。計算量はT(n)=2T(n/2)+O(1)より、マスター定理を用いてO(N)となる。
 Convert Sorted List to Binary Search Tree,Medium,,
 Closest Binary Search Tree Value,Easy,,
 Closest Binary Search Tree Value II,Hard,,
