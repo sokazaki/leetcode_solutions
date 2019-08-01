@@ -276,7 +276,7 @@ Longest Increasing Subsequence,Medium,,
 Longest Palindromic Subsequence,Medium,,
 Longest Palindromic Substring,Medium,,
 Palindromic Substrings,Medium,,
-Maximum Subarray,Easy,○,全探索:O(N^3)、全探索＋累積和:O(N^2)、分割統治法:O(NlogN)、Kanade's Algorithm:O(N)の四通りの解き方がある。
+Maximum Subarray,Easy,○,全探索:O(N^3)、全探索＋累積和:O(N^2)、分割統治法:O(NlogN)、Kadane's Algorithm:O(N)の四通りの解き方がある。
 Unique Paths,Medium,,
 Unique Paths II,Medium,,
 House Robber,Easy,,
