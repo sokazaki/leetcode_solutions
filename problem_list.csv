@@ -163,7 +163,7 @@ Valid Palindrome,Easy,,
 Valid Palindrome II,Easy,,
 Unique Word Abbreviation,Medium,,
 Unique Email Addresses,Easy,○,ビルトインメソッドのsplitとreplaceを使うと簡単。
-First Unique Character in a String,Easy,,
+First Unique Character in a String,Easy,○,ハッシュマップを使ってTwo Passで解く。
 Find All Anagrams in a String,Easy,,
 Island Perimeter,Easy,○,True or 配列外のアクセスエラーはTrueとなることを利用。アクセスエラーを防ぐために外周を0埋めしても良い。
 Contains Duplicate,Easy,○,ハッシュテーブルを用いて普通に解く。setはO(N)でlenはO(1)となる。
