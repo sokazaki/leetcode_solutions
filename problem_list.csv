@@ -152,7 +152,7 @@ Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dict�
 4Sum,Medium,,
 4Sum II,Medium,,
 Group Shifted Strings,Medium,,
-Strobogrammatic Number,Easy,,
+Strobogrammatic Number,Easy,○,ストロボグラマティック数のハッシュテーブルを作って解く。
 Strobogrammatic Number II,Medium,,
 Strobogrammatic Number III,Hard,,
 Intersection of Two Arrays,Easy,,
