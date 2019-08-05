@@ -6,7 +6,7 @@ Pascal's Triangle II,Easy,,
 Triangle,Medium,,
 Rotate Array,Easy,,
 Implement strStr(),Easy,,
-Factorial Trailing Zeroes,Easy,,
+Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
 Excel Sheet Column Number,Easy,,
 Move Zeroes,Easy,○,走査用ポインタに加えて、0と交換する為のポインタを作って利用する。
 Flipping an Image,Easy,,
@@ -167,7 +167,7 @@ First Unique Character in a String,Easy,○,ハッシュマップを使ってTwo
 Find All Anagrams in a String,Easy,,
 Island Perimeter,Easy,○,True or 配列外のアクセスエラーはTrueとなることを利用。アクセスエラーを防ぐために外周を0埋めしても良い。
 Contains Duplicate,Easy,○,ハッシュテーブルを用いて普通に解く。setはO(N)でlenはO(1)となる。
-Contains Duplicate II,Easy,,
+Contains Duplicate II,Easy,○,ハッシュテーブルを用いてO(N)で解く。愚直に解くとO(N^2)となる。
 Contains Duplicate III,Medium,,
 Palindrome Permutation,Easy,,
 Palindrome Permutation II,Medium,,
