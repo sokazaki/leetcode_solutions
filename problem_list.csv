@@ -279,7 +279,7 @@ Palindromic Substrings,Medium,,
 Maximum Subarray,Easy,○,全探索:O(N^3)、全探索＋累積和:O(N^2)、分割統治法:O(NlogN)、Kadane's Algorithm:O(N)の四通りの解き方がある。
 Unique Paths,Medium,,
 Unique Paths II,Medium,,
-House Robber,Easy,,
+House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最大獲得金額を記録しながら走査する。
 House Robber II,Medium,,
 Target Sum,Medium,,
 Best Time to Buy and Sell Stock,Easy,,
