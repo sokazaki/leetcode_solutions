@@ -389,7 +389,7 @@ Partition Labels,Medium,,
 Reorganize String,Medium,,
 Gas Station,Medium,,
 Non-overlapping Intervals,Medium,,
-Queue Reconstruction by Height,Medium,,
+Queue Reconstruction by Height,Medium,○,身長で降順ソート/前方許可人数で昇順ソートした後、前方許可人数に基づいて貪欲に列を構成する。
 Remove K Digits,Medium,,
 Remove Duplicate Letters,Hard,,
 Employee Free Time,Hard,,
