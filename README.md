@@ -3,7 +3,7 @@
 https://leetcode.com/  
 (my account : https://leetcode.com/sokazaki/ )  
 
-I referred to many people's solutions, to name a few, @caikehe, @stefanpochmann, @kitt, and more.  
+I referred to many people's solutions, to name a few, @caikehe, @stefanpochmann, @kitt, @lee215, and more.  
 Thanks so much for their sofisticated codes and ideas.
 
 ## Useful Links
