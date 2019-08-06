@@ -54,7 +54,7 @@ Insert Delete GetRandom O(1),Medium,,
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
 Find Duplicate File in System,Medium,,
 Simplify Path,Medium,,
-Wiggle Sort,Medium,,
+Wiggle Sort,Medium,○,条件を満たさない箇所を貪欲にスワップしていく事で、自然に題意を満たす列となる。
 Wiggle Sort II,Medium,,
 Missing Ranges,Medium,,
 Merge Intervals,Medium,,
