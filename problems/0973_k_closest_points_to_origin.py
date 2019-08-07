@@ -1,4 +1,4 @@
-# O(NlogK) Solution with Heap
+# O(K+(N-K)logK) Solution with Heap
 
 import unittest
 import heapq
