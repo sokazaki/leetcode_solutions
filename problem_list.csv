@@ -137,8 +137,8 @@ Design Snake Game,Medium,,
 ,,,
 "Heap, PriorityQueue",,,
 Kth Largest Element in a Stream,Easy,,
-K Closest Points to Origin,Medium,○,ヒープを使うと計算量をO(NlogN)からO(NlogK)に落とせる。クイックセレクトの利用もあり。
-Kth Largest Element in an Array,Medium,○,ヒープを使うと計算量はO(K+(N-K)logK)となる。クイックセレクトの利用もあり。
+K Closest Points to Origin,Medium,○,ヒープを使うと計算量をO(NlogN)からO(K+(N-K)logK)に落とせる。クイックセレクトの利用もあり。
+Kth Largest Element in an Array,Medium,○,ヒープを使うと計算量をO(NlogN)からO(K+(N-K)logK)に落とせる。クイックセレクトの利用もあり。
 Top K Frequent Elements,Medium,,
 Find K Pairs with Smallest Sums,Medium,,
 Find Median from Data Stream,Hard,,
