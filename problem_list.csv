@@ -35,7 +35,6 @@ Flip Game,Easy,,
 Flip Game II,Medium,,
 Game of Life,Medium,,
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
-Container With Most Water,Medium,,
 Summary Ranges,Medium,,
 Product of Array Except Self,Medium,○,前順走査と逆順走査のTwo PassでO(N)で解く。
 Maximum Average Subarray I,Easy,○,Sliding Windowで解く。ブルートフォースだとO(NK)になってしまう。
@@ -366,6 +365,7 @@ Longest Substring Without Repeating Characters,Medium,○,尺取り法を用い�
 Minimum Size Subarray Sum,Medium,○,尺取り法を用いてO(N)で処理。累積和＋二分探索を用いてO(NlogN)に処理する方法もある
 Permutation in String,Medium,,
 Max Consecutive Ones III,Medium,,
+Container With Most Water,Medium,○,尺取り法を用いてO(N)で処理。横幅が大きい面積から処理していく。
 Sort Colors,Medium,,
 Interval List Intersections,Medium,,
 3Sum,Medium,,
