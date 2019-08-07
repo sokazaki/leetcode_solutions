@@ -1,4 +1,4 @@
-# O(N) Solution with Dynamic Programming
+# O(NK) Solution with Dynamic Programming
 
 import unittest
 
