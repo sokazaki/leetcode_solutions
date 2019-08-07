@@ -7,7 +7,7 @@ def findKthLargest(nums, k):
 
     minheap = nums[:k]
     heapq.heapify(minheap) # O(k)
-    for num in nums[k:]: # O(n-k)
+    for num in nums[k:]: # O(N-k)
         if num > minheap[0]:
             heapq.heapreplace(minheap, num) # O(logk)
 
