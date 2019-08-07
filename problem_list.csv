@@ -248,7 +248,7 @@ Number of Connected Components in an Undirected Graph,Medium,,
 Course Schedule,Medium,,
 Course Schedule II,Medium,,
 Course Schedule III,Medium,,
-Number of Islands,Medium,,
+Number of Islands,Medium,○,DFSかBFSか、適当な走査法でgridの各点毎に探索する。計算量はO(面積)となる。
 Number of Islands II,Hard,,
 Max Area of Island,Medium,,
 Evaluate Division,Medium,,
