@@ -297,7 +297,7 @@ Perfect Squares,Medium,,
 Maximal Square,Medium,,
 Word Break,Medium,,
 Word Break II,Hard,,
-Coin Change,Medium,,
+Coin Change,Medium,○,DPでシンプルに解く。日本の硬貨に限定すると、値段の高いものから貪欲に順に多く取っていけば最適解となる。
 Coin Change 2,Medium,,
 Minimum Path Sum,Medium,,
 Regular Expression Matching,Hard,,
