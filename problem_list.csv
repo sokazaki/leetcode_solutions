@@ -355,6 +355,7 @@ Majority Element,Easy,,
 Missing Number,Easy,,
 Reverse Bits,Easy,,
 Number of 1 Bits,Easy,,
+Gray Code,Medium,○,排他的論理和を用いて解く。再帰的にも解ける。
 Counting Bits,Medium,,
 UTF-8 Validation,Medium,,
 Maximum Product of Word Lengths,Medium,,
@@ -402,7 +403,6 @@ Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定�
 Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はDFS(バックトラック法)。
 Subsets,Medium,,
 Subsets ll,Medium,,
-Gray Code,Medium,,
 Letter Combinations of a Phone Number,Medium,,
 Generate Parentheses,Medium,,
 Palindrome Partitioning,Medium,,
