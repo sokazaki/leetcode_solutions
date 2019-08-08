@@ -410,7 +410,7 @@ Palindrome Partitioning II,Hard,,
 Restore IP Addresses,Medium,,
 N-Queens,Hard,,
 N-Queens II,Hard,,
-Valid Sudoku,Medium,,
+Valid Sudoku,Medium,○,題意をチェックするだけ。
 Sudoku Solver,Hard,,
 Generalized Abbreviation,Medium,,
 Combinations,Medium,,
