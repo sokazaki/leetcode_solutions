@@ -366,7 +366,7 @@ Minimum Size Subarray Sum,Medium,○,尺取り法を用いてO(N)で処理。累
 Permutation in String,Medium,,
 Max Consecutive Ones III,Medium,,
 Container With Most Water,Medium,○,尺取り法を用いてO(N)で処理。横幅が大きい面積から処理していく。
-Sort Colors,Medium,,
+Sort Colors,Medium,○,オランダ国旗問題と呼ばれる有名問題。色ごとのポインタを用いて処理する。
 Interval List Intersections,Medium,,
 3Sum,Medium,,
 3Sum Closest,Medium,,
