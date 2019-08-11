@@ -1,9 +1,6 @@
 Problems,Difficulty,Solved,Notes (In Japanese)
 "Array, Math, String",,,
 Fizz Buzz,Easy,○,有名な問題
-Pascal's Triangle,Easy,,
-Pascal's Triangle II,Easy,,
-Triangle,Medium,,
 Rotate Array,Easy,,
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
@@ -272,6 +269,9 @@ Robot Room Cleaner,Hard,,
 Dynamic Programming,,,
 Climbing Stairs,Easy,○,フィボナッチ数列の計算と同値となる。
 Min Cost Climbing Stairs,Easy,,
+Pascal's Triangle,Easy,,
+Pascal's Triangle II,Easy,,
+Triangle,Medium,○,DPでIn-Placeで解ける。
 Paint Fence,Easy,,
 Longest Increasing Subsequence,Medium,,
 Longest Palindromic Subsequence,Medium,,
