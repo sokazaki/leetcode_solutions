@@ -375,7 +375,7 @@ Interval List Intersections,Medium,,
 3Sum,Medium,,
 3Sum Closest,Medium,,
 3Sum Smaller,Medium,,
-Find the Duplicate Number,Medium,,
+Find the Duplicate Number,Medium,○,ランナーテクニックでフロイドの循環検出法を実装してO(N)で解く。二分探索だとO(NlogN)となる。
 Minimum Window Substring,Hard,,
 Sliding Window Maximum,Hard,,
 Longest Substring with At Most Two Distinct Characters,Hard,,
