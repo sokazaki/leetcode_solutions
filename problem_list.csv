@@ -194,7 +194,7 @@ Closest Binary Search Tree Value,Easy,,
 Closest Binary Search Tree Value II,Hard,,
 Binary Tree Right Side View,Medium,,
 Verify Preorder Serialization of a Binary Tree,Medium,,
-Path Sum,Easy,,
+Path Sum,Easy,○,適当な走査法で探索済みノードの値の総和を渡しつつ探索。
 Path Sum II,Medium,,
 Path Sum III,Easy,,
 Path Sum IV,Medium,,
