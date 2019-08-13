@@ -185,7 +185,7 @@ Invert Binary Tree,Easy,○,適当な走査法で全探索しつつ左右を反�
 Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索していく。
 Binary Tree Paths,Easy,,
 Diameter of Binary Tree,Easy,,
-Minimum Depth of Binary Tree,Easy,,
+Minimum Depth of Binary Tree,Easy,○,適当な走査法で木の高さを保存しながら探索しつつ、葉に到達したら終了する。
 Maximum Depth of Binary Tree,Easy,,
 Convert BST to Greater Tree,Easy,,
 Convert Sorted Array to Binary Search Tree,Easy,○,再帰で解く。計算量はT(n)=2T(n/2)+O(1)より、マスター定理を用いてO(N)となる。
