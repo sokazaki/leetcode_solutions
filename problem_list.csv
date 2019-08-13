@@ -284,7 +284,7 @@ Unique Paths III,Hard,,
 House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最大獲得金額を記録しながら走査する。
 House Robber II,Medium,,
 Target Sum,Medium,,
-Best Time to Buy and Sell Stock,Easy,,
+Best Time to Buy and Sell Stock,Easy,○,その時点での最小買値と今までの最大売値を保存しつつ、前順でO(N)で解く。
 Best Time to Buy and Sell Stock II,Easy,,
 Best Time to Buy and Sell Stock III,Hard,,
 Best Time to Buy and Sell Stock IV,Hard,,
