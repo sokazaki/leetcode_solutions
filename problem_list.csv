@@ -1,6 +1,7 @@
 Problems,Difficulty,Solved,Notes (In Japanese)
 "Array, Math, String",,,
 Fizz Buzz,Easy,○,有名な問題
+"Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
 Rotate Array,Easy,,
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
@@ -50,6 +51,7 @@ Insert Delete GetRandom O(1),Medium,,
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
 Find Duplicate File in System,Medium,,
 Simplify Path,Medium,,
+K-th Symbol in Grammar,Medium,,
 Wiggle Sort,Medium,○,条件を満たさない箇所を貪欲にスワップしていく事で、自然に題意を満たす列となる。
 Wiggle Sort II,Medium,,
 Missing Ranges,Medium,,
@@ -198,7 +200,7 @@ Path Sum,Easy,○,適当な走査法で探索済みノードの値の総和を�
 Path Sum II,Medium,,
 Path Sum III,Easy,,
 Path Sum IV,Medium,,
-House Robber III,Medium,,
+Longest Univalue Path,Easy,,
 Lowest Common Ancestor of a Binary Search Tree,Easy,,
 Kth Smallest Element in a BST,Medium,,
 Inorder Successor in BST,Medium,,
@@ -220,6 +222,9 @@ Construct Binary Tree from Preorder and Postorder Traversal,Medium,,
 Construct Binary Search Tree from Preorder Traversal,Medium,,
 Construct String from Binary Tree,Easy,,
 Construct Binary Tree from String,Medium,,
+Minimum Distance Between BST Nodes,Easy,,
+Split BST,Medium,,
+Delete Node in a BST,Medium,,
 Minimum Height Trees,Medium,,
 Count Complete Tree Nodes,Medium,,
 Binary Tree Maximum Path Sum,Hard,,
@@ -283,7 +288,9 @@ Unique Paths II,Medium,○,DPでシンプルに解く。DPテーブルを作ら�
 Unique Paths III,Hard,,
 House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最大獲得金額を記録しながら走査する。
 House Robber II,Medium,,
+House Robber III,Medium,,
 Target Sum,Medium,,
+Partition to K Equal Sum Subsets,Medium,,
 Best Time to Buy and Sell Stock,Easy,○,その時点での最小買値と今までの最大売値を保存しつつ、前順でO(N)で解く。
 Best Time to Buy and Sell Stock II,Easy,○,何も考えずに貪欲に解く。
 Best Time to Buy and Sell Stock III,Hard,,
@@ -336,14 +343,6 @@ Time Based Key-Value Store,Medium,,
 Random Pick with Weight,Medium,,
 Smallest Rectangle Enclosing Black Pixels,Hard,,
 Median of Two Sorted Arrays,Hard,○,jをiで上手く固定した後、B[j-1]<=A[i]かつA[i-1]<=B[j]を満たすiを二分探索で求める。
-,,,
-Recursion,,,
-Longest Univalue Path,Easy,,
-Minimum Distance Between BST Nodes,Easy,,
-"Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
-K-th Symbol in Grammar,Medium,,
-Partition to K Equal Sum Subsets,Medium,,
-Split BST,Medium,,
 ,,,
 Bit Manipulation,,,
 Power of Two,Easy,,
