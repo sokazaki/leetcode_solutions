@@ -249,7 +249,7 @@ Course Schedule II,Medium,,
 Course Schedule III,Medium,,
 Number of Islands,Medium,○,DFSかBFSか、適当な走査法でgridの各点毎に探索する。計算量はO(面積)となる。
 Number of Islands II,Hard,,
-Max Area of Island,Medium,,
+Max Area of Island,Medium,○,適当な走査法で、最大連結数をメモしつつgridの各点毎に探索する。計算量はO(面積)となる。
 Evaluate Division,Medium,,
 Word Ladder,Medium,,
 Word Ladder II,Hard,,
