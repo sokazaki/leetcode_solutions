@@ -289,7 +289,7 @@ Best Time to Buy and Sell Stock II,Easy,○,何も考えずに貪欲に解く。
 Best Time to Buy and Sell Stock III,Hard,,
 Best Time to Buy and Sell Stock IV,Hard,,
 Best Time to Buy and Sell Stock with Cooldown,Medium,,
-Best Time to Buy and Sell Stock with Transaction Fee,,
+Best Time to Buy and Sell Stock with Transaction Fee,Medium,,
 Range Sum Query - Immutable,Easy,,
 Range Sum Query - Mutable,Medium,,
 Range Sum Query 2D - Immutable,Medium,,
