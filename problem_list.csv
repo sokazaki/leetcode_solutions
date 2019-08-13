@@ -211,7 +211,7 @@ Lowest Common Ancestor of a Binary Tree,Medium,,
 Binary Tree Inorder Traversal,Medium,,
 Binary Tree Preorder Traversal,Medium,,
 Binary Tree Postorder Traversal,Hard,,
-Binary Tree Level Order Traversal,Medium,,
+Binary Tree Level Order Traversal,Medium,○,Level OrderなのでBFSが自然だが、Levelを渡しながら走査すればDFSでも解ける。
 Binary Tree Level Order Traversal II,Easy,,
 Binary Tree Zigzag Level Order Traversal,Medium,,
 Construct Binary Tree from Preorder and Inorder Traversal,Medium,,
