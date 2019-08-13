@@ -285,10 +285,11 @@ House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最�
 House Robber II,Medium,,
 Target Sum,Medium,,
 Best Time to Buy and Sell Stock,Easy,○,その時点での最小買値と今までの最大売値を保存しつつ、前順でO(N)で解く。
-Best Time to Buy and Sell Stock II,Easy,,
+Best Time to Buy and Sell Stock II,Easy,○,何も考えずに貪欲に解く。
 Best Time to Buy and Sell Stock III,Hard,,
 Best Time to Buy and Sell Stock IV,Hard,,
 Best Time to Buy and Sell Stock with Cooldown,Medium,,
+Best Time to Buy and Sell Stock with Transaction Fee
 Range Sum Query - Immutable,Easy,,
 Range Sum Query - Mutable,Medium,,
 Range Sum Query 2D - Immutable,Medium,,
