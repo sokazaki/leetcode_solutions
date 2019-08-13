@@ -368,6 +368,8 @@ Longest Repeating Character Replacement,Medium,○,尺取り法(Two Pointers/Sli
 Longest Substring Without Repeating Characters,Medium,○,尺取り法を用いてO(N)で処理
 Minimum Size Subarray Sum,Medium,○,尺取り法を用いてO(N)で処理。累積和＋二分探索を用いてO(NlogN)に処理する方法もある
 Permutation in String,Medium,,
+Max Consecutive Ones,Easy,,
+Max Consecutive Ones II,Medium,,
 Max Consecutive Ones III,Medium,,
 Container With Most Water,Medium,○,尺取り法を用いてO(N)で処理。横幅が大きい面積から処理していく。
 Sort Colors,Medium,○,オランダ国旗問題と呼ばれる有名問題。色ごとのポインタを用いて処理する。
