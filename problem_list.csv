@@ -319,7 +319,7 @@ Binary Search,,,
 Sqrt(x),Easy,○,二分探索で求める。ニュートン法でも求まるが、今回のテストケースの場合あまり速くならない。
 Search Insert Position,Easy,,
 Two Sum II - Input array is sorted,Easy,,
-Is Subsequence,Medium,○,findメソッドの利用でシンプルに解ける。DPを使うとTLEとなる。
+Is Subsequence,Medium,○,findメソッドの内部実装(BMH法)が高速なためか、Two Pointers+Greedyで二分探索より早く解ける。
 Find Peak Element,Medium,,
 Find Minimum in Rotated Sorted Array,Medium,,
 Find Minimum in Rotated Sorted Array II,Hard,,
