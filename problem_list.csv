@@ -177,7 +177,7 @@ Subarray Sums Divisible by K,Medium,,
 Binary Tree Vertical Order Traversal,Medium,,
 Integer to English Words,Hard,,
 ,,,
-"Tree, BST",,,
+"Tree, BT, BST",,,
 Same Tree,Easy,○,適当な走査法で全探索しつつ２つの木を比較していく。
 Symmetric Tree,Easy,,
 Merge Two Binary Trees,Easy,○,適当な走査法で全探索しつつ２つの木を足していく。
