@@ -272,7 +272,7 @@ Min Cost Climbing Stairs,Easy,,
 Pascal's Triangle,Easy,,
 Pascal's Triangle II,Easy,,
 Triangle,Medium,○,DPでIn-Placeで解ける。
-Paint Fence,Easy,,
+Paint Fence,Easy,○,同じ色で塗る場合と異なる色で塗る場合に分けてDPで解く。
 Longest Increasing Subsequence,Medium,,
 Longest Palindromic Subsequence,Medium,,
 Longest Palindromic Substring,Medium,,
