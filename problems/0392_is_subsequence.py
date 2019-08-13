@@ -1,4 +1,4 @@
-# O(N+M) Solution with Two Pointers
+# O(NM) Solution with Two Pointers
 
 import unittest
 
