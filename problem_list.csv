@@ -216,8 +216,8 @@ Binary Tree Postorder Traversal,Hard,,
 Binary Tree Level Order Traversal,Medium,○,Level OrderなのでBFSが自然だが、Levelを渡しながら走査すればDFSでも解ける。
 Binary Tree Level Order Traversal II,Easy,,
 Binary Tree Zigzag Level Order Traversal,Medium,○,Binary Tree Level Order Traversalとほぼ同じ。作成したリストの奇数番目を最後に反転させる方法でも良い。
-Construct Binary Tree from Preorder and Inorder Traversal,Medium,○,Inorder/Postorderの場合と対比させて考えるとわかりやすい。
-Construct Binary Tree from Inorder and Postorder Traversal,Medium,○,Preorder/Inorderの場合と対比させて考えるとわかりやすい。
+Construct Binary Tree from Preorder and Inorder Traversal,Medium,○,Inorder/Postorderの場合と対比させて考えるとわかりやすい。また、if文を通らないときは自動でNoneが返る。
+Construct Binary Tree from Inorder and Postorder Traversal,Medium,○,Preorder/Inorderの場合と対比させて考えるとわかりやすい。また、if文を通らないときは自動でNoneが返る。
 Construct Binary Tree from Preorder and Postorder Traversal,Medium,,
 Construct Binary Search Tree from Preorder Traversal,Medium,,
 Construct String from Binary Tree,Easy,,
