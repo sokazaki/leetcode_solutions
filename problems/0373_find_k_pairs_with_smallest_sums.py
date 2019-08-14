@@ -1,4 +1,4 @@
-# O(N+KlogK) Solution with Heap
+# O(KlogK) Solution with Heap
 
 import unittest
 import heapq
@@ -11,7 +11,7 @@ def kSmallestPairs(nums1, nums2, k):
 
     heap = []
 
-    for i in range(len(nums1)):
+    for i in range(min(len(nums1),k)):
         heapq.heappush(heap, (nums1[i]+nums2[0], i, 0))
 
     res = []
