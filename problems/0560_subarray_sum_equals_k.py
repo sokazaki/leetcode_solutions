@@ -22,6 +22,7 @@ class Test(unittest.TestCase):
         self.assertEqual(subarraySum([1,5,6], 3), 0)
         self.assertEqual(subarraySum([1], 1), 1)
         self.assertEqual(subarraySum([], 1), 0)
+        self.assertEqual(subarraySum([1], 0), 0)
         self.assertEqual(subarraySum([-1, 1, 0, 0, -1], 0), 7)
         self.assertEqual(subarraySum([-1, 0, 0, 0, 1], 0), 7)
 
