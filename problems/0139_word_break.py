@@ -10,7 +10,7 @@ def wordBreak(s, wordDict):
 
     for i in range(1, len(s)+1):
         for w in wordDict:
-            if dp[i-len(w)] and s[i-len(w):i]==w:
+            if i-len(w)>=0 and dp[i-len(w)] and s[i-len(w):i]==w:
                 dp[i]=True
 
     return dp[-1]
