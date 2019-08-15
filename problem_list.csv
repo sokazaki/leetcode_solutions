@@ -287,7 +287,7 @@ Unique Paths,Medium,○,重複順列でシンプルに解ける。もちろんDP
 Unique Paths II,Medium,○,DPでシンプルに解く。DPテーブルを作らなくてもIn-Placeで解ける。
 Unique Paths III,Hard,,
 House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最大獲得金額を記録しながら走査する。
-House Robber II,Medium,,
+House Robber II,Medium,○,House Robberとほぼ同じ。始点と終点が繋がっているという追加条件がコーナーケースのような感じになる。
 House Robber III,Medium,,
 Target Sum,Medium,,
 Partition to K Equal Sum Subsets,Medium,,
