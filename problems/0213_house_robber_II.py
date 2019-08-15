@@ -19,8 +19,8 @@ class Test(unittest.TestCase):
 
     def test_rob(self):
         self.assertEqual(rob([1,2,3,1]), 4)
-        self.assertEqual(rob([2,1,1,2]), 4)
-        self.assertEqual(rob([2,7,9,3,1]), 12)
+        self.assertEqual(rob([2,1,1,2]), 3)
+        self.assertEqual(rob([2,7,9,3,1]), 11)
         self.assertEqual(rob([1,5,1,1,7,8]), 14)
         self.assertEqual(rob([8]), 8)
 
