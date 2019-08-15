@@ -44,7 +44,7 @@ Spiral Matrix II,Medium,○,上とほぼ同じ問題。テンプレなので解�
 Set Matrix Zeroes,Medium,,
 Largest Number,Medium,○,Python3ではcmpパラメータは廃止されたので、代わりにkeyパラメータにcmp_to_keyでラップした比較関数を渡す。
 ZigZag Conversion,Medium,○,シンプルに走査するだけ。
-String to Integer (atoi),Medium,,
+String to Integer (atoi),Medium,○,問題の様々な条件を確認することが求められる、コーディング面接的な問題。
 Fraction to Recurring Decimal,Medium,,
 Encode and Decode Strings,Medium,,
 Insert Delete GetRandom O(1),Medium,,
