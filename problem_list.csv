@@ -306,7 +306,7 @@ Decode Ways,Medium,,
 Delete Operation for Two Strings,Medium,,
 Perfect Squares,Medium,,
 Maximal Square,Medium,,
-Word Break,Medium,,
+Word Break,Medium,○,文字列の始点と終点に基づいたDPテーブルを作って解く。
 Word Break II,Hard,,
 Coin Change,Medium,○,DPでシンプルに解く。日本の硬貨に限定すると、値段の高いものから貪欲に順に多く取っていけば最適解となる。
 Coin Change 2,Medium,,
