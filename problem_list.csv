@@ -351,7 +351,7 @@ Power of Four,Easy,,
 Single Number,Easy,,
 Single Number II,Medium,,
 Single Number III,Medium,,
-Hamming Distance,Easy,○,xorを取って1の数を数える。
+Hamming Distance,Easy,○,xorを取って1の数を数えれば良い。
 Total Hamming Distance,Medium,,
 Sum of Two Integers,Easy,,
 Majority Element,Easy,,
