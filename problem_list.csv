@@ -351,8 +351,8 @@ Power of Four,Easy,,
 Single Number,Easy,,
 Single Number II,Medium,,
 Single Number III,Medium,,
-Hamming Distance,Easy,○,xorを取って1の数を数えれば良い。
-Total Hamming Distance,Medium,,
+Hamming Distance,Easy,○,排他的論理和を取って1の数を数えれば良い。
+Total Hamming Distance,Medium,○,ビット列の各桁ごとの0と1の数を掛けたものを足し合わせれば良い。
 Sum of Two Integers,Easy,,
 Majority Element,Easy,,
 Missing Number,Easy,,
