@@ -348,7 +348,7 @@ Bit Manipulation,,,
 Power of Two,Easy,,
 Power of Three,Easy,,
 Power of Four,Easy,,
-Single Number,Easy,,
+Single Number,Easy,○,排他的論理和は可換となる性質を用いる。
 Single Number II,Medium,,
 Single Number III,Medium,,
 Hamming Distance,Easy,○,排他的論理和を取って1の数を数えれば良い。
