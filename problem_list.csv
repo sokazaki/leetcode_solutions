@@ -355,7 +355,7 @@ Single Number III,Medium,,
 Hamming Distance,Easy,○,排他的論理和を取って1の数を数えれば良い。
 Total Hamming Distance,Medium,○,ビット列の各桁ごとの0と1の数を掛けたものを足し合わせれば良い。
 Sum of Two Integers,Easy,,
-Majority Element,Easy,,
+Majority Element,Easy,○,ハッシュマップで解くのが一番シンプル。ソート/ビット操作/Boyer-Mooreの多数決アルゴルズムでも解ける。
 Missing Number,Easy,,
 Reverse Bits,Easy,,
 Number of 1 Bits,Easy,,
