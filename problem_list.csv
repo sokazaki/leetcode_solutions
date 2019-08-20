@@ -358,7 +358,7 @@ Sum of Two Integers,Easy,,
 Majority Element,Easy,○,ハッシュマップで解くのが一番シンプル。ソート/ビット操作/Boyer-Mooreの多数決アルゴルズムでも解ける。
 Missing Number,Easy,○,総和の公式を用いれば簡単に解ける。ビット演算でも解ける。
 Reverse Bits,Easy,,
-Number of 1 Bits,Easy,,
+Number of 1 Bits,Easy,○,ビルトインメソッドで解くのが楽。使わない場合はビットシフトで解く。
 Gray Code,Medium,○,排他的論理和を用いて解く。再帰的にも解ける。
 Counting Bits,Medium,,
 UTF-8 Validation,Medium,,
