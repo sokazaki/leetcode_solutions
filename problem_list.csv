@@ -348,7 +348,7 @@ Median of Two Sorted Arrays,Hard,○,jをiで上手く固定した後、B[j-1]<=
 Bit Manipulation,,,
 Power of Two,Easy,○,ビット演算で解く。0や負の数はFalseとなることに注意。
 Power of Three,Easy,○,ビット演算は使わない。3**20<2**32<3**21を利用してO(1)で解く。
-Power of Four,Easy,,
+Power of Four,Easy,○,2の累乗チェックに加え、ビットが立つ位置を調べる操作を追加する。
 Single Number,Easy,○,排他的論理和は可換となる性質を用いる。
 Single Number II,Medium,,
 Single Number III,Medium,,
