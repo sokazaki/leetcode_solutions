@@ -119,8 +119,8 @@ Decode String,Medium,○,繰り返し回数保存用のスタックを別に作�
 Daily Temperature,Medium,,スタックを用いてforwardのループで上手く処理する
 Flatten Nested List Iterator,Medium,,pop()をO(1)で用いるために、最初にリストを逆順にする
 Evaluate Reverse Polish Notation,Medium,,
-Trapping Rain Water,Hard,,Largest Rectangle in Histogramと似た問題。スタックを上手く使って解く。
-Largest Rectangle in Histogram,Hard,,Trapping Rain Waterと似た問題。スタックを上手く使って解く。
+Trapping Rain Water,Hard,,
+Largest Rectangle in Histogram,Hard,,
 Odd Even Jump,Hard,,
 Basic Calculator,Hard,,
 Basic Calculator II,Medium,,
