@@ -2,7 +2,7 @@ Problems,Difficulty,Solved,Notes (In Japanese)
 "Array, Math, String",,,
 Fizz Buzz,Easy,○,有名な問題
 "Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
-Rotate Array,Easy,,
+Rotate Array,Easy,○,２つの部分列をそれぞれ反転させた後、全体の列を反転させる。
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
 Excel Sheet Column Number,Easy,,
