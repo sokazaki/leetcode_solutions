@@ -160,7 +160,7 @@ Intersection of Two Arrays II,Easy,,
 H-Index,Medium,,
 Valid Anagram,Easy,,
 Valid Palindrome,Easy,,
-Valid Palindrome II,Easy,,
+Valid Palindrome II,Easy,○,Two PointersでO(N)で解ける。
 Unique Word Abbreviation,Medium,,
 Unique Email Addresses,Easy,○,ビルトインメソッドのsplitとreplaceを使うと簡単。
 First Unique Character in a String,Easy,○,ハッシュマップを使ってTwo Passで解く。
