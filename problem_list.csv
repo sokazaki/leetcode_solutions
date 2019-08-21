@@ -29,7 +29,7 @@ Super Ugly Number,Medium,,
 Remove Duplicates from Sorted Array,Easy,,
 Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
 Longest Absolute File Path,Medium,,
-Flip Game,Easy,,
+Flip Game,Easy,○,題意に従って解くだけ。
 Flip Game II,Medium,,
 Game of Life,Medium,,
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
