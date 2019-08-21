@@ -117,7 +117,7 @@ Min Stack,Easy,○,最小値保存用のスタックを別に作成する
 Max Stack,Easy,,
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
 Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
-Flatten Nested List Iterator,Medium,,pop()をO(1)で用いるために、最初にリストを逆順にする
+Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
 Evaluate Reverse Polish Notation,Medium,,
 Trapping Rain Water,Hard,,
 Largest Rectangle in Histogram,Hard,,
