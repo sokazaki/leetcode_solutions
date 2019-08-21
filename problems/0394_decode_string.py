@@ -1,15 +1,17 @@
+# O(N) Solution with Stack
+
 import unittest
 
 def decodeString(s):
     stack = []
     stack.append(["", 1])
-    num = ""
+    num = 0
     for ch in s:
         if ch.isdigit():
-            num += ch
+            num += int(ch)
         elif ch == '[':
-            stack.append(["", int(num)])
-            num = ""
+            stack.append(["", num])
+            num = 0
         elif ch == ']':
             st, k = stack.pop()
             stack[-1][0] += st*k
