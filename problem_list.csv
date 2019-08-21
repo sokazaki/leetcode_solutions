@@ -3,6 +3,9 @@ Problems,Difficulty,Solved,Notes (In Japanese)
 Fizz Buzz,Easy,○,有名な問題
 "Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
 Rotate Array,Easy,○,２つの部分列をそれぞれ反転させた後、全体の列を反転させる。
+Non-decreasing Array,Easy,,
+Sort Array By Parity,Easy,,
+Sort Array By Parity II,Easy,,
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
 Excel Sheet Column Number,Easy,,
@@ -16,6 +19,8 @@ Find All Numbers Disappeared in an Array,Easy,○,バケツソートorハッシ�
 Add Strings,Easy,○,文字列として処理しないと、多倍長整数を扱うPythonやJavaのBigInteger以外ではオーバーフローしてしまうことに注意。
 Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
+To Lower Case,Easy,,
+Detect Capital,Easy,,
 Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Roman to Integer,Easy,○,ハッシュテーブルを作ってやると簡単。
 Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
@@ -148,6 +153,8 @@ Subdomain Visit Count,Easy,○,ドメイン毎のハッシュテーブルを作�
 Happy Number,Easy,○,ハッピー列が最終的に循環列になるという性質を利用する。
 Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dictはvalueではなくkeyを見つける事に注意。
 Two Sum III - Data structure design,Easy,,
+Find Common Characters,Easy,,
+Keyboard Row,Easy,,
 Design HashMap,Easy,,
 Design HashSet,Easy,,
 4Sum,Medium,,
@@ -432,6 +439,7 @@ Combination Sum IV,Medium,,
 ,,,
 Others,,,
 Logger Rate Limiter,Easy,,
+Number of Recent Calls,Easy,,
 Implement Queue using Stacks,Easy,,
 Implement Stack using Queues,Easy,,
 Design Twitter,Medium,,
