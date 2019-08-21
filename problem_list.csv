@@ -240,7 +240,7 @@ Populating Next Right Pointers in Each Node II,Medium,,
 Count of Range Sum,Hard,,
 ,,,
 "Graph, BFS, DFS",,,
-Flood Fill,Easy,,
+Flood Fill,Easy,○,DFSでシンプルに解く。もちろんBFSでも解ける。
 Nested List Weight Sum,Easy,,
 Nested List Weight Sum II,Medium,,
 Clone Graph,Medium,,
