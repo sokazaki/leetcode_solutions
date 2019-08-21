@@ -16,7 +16,7 @@ Find All Numbers Disappeared in an Array,Easy,○,バケツソートorハッシ�
 Add Strings,Easy,○,文字列として処理しないと、多倍長整数を扱うPythonやJavaのBigInteger以外ではオーバーフローしてしまうことに注意。
 Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
-Reorder Log Files,Easy,,
+Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Roman to Integer,Easy,○,ハッシュテーブルを作ってやると簡単。
 Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
 Merge Sorted Array,Easy,○,nums1とnums2を最後尾から比較しつつ、nums1に逆順で要素を入れていけば良い
