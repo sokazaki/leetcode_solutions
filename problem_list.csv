@@ -9,7 +9,7 @@ Excel Sheet Column Number,Easy,,
 Move Zeroes,Easy,○,走査用ポインタに加えて、0と交換する為のポインタを作って利用する。
 Flipping an Image,Easy,○,問題文に従ってそのまま解く。
 Count Primes,Easy,○,エラトステネスの篩で素数リストを作って、その長さを返す。
-Shortest Unsorted Continuous Subarray,Easy,,
+Shortest Unsorted Continuous Subarray,Easy,○,Two Pointersの前順/逆順操作でO(N)で解ける。
 Robot Return to Origin,Easy,○,countメソッドを使っても良い。
 Palindrome Number,Easy,,
 Find All Numbers Disappeared in an Array,Easy,○,バケツソートorハッシュテーブルを用いた方法はO(N)だが、余分なメモリを使うのでダメ。
