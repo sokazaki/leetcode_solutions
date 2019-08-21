@@ -169,7 +169,7 @@ Island Perimeter,Easy,○,True or 配列外のアクセスエラーはTrueとな
 Contains Duplicate,Easy,○,ハッシュテーブルを用いて普通に解く。setはO(N)でlenはO(1)となる。
 Contains Duplicate II,Easy,○,ハッシュテーブルを用いてO(N)で解く。愚直に解くとO(N^2)となる。
 Contains Duplicate III,Medium,,
-Palindrome Permutation,Easy,,
+Palindrome Permutation,Easy,○,ハッシュテーブルを用いてO(N)で解く。メモリを使いたくなければ、ソートを使ってO(NlogN)でも解ける。
 Palindrome Permutation II,Medium,,
 Group Anagrams,Medium,○,ハッシュテーブルを用いてO(N)で処理。dict.values()はPython3ではイテレータが返ってくることに注意。
 Encode and Decode TinyURL,Medium,,
