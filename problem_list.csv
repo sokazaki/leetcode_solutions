@@ -421,7 +421,7 @@ Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定�
 Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はDFS(バックトラック法)。
 Subsets,Medium,,
 Subsets ll,Medium,,
-Letter Combinations of a Phone Number,Medium,,
+Letter Combinations of a Phone Number,Medium,○,組み合わせ問題なのでバックトラック法で解く。
 Generate Parentheses,Medium,○,計算量はカタラン数をスターリングの公式で近似したものになる。また、return/return None/returnなしはすべて同じ挙動となることに注意。
 Palindrome Partitioning,Medium,,
 Palindrome Partitioning II,Hard,,
