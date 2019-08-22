@@ -27,7 +27,7 @@ class Test(unittest.TestCase):
         self.assertEqual(checkPossibility([4,2,1]), False)
         self.assertEqual(checkPossibility([1,4,0,3]), False)
         self.assertEqual(checkPossibility([]), True)
-        self.assertEqual(checkPossibility([1]), True)
+        self.assertEqual(checkPossibility([-1,4,2,3]), True)
         self.assertEqual(checkPossibility([5,2,5,5,5]), True)
 
 if __name__ == "__main__":
