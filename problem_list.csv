@@ -20,7 +20,7 @@ Add Strings,Easy,○,文字列として処理しないと、多倍長整数を�
 Plus One,Easy,,
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
 To Lower Case,Easy,○,ASCIIコード表を利用して変換する。
-Detect Capital,Easy,,
+Detect Capital,Easy,○,ビルトインメソッドを利用する。
 Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Roman to Integer,Easy,○,ハッシュテーブルを作ってやると簡単。
 Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
