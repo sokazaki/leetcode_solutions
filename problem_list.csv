@@ -460,7 +460,7 @@ Design Tic-Tac-Toe,Medium,,
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
 Max Points on a Line,Hard,,
-Combine Two Tables,Easy,,
+Combine Two Tables,Easy,○,テーブルを結合して、それぞれの情報を抽出する。
 Second Highest Salary,Easy,,
 Nth Highest Salary,Medium,,
 Valid Phone Numbers,Easy,,
