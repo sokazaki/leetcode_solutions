@@ -12,9 +12,9 @@ def maxProduct(nums):
     res = nums[0]
     for n in nums:
         if n > 0:
-            pos, neg = max(n, n*pos), min(n, n*neg)
+            pos, neg = max(n, n*pos), n*neg
         else:
-            pos, neg = max(n, n*neg), min(n, n*pos)
+            pos, neg = n*neg, min(n, n*pos)
         res = max(pos, res)
 
     return res
@@ -31,3 +31,4 @@ class Test(unittest.TestCase):
 if __name__ == "__main__":
 
     unittest.main()
+
