@@ -8,11 +8,11 @@ def knightDialer(N):
     cur = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
     for _ in range(N-1):
-        prev = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        tmp = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         for src_key in range(10):
             for dst_key in dic[src_key]:
-                prev[dst_key] = (prev[dst_key]+cur[src_key]) % (10**9+7)
-        cur = prev
+                tmp[dst_key] = (tmp[dst_key]+cur[src_key]) % (10**9+7)
+        cur = tmp
 
     return sum(cur) % (10**9+7)
 
