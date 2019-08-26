@@ -186,7 +186,7 @@ Encode and Decode TinyURL,Medium,,
 Subarray Sum Equals K,Medium,○,累積和のハッシュマップを作ってO(N)で解く。Two Sumと似た問題。
 Subarray Sums Divisible by K,Medium,,
 Binary Tree Vertical Order Traversal,Medium,,
-Integer to English Words,Hard,○,再帰で書くと綺麗に書ける。2**32は10**9(Billion)から10*10(Ten Billion)の間であることに注意。
+Integer to English Words,Hard,○,再帰で書くと綺麗に書ける。2**32は10**9(Billion)から10**10(Ten Billion)の間であることに注意。
 ,,,
 "Tree, BT, BST",,,
 Same Tree,Easy,○,適当な走査法で全探索しつつ２つの木を比較していく。
