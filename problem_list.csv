@@ -302,6 +302,7 @@ Unique Paths III,Hard,,
 House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最大獲得金額を記録しながら走査する。
 House Robber II,Medium,○,House Robberとほぼ同じ。始点と終点が繋がっているという追加条件がコーナーケースのような感じになる。
 House Robber III,Medium,,
+Knight Dialer,Medium,○,各ダイヤル番号の行き先のハッシュテーブルとメモ用変数を用いて、O(N)/O(1)のDPで解く。
 Target Sum,Medium,,
 Partition to K Equal Sum Subsets,Medium,,
 Best Time to Buy and Sell Stock,Easy,○,その時点での最小買値と今までの最大売値を保存しつつ、前順でO(N)で解く。
