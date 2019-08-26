@@ -12,9 +12,9 @@ def maxProduct(nums):
     res = nums[0]
     for n in nums:
         if n > 0:
-            pos, neg = max(n, n*pos), min(0, n*neg)
+            pos, neg = max(n, n*pos), min(n, n*neg)
         else:
-            pos, neg = max(0, n*neg), min(n, n*pos)
+            pos, neg = max(n, n*neg), min(n, n*pos)
         res = max(pos, res)
 
     return res
@@ -26,7 +26,7 @@ class Test(unittest.TestCase):
         self.assertEqual(maxProduct([2,3,-2,4]), 6)
         self.assertEqual(maxProduct([-2,0,-1]), 0)
         self.assertEqual(maxProduct([-2,5,-1]), 10)
-        self.assertEqual(maxProduct([-2]), 4)
+        self.assertEqual(maxProduct([-2]), -2)
 
 if __name__ == "__main__":
 
