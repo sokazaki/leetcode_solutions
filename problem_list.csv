@@ -319,7 +319,7 @@ Decode Ways,Medium,○,i番目までのresとi-1番目までのresをメモし�
 Decode Ways II,Hard,,
 Delete Operation for Two Strings,Medium,,
 Perfect Squares,Medium,,
-Maximal Square,Medium,,
+Maximal Square,Medium,○,[i-1][j-1]/[i-1][j]/[i][j-1]の部分問題に分けてメモ化しつつDPで解く。
 Word Break,Medium,○,文字列の始点と終点に基づいたDPテーブルを作って解く。
 Word Break II,Hard,,
 Coin Change,Medium,○,DPでシンプルに解く。日本の硬貨に限定すると、値段の高いものから貪欲に順に多く取っていけば最適解となる。
