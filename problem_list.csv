@@ -82,7 +82,7 @@ Replace Words,Medium,,
 Maximum XOR of Two Numbers in an Array,Medium,,
 Top K Frequent Words,Medium,,
 Add and Search Word - Data structure design,Medium,,
-Word Search,Medium,,
+Word Search,Medium,○,バックトラック法で解く。
 Word Search II,Hard,,
 Word Squares,Hard,,
 Palindrome Pairs,Hard,,
