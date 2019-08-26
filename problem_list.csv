@@ -466,7 +466,7 @@ Combine Two Tables,Easy,○,テーブルを結合して、それぞれの情報�
 Second Highest Salary,Easy,○,2番目に大きい値なので、最大値を除いた最大値を返す
 Nth Highest Salary,Medium,,
 Valid Phone Numbers,Easy,○,awk/grep/sed等、どれでも書ける
-Tenth Line,Easy,,
+Tenth Line,Easy,○,awk/sed/head&tail等、どれでも書ける。ただ、head&tailは境界が紛らわしいのでawkとかの方が良いかも。
 Word Frequency,Medium,,
 Print in Order,Easy,,
 Building H2O,Medium,,
