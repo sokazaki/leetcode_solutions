@@ -14,10 +14,10 @@ class Solution(object):
 
         node = None
         while slow:
-            nxt = slow.next
+            tmp = slow.next
             slow.next = node
             node = slow
-            slow = nxt
+            slow = tmp
 
         while node:
             if node.val != head.val:
