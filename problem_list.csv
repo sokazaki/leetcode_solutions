@@ -65,7 +65,7 @@ Find the Celebrity,Medium,,
 Longest Substring with At Least K Repeating Characters,Medium,,
 Insert Interval,Hard,,
 Longest Consecutive Sequence,Hard,,
-First Missing Positive,Hard,,
+First Missing Positive,Hard,○,配列内に存在する数には負の符号をつけていき、O(N)/O(1)で処理する。
 Text Justification,Hard,,
 Shortest Palindrome,Hard,,
 Valid Number,Hard,,
