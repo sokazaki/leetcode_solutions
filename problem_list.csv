@@ -101,7 +101,7 @@ Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
 Remove Duplicates from Sorted List II,Medium,○,ダミーノードを作って上手く処理する
 Remove Nth Node From End of List,Medium,○,参照の代入に気を付ける。n+aのfast/slowランナーを利用。
 Copy List with Random Pointer,Medium,○,辞書を使って連結リストを処理
-Palindrome Linked List,Easy,,
+Palindrome Linked List,Easy,○,列の中間のノードを見つけて、その前後どちらかの列を逆順にして片方の列と比較していく。
 Intersection of Two Linked Lists,Easy,,
 Odd Even Linked List,Medium,,
 Reorder List,Medium,○,中央値発見/逆順並び替え/交互にマージの総合問題
