@@ -6,7 +6,7 @@ class ListNode:
 class MyHashMap:
 
     def __init__(self):
-        self.m = 1000
+        self.m = 5000
         self.h = [None] * self.m       
 
     def put(self, key, value):
@@ -46,7 +46,7 @@ class MyHashMap:
             while cur:
                 if cur.pair[0] == key:
                     prev.next = cur.next
-                    break
+                    return
                 else:
                     cur, prev = cur.next, prev.next
 
