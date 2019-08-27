@@ -84,7 +84,7 @@ Add and Search Word - Data structure design,Medium,,
 Word Search,Medium,○,バックトラック法で解く。
 Word Search II,Hard,,
 Word Squares,Hard,,
-Palindrome Pairs,Hard,,
+Palindrome Pairs,Hard,○,各文字列を逆順にした辞書を用意して、O(NK**2)で解く。(Nは文字列の数、Kは文字列の長さ)
 Design Search Autocomplete System,Hard,,
 ,,,
 LinkedList,,,
