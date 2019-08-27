@@ -95,7 +95,7 @@ Linked List Cycle,Easy,○,ランナーテクニックでフロイドの循環�
 Linked List Cycle II,Medium,○,実装は簡単。Noneの比較は==ではなくisで行う。
 Add Two Numbers,Medium,○,ミュータブル/イミュータブル/参照の代入について理解する
 Add Two Numbers II,Medium,,
-Remove Linked List Elements,Easy,,
+Remove Linked List Elements,Easy,○,ダミーノードを作り、前順に走査していく。
 Delete Node in a Linked List,Easy,,
 Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
 Remove Duplicates from Sorted List II,Medium,○,ダミーノードを作って上手く処理する
