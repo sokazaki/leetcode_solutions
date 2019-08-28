@@ -27,7 +27,7 @@ def palindromePairs(words):
 class Test(unittest.TestCase):
 
     def test_palindromePairs(self):
-        self.assertCountEqual(palindromePairs(["abcd","dcba","lls","s","sssll"]), [[0,1],[1,0],[3,2],[2,4]] )
+        self.assertCountEqual(palindromePairs(["abcd","dcba","lls","s","sssll"]), [[0,1],[1,0],[3,2],[2,4]])
         self.assertCountEqual(palindromePairs(["bat","tab","cat"]), [[0,1],[1,0]])
         self.assertCountEqual(palindromePairs(["bat","tab","cat", ""]), [[0,1],[1,0]])
         self.assertCountEqual(palindromePairs(["","bat", "tab","cat"]), [[2,1],[1,2]])
