@@ -6,15 +6,15 @@ class ListNode:
 
 class Solution:
     def swapPairs(self, head):
-        dummy = node = ListNode(0)
-        dummy.next = head
+        dummy = cur = ListNode(0)
+        dummy.next = first
 
-        while head and head.next:
-            tmp = head.next
-            head.next = tmp.next
-            tmp.next = head
-            node.next = tmp
-            head = head.next
-            node = tmp.next
+        while cur.next and cur.next.next:
+            first = cur.next
+            sec = cur.next.next
+            cur.next = sec
+            first.next = sec.next
+            sec.next = first
+            cur = cur.next.next
 
-        return dummy.next
+        return dummy.next 
