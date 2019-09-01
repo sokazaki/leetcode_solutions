@@ -110,7 +110,7 @@ Intersection of Two Linked Lists,Easy,○,それぞれ終端まで走査して�
 Odd Even Linked List,Medium,,
 Reorder List,Medium,○,中央値発見/逆順並び替え/交互にマージの総合問題
 Sort List,Medium,,
-Swap Nodes in Pairs,Medium,,
+Swap Nodes in Pairs,Medium,○,一時変数を用いてノードを入れ替えていく。
 Merge Two Sorted Lists,Easy,○,None or TrueはTrueになることに注意する
 Merge k Sorted Lists,Hard,○,優先度付きキューを使う総合問題
 Design Linked List,Easy,,
