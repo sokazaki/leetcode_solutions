@@ -6,6 +6,7 @@ Rotate Array,Easy,○,２つの部分列をそれぞれ反転させた後、全�
 Non-decreasing Array,Easy,○,貪欲法っぽい感じでO(N)で解く。
 Sort Array By Parity,Easy,,
 Sort Array By Parity II,Easy,,
+String Compression,Easy,,
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
 Excel Sheet Column Number,Easy,,
@@ -29,6 +30,7 @@ Add Binary,Easy,○,再帰で解くと綺麗に書ける。リストのアクセ
 Reverse String,Easy,○,reverseメソッドや、リストのスライスの逆順操作を用いても0(1)のin-placeになる。
 Reverse Vowels of a String,Easy,○,小文字だけでなく大文字も母音となることに注意。
 Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
+Most Common Word,Easy,,
 Multiply Strings,Medium,,
 Super Ugly Number,Medium,,
 Remove Duplicates from Sorted Array,Easy,,
@@ -277,6 +279,7 @@ Surrounded Regions,Medium,,
 Pacific Atlantic Water Flow,Medium,,
 Reconstruct Itinerary,Medium,,
 Minesweeper,Hard,,
+Verifying an Alien Dictionary,Easy,,
 Alien Dictionary,Hard,,
 Remove Invalid Parentheses,Hard,,
 Minimize Malware Spread,Hard,,
@@ -286,6 +289,7 @@ Sliding Puzzle,Hard,,
 Robot Room Cleaner,Hard,,
 ,,,
 Dynamic Programming,,,
+Fibonacci Number,Easy,,
 Climbing Stairs,Easy,○,フィボナッチ数列の計算と同値となる。
 Min Cost Climbing Stairs,Easy,,
 Pascal's Triangle,Easy,,
