@@ -11,10 +11,10 @@ class Solution:
 
         while cur.next and cur.next.next:
             first = cur.next
-            sec = cur.next.next
-            cur.next = sec
-            first.next = sec.next
-            sec.next = first
+            second = cur.next.next
+            cur.next = second
+            first.next = second.next
+            second.next = first
             cur = cur.next.next
 
         return dummy.next 
