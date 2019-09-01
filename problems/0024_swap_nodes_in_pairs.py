@@ -7,7 +7,7 @@ class ListNode:
 class Solution:
     def swapPairs(self, head):
         dummy = cur = ListNode(0)
-        dummy.next = first
+        dummy.next = head
 
         while cur.next and cur.next.next:
             first = cur.next
