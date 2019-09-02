@@ -128,6 +128,7 @@ Daily Temperature,Medium,○,スタックを用いてforwardのループで上�
 Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
 Evaluate Reverse Polish Notation,Medium,,
 Trapping Rain Water,Hard,,
+Trapping Rain Water II,Hard,,
 Largest Rectangle in Histogram,Hard,,
 Odd Even Jump,Hard,,
 Basic Calculator,Hard,,
