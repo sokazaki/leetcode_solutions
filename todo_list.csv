@@ -72,7 +72,7 @@ Longest Consecutive Sequence,Hard,,
 First Missing Positive,Hard,○,配列内に存在する数には負の符号をつけていき、O(N)/O(1)で処理する。
 Text Justification,Hard,,
 Shortest Palindrome,Hard,,
-Valid Number,Hard,,
+Valid Number,Hard,○,コーディング面接のような問題。様々な条件をしっかり議論する。
 Consecutive Numbers Sum,Hard,,
 Read N Characters Given Read4,Easy,,
 Read N Characters Given Read4 II - Call multiple times,Hard,,
