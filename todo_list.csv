@@ -245,7 +245,7 @@ Delete Node in a BST,Medium,,
 Minimum Height Trees,Medium,,
 Count Complete Tree Nodes,Medium,,
 Binary Tree Maximum Path Sum,Hard,,
-Serialize and Deserialize BST,Medium,,
+Serialize and Deserialize BST,Medium,○,平衡二分探索木なので、Nullはシリアライズしなくても大丈夫。
 Serialize and Deserialize Binary Tree,Hard,○,BFS/DFSで走査しつつ、Nullを適宜保存する。
 Serialize and Deserialize N-ary Tree,Hard,,
 Count of Smaller Numbers After Self,Hard,,
