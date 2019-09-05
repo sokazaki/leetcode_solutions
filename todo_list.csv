@@ -292,7 +292,7 @@ Cracking the Safe,Hard,,
 24 Game,Hard,,
 ,,,
 Dynamic Programming,,,
-Fibonacci Number,Easy,○,メモ化だとO(N)、行列累乗だとO(logN)、一般項だとO(1)で解ける。
+Fibonacci Number,Easy,○,メモ化だとO(N)、行列累乗または一般項の利用だとO(logN)で解ける。
 Climbing Stairs,Easy,○,フィボナッチ数列の計算と同値となる。
 Min Cost Climbing Stairs,Easy,,
 Pascal's Triangle,Easy,,
