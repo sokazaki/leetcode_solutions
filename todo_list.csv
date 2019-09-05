@@ -70,7 +70,7 @@ Longest Substring with At Least K Repeating Characters,Medium,,
 Insert Interval,Hard,,
 Longest Consecutive Sequence,Hard,,
 First Missing Positive,Hard,○,配列内に存在する数には負の符号をつけていき、O(N)/O(1)で処理する。
-Text Justification,Hard,,
+Text Justification,Hard,○,貪欲に空欄を追加していく。文字が一列に一つだけの場合に注意。
 Shortest Palindrome,Hard,,
 Valid Number,Hard,○,コーディング面接のような問題。様々な条件をしっかり議論する。
 Consecutive Numbers Sum,Hard,,
