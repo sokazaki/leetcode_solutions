@@ -30,7 +30,7 @@ Add Binary,Easy,○,再帰で解くと綺麗に書ける。リストのアクセ
 Reverse String,Easy,○,reverseメソッドや、リストのスライスの逆順操作を用いても0(1)のin-placeになる。
 Reverse Vowels of a String,Easy,○,小文字だけでなく大文字も母音となることに注意。
 Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
-Most Common Word,Easy,,
+Most Common Word,Easy,○,splitメソッドはスペースが複数個でも、自動的にスペースなしの単語リストに分割してくれる。
 Multiply Strings,Medium,,
 Super Ugly Number,Medium,,
 Remove Duplicates from Sorted Array,Easy,,
