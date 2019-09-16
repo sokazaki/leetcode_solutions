@@ -424,7 +424,7 @@ Queue Reconstruction by Height,Medium,○,身長で降順ソート/前方許可�
 Remove K Digits,Medium,,
 Remove Duplicate Letters,Hard,,
 Employee Free Time,Hard,,
-Candy,Hard,,
+Candy,Hard,○,Two-Passで貪欲に解く。One-Passでも解ける。
 Patching Array,Hard,,
 Minimum Number of K Consecutive Bit Flips,Hard,,
 ,,,
