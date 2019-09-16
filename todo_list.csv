@@ -63,7 +63,6 @@ K-th Symbol in Grammar,Medium,,
 Wiggle Sort,Medium,○,条件を満たさない箇所を貪欲にスワップしていく事で、自然に題意を満たす列となる。
 Wiggle Sort II,Medium,,
 Missing Ranges,Medium,,
-Merge Intervals,Medium,,
 Increasing Triplet Subsequence,Medium,,
 Find the Celebrity,Medium,,
 Longest Substring with At Least K Repeating Characters,Medium,,
@@ -423,7 +422,8 @@ Non-overlapping Intervals,Medium,,
 Queue Reconstruction by Height,Medium,○,身長で降順ソート/前方許可人数で昇順ソートした後、前方許可人数に基づいて貪欲に列を構成する。
 Remove K Digits,Medium,,
 Remove Duplicate Letters,Hard,,
-Employee Free Time,Hard,,
+Merge Intervals,Medium,,
+Employee Free Time,Hard,○,Merge Intervalsとほぼ同じ問題。Employeeの区別はつけなくて良い。
 Candy,Hard,○,Two-Passで貪欲に解く。One-Passでも解ける。
 Patching Array,Hard,,
 Minimum Number of K Consecutive Bit Flips,Hard,,
