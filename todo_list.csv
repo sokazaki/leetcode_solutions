@@ -376,7 +376,7 @@ Single Number II,Medium,,
 Single Number III,Medium,,
 Hamming Distance,Easy,○,排他的論理和を取って1の数を数えれば良い。
 Total Hamming Distance,Medium,○,ビット列の各桁ごとの0と1の数を掛けたものを足し合わせれば良い。
-Sum of Two Integers,Easy,,
+Sum of Two Integers,Easy,○,XORとビットシフトを組み合わせて解く。aまたはbが負の場合に注意する。
 Majority Element,Easy,○,ハッシュマップで解くのが一番シンプル。ソート/ビット操作/Boyer-Mooreの多数決アルゴルズムでも解ける。
 Missing Number,Easy,○,総和の公式を用いれば簡単に解ける。ビット演算でも解ける。
 Reverse Bits,Easy,○,ビルトインメソッドで解くのが楽。使わない場合はビットシフトで解く。
