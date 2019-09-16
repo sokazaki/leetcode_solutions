@@ -5,7 +5,7 @@ Fizz Buzz,Easy,○,有名な問題
 Rotate Array,Easy,○,２つの部分列をそれぞれ反転させた後、全体の列を反転させる。
 Non-decreasing Array,Easy,○,貪欲法っぽい感じでO(N)で解く。
 Sort Array By Parity,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で解ける。
-Sort Array By Parity II,Easy,,
+Sort Array By Parity II,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で解ける。偶奇の数は等しいので、片方の操作が終わった場合もう片方も終わっている。
 String Compression,Easy,,
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
