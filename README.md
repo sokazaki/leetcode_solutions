@@ -16,12 +16,15 @@ https://pep8.org/
 https://softwareengineeringdaily.com/  
 https://lexfridman.com/ai/  
 
-[Algorithm, Data Structure, and Design]  
+[Algorithm and Data Structure]  
 https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms  
 https://www.toptal.com/developers/sorting-algorithms  
 https://algorithm-visualizer.org/  
 https://qiita.com/drken (※ Japanese)  
 https://yukicoder.me/wiki/slide (※ Japanese)  
+
+[System Design]  
 https://github.com/donnemartin/system-design-primer/  
 https://www.educative.io/collection/5668639101419520/5649050225344512  
 https://www.school.ctc-g.co.jp/columns/nakai2/ (※ Japanese)  
+https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/ (※ Book)  
