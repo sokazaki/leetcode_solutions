@@ -14,7 +14,7 @@ https://pep8.org/
 
 [Software Engineering/Machine Learning News]  
 https://softwareengineeringdaily.com/  
-https://www.thetalkingmachines.com/  
+https://lexfridman.com/ai/  
 
 [Algorithm, Data Structure, and Design]  
 https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms  
