@@ -186,7 +186,7 @@ Contains Duplicate III,Medium,,
 Palindrome Permutation,Easy,○,ハッシュテーブルを用いてO(N)で解く。メモリを使いたくなければ、ソートを使ってO(NlogN)でも解ける。
 Palindrome Permutation II,Medium,,
 Group Anagrams,Medium,○,ハッシュテーブルを用いてO(N)で処理。dict.values()はPython3ではイテレータが返ってくることに注意。
-Encode and Decode TinyURL,Medium,,
+Encode and Decode TinyURL,Medium,○,システムデザイン的な問題。base62で6桁だと62^6(約56.8Billion)のUniqueURLをカバーできる。
 Subarray Sum Equals K,Medium,○,累積和のハッシュマップを作ってO(N)で解く。Two Sumと似た問題。
 Subarray Sums Divisible by K,Medium,,
 Binary Tree Vertical Order Traversal,Medium,,
