@@ -279,7 +279,7 @@ Surrounded Regions,Medium,,
 Pacific Atlantic Water Flow,Medium,,
 Reconstruct Itinerary,Medium,,
 Minesweeper,Hard,,
-Verifying an Alien Dictionary,Easy,,
+Verifying an Alien Dictionary,Easy,○,辞書順のハッシュマップを用いて、素直に文字の順番を比較していく。
 Alien Dictionary,Hard,,
 Remove Invalid Parentheses,Hard,,
 Minimize Malware Spread,Hard,,
