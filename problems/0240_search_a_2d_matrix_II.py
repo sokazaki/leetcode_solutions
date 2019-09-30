@@ -8,7 +8,7 @@ def searchMatrix(matrix, target):
         return False
 
     row, col = 0, len(matrix[0])-1
-    while row<len(matrix) and 0<=col:
+    while row<=len(matrix)-1 and 0<=col:
         cur = matrix[row][col]
         if cur == target:
             return True
