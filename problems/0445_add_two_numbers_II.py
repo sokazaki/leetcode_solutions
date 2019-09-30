@@ -25,11 +25,12 @@ class Solution:
                 total += stack2.pop()
             
             n = ListNode(total % 10)
-            n.next, res = res, n
+            n.next = res
+            res = n
             total = total//10
         
         if total > 0:
             n = ListNode(total)
-            n.next, res = res, n
+            n.next = res
         
-        return res 
+        return n
