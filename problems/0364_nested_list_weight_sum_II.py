@@ -44,22 +44,22 @@
 class Solution:
     def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
         self.stack = []
-        self.max_height = float('-inf')
+        self.max_depth = float('-inf')
         for node in nestedList:
             self.dfs(node, 1)
         res = 0
         while self.stack:
-            cur_val, cur_height = self.stack.pop()
-            res += cur_val * (self.max_height-cur_height+1)
+            cur_val, depth = self.stack.pop()
+            res += cur_val * (self.max_depth-depth+1)
         return res
 
-    def dfs(self, node, cur_height):
+    def dfs(self, node, depth):
 
         if node.isInteger():
-            self.max_height = max(self.max_height, cur_height)
-            self.stack.append((node.getInteger(), cur_height))
+            self.max_depth = max(self.max_depth, depth)
+            self.stack.append((node.getInteger(), depth))
             return
 
         for n in node.getList():
-            self.dfs(n, cur_height+1)
+            self.dfs(n, depth+1)
         
