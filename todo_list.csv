@@ -261,7 +261,7 @@ Clone Graph,Medium,,
 Graph Valid Tree,Medium,,
 Is Graph Bipartite?,Medium,,
 Network Delay Time,Medium,,
-Friend Circles,Medium,○,DFSかUnion-Findで解く。計算量はどちらもO(N^2)となる。
+Friend Circles,Medium,○,DFSやUnion-Findで解く。計算量はどちらもO(N^2)となる。
 Accounts Merge,Medium,,
 Most Stones Removed with Same Row or Column,Medium,,
 Number of Connected Components in an Undirected Graph,Medium,○,経路圧縮+ランク付きUnion-Findの計算量はアッカーマン関数の逆関数α(N)となる。DFSやBFSでも勿論解ける。
