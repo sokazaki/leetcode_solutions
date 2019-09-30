@@ -51,7 +51,7 @@ Set Matrix Zeroes,Medium,,
 Largest Number,Medium,○,Python3ではcmpパラメータは廃止されたので、代わりにkeyパラメータにcmp_to_keyでラップした比較関数を渡す。
 ZigZag Conversion,Medium,○,シンプルにそのまま走査する。
 String to Integer (atoi),Medium,○,問題の様々な条件を確認することが求められる、コーディング面接的な問題。
-Fraction to Recurring Decimal,Medium,,
+Fraction to Recurring Decimal,Medium,○,割り算の流れをそのまま素直に実装する。
 Encode and Decode Strings,Medium,,
 Insert Delete GetRandom O(1),Medium,,
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
