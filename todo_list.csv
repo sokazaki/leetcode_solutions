@@ -256,7 +256,7 @@ Count of Range Sum,Hard,,
 "Graph, BFS, DFS",,,
 Flood Fill,Easy,○,DFSでシンプルに解く。もちろんBFSでも解ける。
 Nested List Weight Sum,Easy,○,DFS/BFSで各ノードの値と深さを走査する。NestedListIntegerのインターフェイスが一見分かりにくい。
-Nested List Weight Sum II,Medium,○,DFS/BFSで各ノードの値と深さを走査する。Max_Heightを用いるのがポイント。
+Nested List Weight Sum II,Medium,○,DFS/BFSで各ノードの値と深さを走査する。Max_Depthを用いるのがポイント。
 Clone Graph,Medium,,
 Graph Valid Tree,Medium,,
 Is Graph Bipartite?,Medium,,
