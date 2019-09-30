@@ -97,7 +97,7 @@ Reverse Nodes in k-Group,Hard,,
 Linked List Cycle,Easy,○,ランナーテクニックでフロイドの循環検出法を実装
 Linked List Cycle II,Medium,○,実装は簡単。Noneの比較は==ではなくisで行う。
 Add Two Numbers,Medium,○,ミュータブル/イミュータブル/参照の代入について理解する
-Add Two Numbers II,Medium,,
+Add Two Numbers II,Medium,○,スタックを用いて、各連結リストの中身を変更せずに解く。
 Remove Linked List Elements,Easy,○,ダミーノードを作り、前順に走査していく。
 Delete Node in a Linked List,Easy,,
 Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
