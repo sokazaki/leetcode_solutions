@@ -1,3 +1,5 @@
+# O(1) Time Complexity / O(1) Space Complexity Solution with Simple Approach
+
 class HitCounter:
 
     def __init__(self):
