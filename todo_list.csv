@@ -317,7 +317,7 @@ House Robber,Easy,○,i番目の家で強盗した/しなかった場合の最�
 House Robber II,Medium,○,House Robberとほぼ同じ。始点と終点が繋がっているという追加条件がコーナーケースのような感じになる。
 House Robber III,Medium,,
 Knight Dialer,Medium,○,各ダイヤル番号の行き先のハッシュテーブルとメモ用変数を用いて、O(N)/O(1)のDPで解く。
-Longest String Chain,Medium,,
+Longest String Chain,Medium,○,単語の長さで昇順ソートした後、単語毎のDPテーブルを作ってO(NlogN)で解く。
 Target Sum,Medium,,
 Partition to K Equal Sum Subsets,Medium,,
 Best Time to Buy and Sell Stock,Easy,○,その時点での最小買値と今までの最大売値を保存しつつ、前順でO(N)で解く。
