@@ -33,7 +33,7 @@ Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭�
 Most Common Word,Easy,○,splitメソッドはスペースが複数個でも、自動的にスペースなしの単語リストに分割してくれる。
 Multiply Strings,Medium,,
 Super Ugly Number,Medium,,
-Minimum Time Difference,Medium,,
+Minimum Time Difference,Medium,○,時間を分に直してソートした後、前順に比較していく。最小時間+1440分を追加するとコードが簡単になる。また、バケツソートを用いるとO(N)にもできる。
 Remove Duplicates from Sorted Array,Easy,,
 Find All Duplicates in an Array,Medium,,
 Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
