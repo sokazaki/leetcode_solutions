@@ -13,7 +13,7 @@ def searchMatrix(matrix, target):
         return True
 
     j = bisect.bisect_left(matrix[i-1], target)
-    return j < len(matrix[0]) and matrix[i-1][j] == target
+    return j < len(matrix[i-1]) and matrix[i-1][j] == target
 
 
 class Test(unittest.TestCase):
