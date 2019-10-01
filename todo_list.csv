@@ -300,7 +300,7 @@ Dynamic Programming,,,
 Fibonacci Number,Easy,○,メモ化だとO(N)、行列累乗または一般項の利用だとO(logN)で解ける。
 Climbing Stairs,Easy,○,フィボナッチ数列の計算と同値となる。
 Min Cost Climbing Stairs,Easy,,
-Pascal's Triangle,Easy,,
+Pascal's Triangle,Easy,○,パスカルの三角形の定義通りに実装する。
 Pascal's Triangle II,Easy,,
 Triangle,Medium,○,DPでIn-Placeで解ける。
 Paint Fence,Easy,○,同じ色で塗る場合と異なる色で塗る場合に分けてDPで解く。
