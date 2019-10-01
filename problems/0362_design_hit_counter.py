@@ -10,8 +10,9 @@ class HitCounter:
         if self.counter[idx][1] == timestamp:
             self.counter[idx][0] += 1
         else:
-            self.counter[idx][0] = 1            
-            self.counter[idx][1] = timestamp            
+            self.counter[idx][1] = timestamp
+            self.counter[idx][0] = 1
+
 
     def getHits(self, timestamp):
         res = 0
