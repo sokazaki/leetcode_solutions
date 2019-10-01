@@ -1,4 +1,4 @@
-# O(N) Solution with Simple Approach
+# O(NlogN) Solution with Simple Approach
 
 import unittest
 
