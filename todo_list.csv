@@ -474,7 +474,7 @@ Design Excel Sum Formula,Hard,,
 Design In-Memory File System,Hard,,
 Expression Add Operators,Hard,,
 All O`one Data Structure,Hard,,
-Design Hit Counter,Medium,,
+Design Hit Counter,Medium,○,timestampとヒット数を過去３００秒分だけ保存する辞書を作り、O(1)で解く。
 Design Log Storage System,Medium,,
 Design Tic-Tac-Toe,Medium,,
 The Skyline Problem,Hard,,
