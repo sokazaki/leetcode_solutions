@@ -367,7 +367,7 @@ Search in Rotated Sorted Array,Medium,,
 Search in Rotated Sorted Array II,Medium,,
 Capacity To Ship Packages Within D Days,Medium,,
 Divide Two Integers,Medium,,
-Search a 2D Matrix,Medium,,
+Search a 2D Matrix,Medium,○,二分探索を用いればO(NM)からO(logNM)に落とせる。ただ、実際はメモリアクセスの都合で速度は変わらない気がする。
 Search a 2D Matrix II,Medium,○,探索開始位置を右上に設定すれば、O(N+M)で解ける。二分探索でもO(NlogM)orO(MlogN)で解ける。
 Kth Smallest Element in a Sorted Matrix,Medium,,
 Time Based Key-Value Store,Medium,○,timestampは昇順ソートされているので、そのまま二分探索が使える。
