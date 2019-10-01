@@ -38,7 +38,7 @@ Remove Duplicates from Sorted Array,Easy,,
 Find All Duplicates in an Array,Medium,,
 Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
 Longest Absolute File Path,Medium,,
-Flip Game,Easy,○,題意に従って解くだけ。
+Flip Game,Easy,○,題意に従ってそのまま解く。
 Flip Game II,Medium,,
 Game of Life,Medium,,
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
@@ -439,8 +439,8 @@ Patching Array,Hard,,
 Minimum Number of K Consecutive Bit Flips,Hard,,
 ,,,
 "Backtracking",,,
-Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定解はDFS(バックトラック法)。
-Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はDFS(バックトラック法)。
+Permutations,Medium,○,素直にitertoolsを使うのが一番速い。想定解はバックトラッキング。
+Permutations II,Medium,○,itertools/set/sortedで処理しても十分に速い。想定解はバックトラッキング。
 Subsets,Medium,,
 Subsets ll,Medium,,
 Letter Combinations of a Phone Number,Medium,○,組み合わせ問題なのでバックトラック法で解く。
