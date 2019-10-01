@@ -357,7 +357,7 @@ Russian Doll Envelopes,Hard,,
 ,,,
 Binary Search,,,
 Sqrt(x),Easy,○,二分探索で求める。ニュートン法でも求まるが、今回のテストケースの場合あまり速くならない。
-Search Insert Position,Easy,,
+Search Insert Position,Easy,○,ソートされているので、bisect等で二分探索すればO(logN)で解ける。
 Is Subsequence,Medium,○,findメソッドの内部実装(BMH法)が高速なためか、Two Pointers+Greedyで二分探索より早く解ける。
 Find Peak Element,Medium,,
 Find Minimum in Rotated Sorted Array,Medium,,
