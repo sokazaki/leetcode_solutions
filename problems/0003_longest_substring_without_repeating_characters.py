@@ -15,7 +15,6 @@ def lengthOfLongestSubstring(s):
 
         used[c] = i
 
-
     return max_length
 
 class Test(unittest.TestCase):
