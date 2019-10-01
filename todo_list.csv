@@ -34,7 +34,7 @@ Most Common Word,Easy,○,splitメソッドはスペースが複数個でも、�
 Multiply Strings,Medium,,
 Super Ugly Number,Medium,,
 Minimum Time Difference,Medium,○,時間を分に直してソートした後、前順に比較していく。最小時間+1440分を追加するとコードが簡単になる。また、バケツソートを用いるとO(N)にもできる。
-Remove Duplicates from Sorted Array,Easy,,
+Remove Duplicates from Sorted Array,Easy,○,Two Pointersを使うとO(N)でIn-Placeで解ける。
 Find All Duplicates in an Array,Medium,,
 Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
 Longest Absolute File Path,Medium,,
