@@ -424,7 +424,7 @@ Jump Game II,Hard,,
 Campus Bikes,Medium,,
 Campus Bikes II,Medium,,
 String Without AAA or BBB,Medium,,
-Minimum Domino Rotations For Equal Row,Medium,,
+Minimum Domino Rotations For Equal Row,Medium,○,Counterはdefaultdictと同じく、存在しないキーの値は0を返すことに注意。
 Partition Labels,Medium,,
 Reorganize String,Medium,,
 Gas Station,Medium,,
