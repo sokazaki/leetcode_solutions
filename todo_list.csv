@@ -476,7 +476,7 @@ Expression Add Operators,Hard,,
 All O`one Data Structure,Hard,,
 Design Hit Counter,Medium,○,timestampとヒット数を過去300秒分だけ保存する辞書を作り、O(1)で解く。
 Design Log Storage System,Medium,,
-Design Tic-Tac-Toe,Medium,,
+Design Tic-Tac-Toe,Medium,○,プレイヤーの動きは毎回妥当だという事を利用する
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
 Max Points on a Line,Hard,,
