@@ -176,7 +176,7 @@ Shortest Word Distance,Easy,,
 Shortest Word Distance II,Medium,,
 Shortest Word Distance III,Medium,,
 H-Index,Medium,,
-Valid Anagram,Easy,,
+Valid Anagram,Easy,○,ビルトインメソッドを使うと簡単。
 Valid Palindrome,Easy,○,Two PointersでO(N)で解ける。
 Valid Palindrome II,Easy,○,Two PointersでO(N)で解ける。
 Unique Word Abbreviation,Medium,,
