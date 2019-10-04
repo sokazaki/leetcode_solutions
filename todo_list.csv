@@ -9,7 +9,7 @@ Sort Array By Parity II,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で�
 String Compression,Easy,○,Two Pointersを使って空間計算量O(1)で解く。
 Implement strStr(),Easy,,
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
-Excel Sheet Column Number,Easy,,
+Excel Sheet Column Number,Easy,○,26進数の問題となることに注意。
 Move Zeroes,Easy,○,走査用ポインタに加えて、0と交換する為のポインタを作って利用する。
 Flipping an Image,Easy,○,問題文に従ってそのまま解く。
 Count Primes,Easy,○,エラトステネスの篩で素数リストを作って、その長さを返す。
