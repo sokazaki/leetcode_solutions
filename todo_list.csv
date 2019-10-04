@@ -461,7 +461,7 @@ Combination Sum IV,Medium,,
 ,,,
 Others(Design/SQL/Bash/Concurrency/etc),,,
 Logger Rate Limiter,Easy,,
-Number of Recent Calls,Easy,,
+Number of Recent Calls,Easy,○,キューを使うと時間/空間計算量共にO(1)で毎回処理できる。
 Implement Queue using Stacks,Easy,,
 Implement Stack using Queues,Easy,,
 Design Twitter,Medium,,
