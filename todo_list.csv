@@ -170,7 +170,7 @@ Group Shifted Strings,Medium,,
 Strobogrammatic Number,Easy,○,ストロボグラマティック数のハッシュテーブルを作って解く。
 Strobogrammatic Number II,Medium,,
 Strobogrammatic Number III,Hard,,
-Intersection of Two Arrays,Easy,,
+Intersection of Two Arrays,Easy,○,setを用いて処理すると簡単。
 Intersection of Two Arrays II,Easy,,
 Shortest Word Distance,Easy,,
 Shortest Word Distance II,Medium,,
