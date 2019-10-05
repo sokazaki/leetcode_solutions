@@ -8,8 +8,8 @@ def leastInterval(tasks, n):
     count = Counter(tasks)
     most = count.most_common()[0][1]
     num_most = len([char for char, freq in count.items() if freq == most])
-    time = (most - 1) * (n + 1) + num_most
-    return max(time, len(tasks))
+    res = (most - 1) * (n + 1) + num_most
+    return max(res, len(tasks))
 
 
 class Test(unittest.TestCase):
