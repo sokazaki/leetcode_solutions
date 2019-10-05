@@ -141,7 +141,7 @@ Basic Calculator III,Hard,,
 Queue,,,
 Moving Average from Data Stream,Easy,,
 Kill Process,Medium,,
-Task Scheduler,Medium,,
+Task Scheduler,Medium,○,キューを使ってO(NlogN)で解く方法と、O(N)で簡単に求める方法がある。
 Design Circular Queue,Medium,,
 Design Circular Deque,Medium,,
 Design Snake Game,Medium,,
