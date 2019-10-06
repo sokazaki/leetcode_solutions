@@ -12,7 +12,6 @@ def minCostClimbingStairs(cost):
     return min(dp[len(cost)-1], dp[len(cost)-2])
 
 
-
 class Test(unittest.TestCase):
 
     def test_findWords(self):
