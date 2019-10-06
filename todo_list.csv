@@ -225,7 +225,7 @@ Two Sum IV - Input is a BST,Easy,,
 Kth Smallest Element in a BST,Medium,,
 Inorder Successor in BST,Medium,,
 Binary Search Tree Iterator,Medium,,
-Validate Binary Search Tree,Medium,,
+Validate Binary Search Tree,Medium,○,最大値/最小値を渡しつつ、DFS/BFSで走査する。
 Unique Binary Search Trees,Medium,,
 Binary Tree Longest Consecutive Sequence,Medium,,
 Binary Tree Longest Consecutive Sequence II,Medium,,
