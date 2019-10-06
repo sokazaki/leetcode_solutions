@@ -161,7 +161,7 @@ Happy Number,Easy,○,ハッピー列が最終的に循環列になるという�
 Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dictはvalueではなくkeyを見つける事に注意。
 Two Sum III - Data structure design,Easy,,
 Find Common Characters,Easy,○,Counterメソッドを使うと簡単に解ける。
-Keyboard Row,Easy,,
+Keyboard Row,Easy,○,set型の部分集合判定は不等号でできることを利用する。
 Design HashMap,Easy,○,チェイン法を連結リストで実装する。returnとbreakの違いに注意。
 Design HashSet,Easy,,
 4Sum,Medium,,
