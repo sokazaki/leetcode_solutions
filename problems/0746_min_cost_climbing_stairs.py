@@ -14,7 +14,7 @@ def minCostClimbingStairs(cost):
 
 class Test(unittest.TestCase):
 
-    def test_findWords(self):
+    def test_minCostClimbingStairs(self):
         self.assertEqual(minCostClimbingStairs([0,0,0,0]), 0)
         self.assertEqual(minCostClimbingStairs([10,15,20]), 15)
         self.assertEqual(minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]), 6)
