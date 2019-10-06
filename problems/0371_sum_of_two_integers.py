@@ -3,11 +3,14 @@
 import unittest
 
 def getSum(a, b):
-    while b:
-        tmp = a ^ b
-        b = (a & b) << 1
-        a = tmp & 0xffffffff
-    return a if a >> 31 == 0 else ~(a ^ 0xffffffff)
+    carry = 0
+    mask = 0xffffffff
+    while b & mask != 0:
+        carry = (a & b) << 1
+        a = a ^ b
+        b = carry
+
+    return a&mask if b > mask else a
 
 
 class Test(unittest.TestCase):
