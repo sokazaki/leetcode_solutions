@@ -42,7 +42,7 @@ Flip Game,Easy,○,題意に従ってそのまま解く。
 Flip Game II,Medium,,
 Game of Life,Medium,,
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
-Summary Ranges,Medium,○,ヘルパー関数を用意すると実装が簡単になる。
+Summary Ranges,Medium,○,ヘルパー関数を用意すると実装が簡単になる。最後の文字はループから外して別に処理するのがポイント。
 Product of Array Except Self,Medium,○,前順走査と逆順走査のTwo PassでO(N)で解く。
 Maximum Average Subarray I,Easy,○,Sliding Windowで解く。ブルートフォースだとO(NK)になってしまう。
 Maximum Average Subarray II,Hard,,
