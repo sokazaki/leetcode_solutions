@@ -198,7 +198,7 @@ Integer to English Words,Hard,○,再帰で書くと綺麗に書ける。2**32�
 ,,,
 "Tree, BT, BST",,,
 Same Tree,Easy,○,適当な走査法で全探索しつつ２つの木を比較していく。
-Symmetric Tree,Easy,,
+Symmetric Tree,Easy,○,再帰やBFSで、内側と外側に分けて対称性をチェックしつつ走査する。最初に部分木が分かれるため、離れたノードの対称性もチェックできる。
 Merge Two Binary Trees,Easy,○,適当な走査法で全探索しつつ２つの木を足していく。
 Subtree of Another Tree,Easy,,
 Balanced Binary Tree,Easy,,
