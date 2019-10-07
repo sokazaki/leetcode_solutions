@@ -1,4 +1,4 @@
-# O(N) Solution with Greedy Approach
+# O(NlogN) Solution with Sort + Greedy Approach
 
 import unittest
 
