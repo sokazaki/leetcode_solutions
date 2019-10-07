@@ -16,14 +16,11 @@ class Solution_recursive:
     def helper(self, left, right):
         if not left and not right:
             return True
-        if not left or not right:
+        if (not left or not right) or left.val != right.val:
             return False
-        if left.val == right.val:
-            outer = self.helper(left.left, right.right)
-            inner = self.helper(left.right, right.left)
-            return outer and inner
-        else:
-            return False
+        outer = self.helper(left.left, right.right)
+        inner = self.helper(left.right, right.left)
+        return outer and inner
 
 from collections import deque
 class Solution_iterative:
