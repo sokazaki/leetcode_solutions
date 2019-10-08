@@ -139,7 +139,7 @@ Basic Calculator II,Medium,,
 Basic Calculator III,Hard,,
 ,,,
 Queue,,,
-Moving Average from Data Stream,Easy,,
+Moving Average from Data Stream,Easy,○,Stream処理系タスクは基本的にキューを使う感じになる印象。
 Kill Process,Medium,,
 Task Scheduler,Medium,○,キューを使ってO(NlogN)で解く方法と、O(N)で貪欲的に求める方法がある。
 Design Circular Queue,Medium,,
