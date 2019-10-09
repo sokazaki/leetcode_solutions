@@ -7,7 +7,7 @@ Non-decreasing Array,Easy,○,貪欲法っぽい感じでO(N)で解く。
 Sort Array By Parity,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で解ける。
 Sort Array By Parity II,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で解ける。偶奇の数は等しいので、片方の走査が終わった場合もう片方も終わっている。
 String Compression,Easy,○,Two Pointersを使って空間計算量O(1)で解く。
-Implement strStr(),Easy,,
+Implement strStr(),Easy,○,ブルートフォースで解くのが一番速い。BM法やKMP法は特殊なケースに効きそう。
 Factorial Trailing Zeroes,Easy,○,素因数に関しては5に関してのみ調べれば良く、2について調べる必要はないことに注意。
 Excel Sheet Column Number,Easy,○,26進数の問題となることに注意。
 Move Zeroes,Easy,○,走査用ポインタに加えて、0と交換する為のポインタを作って利用する。
