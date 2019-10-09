@@ -200,7 +200,7 @@ Integer to English Words,Hard,○,再帰で書くと綺麗に書ける。2**32�
 Same Tree,Easy,○,適当な走査法で全探索しつつ２つの木を比較していく。
 Symmetric Tree,Easy,○,再帰やBFSで、内側と外側に分けて対称性をチェックしつつ走査する。最初に部分木が分かれるため、離れたノードの対称性もチェックできる。
 Merge Two Binary Trees,Easy,○,適当な走査法で全探索しつつ２つの木を足していく。
-Subtree of Another Tree,Easy,,
+Subtree of Another Tree,Easy,○,DFSなどで再帰的に探索する。21行目の呼び出しを入れると速度が大分速くなる。
 Balanced Binary Tree,Easy,,
 Invert Binary Tree,Easy,○,適当な走査法で全探索しつつ左右を反転していく。
 Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索していく。
