@@ -15,7 +15,7 @@ Flipping an Image,Easy,○,問題文に従ってそのまま解く。
 Count Primes,Easy,○,エラトステネスの篩で素数リストを作って、その長さを返す。
 Shortest Unsorted Continuous Subarray,Easy,○,Two Pointersの前順/逆順操作でO(N)で解ける。境界条件に気を付ける。
 Robot Return to Origin,Easy,○,countメソッドを使っても良い。
-Palindrome Number,Easy,,
+Palindrome Number,Easy,○,基本的な算術演算を用いて、再帰的に整数を反転させる。
 Find All Numbers Disappeared in an Array,Easy,○,バケツソートorハッシュテーブルを用いた方法はO(N)だが、余分なメモリを使うのでダメ。
 Add Strings,Easy,○,文字列として処理しないと、多倍長整数を扱うPythonやJavaのBigInteger以外ではオーバーフローしてしまうことに注意。
 Plus One,Easy,○,リストの最後尾から繰り上がりを足していき、O(N)で解く。
