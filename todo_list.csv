@@ -486,7 +486,7 @@ Nth Highest Salary,Medium,○,LIMIT節では式は使えないことに注意。
 Valid Phone Numbers,Easy,○,awk/grep/sed等、どれでも書ける
 Tenth Line,Easy,○,awk/sed/head&tail等、どれでも書ける。ただ、head&tailは境界が紛らわしいのでawkとかの方が良いかも。
 Word Frequency,Medium,○,sort/uniq等を上手く使って処理する。
-Print in Order,Easy,,
+Print in Order,Easy,○,バリア/イベント/ロック/セマフォ/コンディション等、様々な方法で排他制御ができる。
 Building H2O,Medium,,
 Print FooBar Alternately,Medium,,
 Print Zero Even Odd,Medium,,
