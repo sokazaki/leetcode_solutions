@@ -488,5 +488,5 @@ Tenth Line,Easy,○,awk/sed/head&tail等、どれでも書ける。ただ、head
 Word Frequency,Medium,○,sort/uniq等を上手く使って処理する。
 Print in Order,Easy,○,バリア/イベント/ロック/セマフォ/コンディション等、様々な方法で排他制御ができる。
 Building H2O,Medium,,
-Print FooBar Alternately,Medium,,
+Print FooBar Alternately,Medium,○,バリア/イベント/ロック/セマフォ/コンディション等、様々な方法で排他制御ができる。
 Print Zero Even Odd,Medium,,
