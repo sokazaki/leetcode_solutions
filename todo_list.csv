@@ -408,7 +408,7 @@ Interval List Intersections,Medium,,
 Two Sum II - Input array is sorted,Easy,○,Two Sumと同じくハッシュマップでO(N)で解けるが、ソートされてるのでTwo PointersでもO(N)で解ける。
 3Sum,Medium,,
 3Sum Closest,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。
-3Sum Smaller,Medium,,
+3Sum Smaller,Medium,○,上記の問題とほぼ同様。ただし、上記と同じ定数倍高速化をしようとすると、問題の設定上エラーとなることに注意。
 Find the Duplicate Number,Medium,○,ランナーテクニックでフロイドの循環検出法を実装してO(N)で解く。二分探索だとO(NlogN)となる。
 Minimum Window Substring,Hard,,
 Sliding Window Maximum,Hard,,
