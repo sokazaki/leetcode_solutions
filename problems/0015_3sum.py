@@ -11,10 +11,10 @@ def threeSum(nums):
             continue
         l, r = i+1, len(nums)-1
         while l < r:
-            s = nums[i] + nums[l] + nums[r]
-            if s < 0:
+            target = nums[i] + nums[l] + nums[r]
+            if target < 0:
                 l +=1
-            elif s > 0:
+            elif target > 0:
                 r -= 1
             else:
                 res.append([nums[i], nums[l], nums[r]])
