@@ -165,7 +165,7 @@ Keyboard Row,Easy,○,set型の部分集合判定は不等号でできること�
 Design HashMap,Easy,○,チェイン法を連結リストで実装する。returnとbreakの違いに注意。
 Design HashSet,Easy,,
 4Sum,Medium,,
-4Sum II,Medium,,
+4Sum II,Medium,○,ハッシュテーブルを使うとO(N^2)で解ける。
 Group Shifted Strings,Medium,,
 Strobogrammatic Number,Easy,○,ストロボグラマティック数のハッシュテーブルを作って解く。
 Strobogrammatic Number II,Medium,,
