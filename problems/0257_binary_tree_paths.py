@@ -1,4 +1,4 @@
-# O(N) Solution with Stack
+# O(N) Solution with DFS
 
 # Definition for a binary tree node.
 class TreeNode:
