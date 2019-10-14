@@ -205,7 +205,7 @@ Subtree of Another Tree,Easy,○,DFSなどで再帰的に探索する。21行目
 Balanced Binary Tree,Easy,,
 Invert Binary Tree,Easy,○,適当な走査法で全探索しつつ左右を反転していく。
 Range Sum of BST,Easy,○,適当な走査法で枝狩りしつつ全探索していく。
-Binary Tree Paths,Easy,,
+Binary Tree Paths,Easy,○,適当な走査法で探索しつつ、探索中のノードの左右の子がNoneになったら文字列を追加していく。
 Diameter of Binary Tree,Easy,,
 Minimum Depth of Binary Tree,Easy,○,適当な走査法で木の高さを保存しながら探索しつつ、葉に到達したら終了する。
 Maximum Depth of Binary Tree,Easy,○,DFSで簡単に解ける。上記の問題とは微妙に異なる。
