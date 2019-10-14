@@ -1,4 +1,6 @@
-# O(N) Solution with DFS
+# O(N) Solution with Iterative Approach
+
+from collections import deque
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -9,17 +11,26 @@ class TreeNode:
 
 class Solution:
     def lowestCommonAncestor(self, root, p, q):
-        if root == p or root == q:
-            return root
-        
-        left = right = None
+        parent = {}
+        queue = deque([root])
+        while queue:
+            node = queue.popleft()
+            if node.left:
+                parent[node.left] = node
+                queue.append(node.left)
+            if node.right:
+                parent[node.right] = node
+                queue.append(node.right)
 
-        if root.left:
-            left = self.lowestCommonAncestor(root.left, p, q)
-        if root.right:
-            right = self.lowestCommonAncestor(root.right, p, q)
-
-        if left and right:
-            return root
+        parent_set = set()
+        cur = p
+        while cur in parent:
+            parent_set.add(cur)
+            cur = parent[cur]
         else:
-            return left or right
+            parent_set.add(cur)
+        
+        cur = q
+        while cur not in parent_set:
+            cur = parent[cur]
+        return cur
