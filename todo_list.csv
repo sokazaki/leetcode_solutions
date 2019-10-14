@@ -230,7 +230,7 @@ Unique Binary Search Trees,Medium,,
 Binary Tree Longest Consecutive Sequence,Medium,,
 Binary Tree Longest Consecutive Sequence II,Medium,,
 Lowest Common Ancestor of a Binary Search Tree,Easy,○,ルートの値とp/qの値を比較して、左右どちらの部分木に降りるかを毎回決める。
-Lowest Common Ancestor of a Binary Tree,Medium,,
+Lowest Common Ancestor of a Binary Tree,Medium,○,Iterativeな場合、親への繋がりを記録する辞書を作って解く。再帰的にも解ける。
 Binary Tree Inorder Traversal,Medium,,
 Binary Tree Preorder Traversal,Medium,,
 Binary Tree Postorder Traversal,Hard,,
