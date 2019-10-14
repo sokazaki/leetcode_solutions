@@ -8,7 +8,7 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def binaryTreePaths(self, root: TreeNode) -> List[str]:
+    def binaryTreePaths(self, root):
         if not root:
             return []
         res, stack = [], [(root, "")]
