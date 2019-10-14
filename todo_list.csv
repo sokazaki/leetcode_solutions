@@ -173,7 +173,7 @@ Strobogrammatic Number II,Medium,,
 Strobogrammatic Number III,Hard,,
 Intersection of Two Arrays,Easy,○,setを用いて処理すると簡単。
 Intersection of Two Arrays II,Easy,○,Counterを用いて処理すると簡単。Follow-UpはソートやTwo Pointersを用いて解く。
-Shortest Word Distance,Easy,,
+Shortest Word Distance,Easy,○,ハッシュマップでO(N^2)かOne-PassでO(N)か、どちらで解くべきかはクエリの量で決める。
 Shortest Word Distance II,Medium,,
 Shortest Word Distance III,Medium,,
 H-Index,Medium,,
