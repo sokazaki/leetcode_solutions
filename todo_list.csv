@@ -209,7 +209,7 @@ Binary Tree Paths,Easy,○,適当な走査法で探索しつつ、探索中の�
 Diameter of Binary Tree,Easy,,
 Minimum Depth of Binary Tree,Easy,○,適当な走査法で木の高さを保存しながら探索しつつ、葉に到達したら終了する。
 Maximum Depth of Binary Tree,Easy,○,DFSで簡単に解ける。上記の問題とは微妙に異なる。
-Convert BST to Greater Tree,Easy,,
+Convert BST to Greater Tree,Easy,○,inorderの左右逆Versionで解く。
 Convert Sorted Array to Binary Search Tree,Easy,○,再帰で解く。計算量はT(n)=2T(n/2)+O(1)より、マスター定理を用いてO(N)となる。
 Convert Sorted List to Binary Search Tree,Medium,,
 Closest Binary Search Tree Value,Easy,,
