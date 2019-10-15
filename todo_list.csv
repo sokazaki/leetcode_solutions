@@ -405,7 +405,7 @@ Max Consecutive Ones II,Medium,,
 Max Consecutive Ones III,Medium,,
 Container With Most Water,Medium,○,尺取り法を用いてO(N)で処理。横幅が大きい面積から処理していく。
 Sort Colors,Medium,○,オランダ国旗問題と呼ばれる有名問題。色ごとのポインタを用いて処理する。
-Interval List Intersections,Medium,,
+Interval List Intersections,Medium,○,Intersectionがある場合とない場合で分けて、Two Pointersで処理する。
 3Sum,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。重複ペアの除外に注意。
 3Sum Closest,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。
 3Sum Smaller,Medium,○,上記の問題とほぼ同様。ただし、上記と同じ定数倍高速化をしようとすると、問題の設定上エラーとなることに注意。
