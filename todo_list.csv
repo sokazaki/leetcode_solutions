@@ -327,7 +327,7 @@ Best Time to Buy and Sell Stock III,Hard,,
 Best Time to Buy and Sell Stock IV,Hard,,
 Best Time to Buy and Sell Stock with Cooldown,Medium,,
 Best Time to Buy and Sell Stock with Transaction Fee,Medium,,
-Range Sum Query - Immutable,Easy,,
+Range Sum Query - Immutable,Easy,○,累積和を用いてO(1)で処理する。
 Range Sum Query - Mutable,Medium,,
 Range Sum Query 2D - Immutable,Medium,,
 Range Sum Query 2D - Mutable,Hard,,
