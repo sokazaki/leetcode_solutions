@@ -392,7 +392,7 @@ Reverse Bits,Easy,○,ビルトインメソッドで解くのが楽。使わな�
 Number of 1 Bits,Easy,○,ビルトインメソッドで解くのが楽。使わない場合はビットシフトで解く。
 Gray Code,Medium,○,排他的論理和を用いて解く。再帰的にも解ける。
 Counting Bits,Medium,,
-UTF-8 Validation,Medium,,
+UTF-8 Validation,Medium,○,問題文の条件を満たすか確認するコードを書く。UTF-8の文字が複数続くこともあるので注意。
 Maximum Product of Word Lengths,Medium,,
 ,,,
 "Two Pointers, Sliding Window",,,
