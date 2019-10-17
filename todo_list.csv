@@ -160,7 +160,7 @@ Subdomain Visit Count,Easy,○,ドメイン毎のハッシュテーブルを作�
 Happy Number,Easy,○,ハッピー列が最終的に循環列になるという性質を利用する。
 Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dictはvalueではなくkeyを見つける事に注意。
 Two Sum II - Input array is sorted,Easy,○,Two Sumと同じくハッシュマップでO(N)で解けるが、ソートされてるのでTwo PointersでもO(N)で解ける。
-Two Sum III - Data structure design,Easy,,
+Two Sum III - Data structure design,Easy,○,解き方はTwo Sumと同じ。addとfindの計算量のトレードオフを考慮する。(DBの利用用途としてaddは多いがfindは少ないなど)
 Find Common Characters,Easy,○,Counterメソッドを使うと簡単に解ける。
 Keyboard Row,Easy,○,set型の部分集合判定は不等号でできることを利用する。
 Design HashMap,Easy,○,チェイン法を連結リストで実装する。returnとbreakの違いに注意。
