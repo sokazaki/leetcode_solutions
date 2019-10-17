@@ -152,7 +152,7 @@ K Closest Points to Origin,Medium,○,ヒープを使うと計算量をO(NlogN)�
 Kth Largest Element in an Array,Medium,○,ヒープを使うと計算量をO(NlogN)からO(K+(N-K)logK)に落とせる。クイックセレクトの利用もあり。
 Top K Frequent Elements,Medium,○,ヒープを使うと計算量がO(NlogN)となる。ハッシュマップ&バケツソートでO(N)にも出来る。
 Find K Pairs with Smallest Sums,Medium,○,コーナーケースが多いので気をつける。ヒープを使うと計算量をO(NMlogNM)からO(KlogK)に落とせる。
-Find Median from Data Stream,Hard,,
+Find Median from Data Stream,Hard,○,mixheapとmaxheapを用いて、addはO(logN), findはO(1)で解く。
 ,,,
 "HashMap, HashTable",,,
 Jewels and Stones,Easy,○,ハッシュテーブルを使って普通に解く。
