@@ -102,7 +102,7 @@ Linked List Cycle II,Medium,○,実装は簡単。Noneの比較は==ではなく
 Add Two Numbers,Medium,○,ミュータブル/イミュータブル/参照の代入について理解する
 Add Two Numbers II,Medium,○,スタックを用いて、各連結リストの中身を変更せずに解く。複数変数への同時代入は各式が左から順番に処理されていくことに注意。
 Remove Linked List Elements,Easy,○,ダミーノードを作り、前順に走査していく。
-Delete Node in a Linked List,Easy,,
+Delete Node in a Linked List,Easy,○,削除したいノードに直接アクセスできるのでO(1)で処理できる。
 Remove Duplicates from Sorted List,Easy,○,ポインタを付け替えるだけ
 Remove Duplicates from Sorted List II,Medium,○,ダミーノードを作って上手く処理する
 Remove Nth Node From End of List,Medium,○,参照の代入に気を付ける。n+aのfast/slowランナーを利用。
