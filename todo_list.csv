@@ -364,7 +364,7 @@ Find Peak Element,Medium,,
 Find Minimum in Rotated Sorted Array,Medium,,
 Find Minimum in Rotated Sorted Array II,Hard,,
 Find First and Last Position of Element in Sorted Array,Medium,,
-Search in Rotated Sorted Array,Medium,,
+Search in Rotated Sorted Array,Medium,○,探索対象列が回転しているかどうかで場合分けをする。
 Search in Rotated Sorted Array II,Medium,,
 Capacity To Ship Packages Within D Days,Medium,,
 Divide Two Integers,Medium,,
