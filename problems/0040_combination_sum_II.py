@@ -24,7 +24,7 @@ class Solution:
 
 class Test(unittest.TestCase):
 
-    def test_combinationSum(self):
+    def test_combinationSum2(self):
         ans = Solution()
         self.assertCountEqual(ans.combinationSum2([2,3,6,7], 7), [[7]])
         self.assertCountEqual(ans.combinationSum2([], 0), [[]])
