@@ -19,7 +19,7 @@ def lengthOfLIS(nums):
 
 class Test(unittest.TestCase):
 
-    def test_lengthOfLI(self):
+    def test_lengthOfLIS(self):
         self.assertEqual(lengthOfLIS([10,9,2,5,3,7,101,18]), 4)
         self.assertEqual(lengthOfLIS([]), 0)
         self.assertEqual(lengthOfLIS([10,9,2,5,6,7,101,18]), 5)
