@@ -56,7 +56,7 @@ String to Integer (atoi),Medium,○,問題の様々な条件を確認するこ�
 Fraction to Recurring Decimal,Medium,○,割り算の流れをそのまま素直に実装する。
 Encode and Decode Strings,Medium,,
 Reverse Words in a String,Medium,○,ビルトインメソッドを使うと一瞬でできる。真面目に解く場合はTwo Pointersを用いる。
-Insert Delete GetRandom O(1),Medium,,
+Insert Delete GetRandom O(1),Medium,○,挿入した値の位置をメモするための辞書を作っておく。
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
 Find Duplicate File in System,Medium,,
 Simplify Path,Medium,,
