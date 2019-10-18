@@ -455,7 +455,7 @@ Sudoku Solver,Hard,,
 Generalized Abbreviation,Medium,,
 Combinations,Medium,,
 Combination Sum,Medium,○,バックトラッキングで解く。同じ要素を何回も使ってよいので、indexはi+1ではなくiを渡すことに注意。
-Combination Sum II,Medium,,
+Combination Sum II,Medium,○,バックトラッキングで解く。同じ要素は一回のみ使用可能なため、indexはi+1を渡すことに注意。
 Combination Sum III,Medium,,
 Combination Sum IV,Medium,,
 ,,,
