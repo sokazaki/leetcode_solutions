@@ -14,8 +14,7 @@ class RandomizedSet:
             self.nums_list.append(val)
             self.nums_map[val] = len(self.nums_list)-1
             return True
-        return False
-        
+        return False     
 
     def remove(self, val):
         if val in self.nums_map:
