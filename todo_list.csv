@@ -305,7 +305,7 @@ Pascal's Triangle,Easy,○,パスカルの三角形の定義通りに実装す�
 Pascal's Triangle II,Easy,○,逆順で足し合わせていくことによって空間計算量O(N)で解ける。
 Triangle,Medium,○,DPでIn-Placeで解ける。
 Paint Fence,Easy,○,同じ色で塗る場合と異なる色で塗る場合に分けてDPで解く。
-Longest Increasing Subsequence,Medium,,
+Longest Increasing Subsequence,Medium,○,動的計画法+二分探索でO(NlogN)で解く。
 Longest Palindromic Subsequence,Medium,,
 Longest Palindromic Substring,Medium,,
 Palindromic Substrings,Medium,,
