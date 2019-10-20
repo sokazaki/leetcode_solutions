@@ -361,7 +361,7 @@ Sqrt(x),Easy,○,二分探索で求める。ニュートン法でも求まるが
 Search Insert Position,Easy,○,ソートされているので、bisect等で二分探索すればO(logN)で解ける。
 Is Subsequence,Medium,○,findメソッドの内部実装(BMH法)が高速なためか、Two Pointers+Greedyで二分探索より早く解ける。
 Find Peak Element,Medium,,
-Find Minimum in Rotated Sorted Array,Medium,,
+Find Minimum in Rotated Sorted Array,Medium,○,反転している箇所を探すために、midとhighを比較して二分探索する。
 Find Minimum in Rotated Sorted Array II,Hard,,
 Find First and Last Position of Element in Sorted Array,Medium,,
 Search in Rotated Sorted Array,Medium,○,探索対象列が回転しているかどうかで場合分けをする。
