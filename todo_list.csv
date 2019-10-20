@@ -366,7 +366,7 @@ Find Minimum in Rotated Sorted Array II,Hard,,
 Find First and Last Position of Element in Sorted Array,Medium,,
 Search in Rotated Sorted Array,Medium,○,探索対象列が回転しているかどうかで場合分けをする。
 Search in Rotated Sorted Array II,Medium,,
-Capacity To Ship Packages Within D Days,Medium,,
+Capacity To Ship Packages Within D Days,Medium,○,二分探索の問題と見抜くのが難しい。二分探索+貪欲にlower_boundを探していく。
 Divide Two Integers,Medium,,
 Search a 2D Matrix,Medium,○,二分探索を用いればO(NM)からO(logNM)に落とせる。ただ、実際はメモリアクセスの都合で速度は変わらない気がする。
 Search a 2D Matrix II,Medium,○,探索開始位置を右上に設定すれば、O(N+M)で解ける。二分探索でもO(NlogM)orO(MlogN)で解ける。
