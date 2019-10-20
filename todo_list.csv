@@ -244,7 +244,7 @@ Construct Binary Search Tree from Preorder Traversal,Medium,,
 Construct String from Binary Tree,Easy,,
 Construct Binary Tree from String,Medium,,
 Minimum Distance Between BST Nodes,Easy,,
-Split BST,Medium,,
+Split BST,Medium,○,再帰で解く。帰るときにrootの片方の葉に値を入れていくことがポイント。
 Delete Node in a BST,Medium,,
 Minimum Height Trees,Medium,,
 Count Complete Tree Nodes,Medium,,
