@@ -62,7 +62,7 @@ Find Duplicate File in System,Medium,,
 Simplify Path,Medium,,
 Shuffle an Array,Medium,,
 Beautiful Array,Medium,,
-K-th Symbol in Grammar,Medium,,
+K-th Symbol in Grammar,Medium,○,N=2やN=３の時を参考に、N=1かつK==1のベースケースに収束するように再帰を上手く書く。
 Wiggle Sort,Medium,○,条件を満たさない箇所を貪欲にスワップしていく事で、自然に題意を満たす列となる。
 Wiggle Sort II,Medium,,
 Missing Ranges,Medium,,
