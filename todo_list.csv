@@ -480,6 +480,7 @@ Design Tic-Tac-Toe,Medium,○,プレイヤーの動きは毎回妥当だとい�
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
 Max Points on a Line,Hard,,
+Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
 Combine Two Tables,Easy,○,テーブルを結合して、それぞれの情報を抽出する。
 Second Highest Salary,Easy,○,2番目に大きい値なので、最大値を除いた最大値を返す
 Nth Highest Salary,Medium,○,LIMIT節では式は使えないことに注意。
