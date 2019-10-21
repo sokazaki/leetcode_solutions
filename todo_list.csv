@@ -425,7 +425,7 @@ Campus Bikes,Medium,,
 Campus Bikes II,Medium,,
 String Without AAA or BBB,Medium,,
 Minimum Domino Rotations For Equal Row,Medium,○,Counterはdefaultdictと同じく、存在しないキーの値は0を返すことに注意。
-Partition Labels,Medium,,
+Partition Labels,Medium,○,最も左のindexを保存する辞書を作り、それを用いつつTwo Pointersで貪欲に解く。
 Reorganize String,Medium,,
 Gas Station,Medium,,
 Non-overlapping Intervals,Medium,,
