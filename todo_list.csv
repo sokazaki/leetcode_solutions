@@ -41,6 +41,7 @@ Longest Absolute File Path,Medium,,
 Flip Game,Easy,○,題意に従ってそのまま解く。
 Flip Game II,Medium,,
 Game of Life,Medium,○,状態遷移のパターンごとに0-1以外の値を代入し、上手くIn-Placeで解く。
+Set Matrix Zeroes,Medium,○,一番上の行と列を0埋めのためのメモとして保存しておく。空間計算量だけではなく時間計算量にも注意。
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
 Summary Ranges,Medium,○,ヘルパー関数を用意すると実装が簡単になる。最後の文字はループから外して別に処理するのがポイント。
 Product of Array Except Self,Medium,○,前順走査と逆順走査のTwo PassでO(N)で解く。
@@ -49,7 +50,6 @@ Maximum Average Subarray II,Hard,,
 Rotate Image,Medium,○,zip関数を使うと簡単。返却値(リストの中身)がタプルとなることに注意。
 Spiral Matrix,Medium,○,テンプレなので解き方を覚える。len([])は通るが、len([][0])はアクセスエラーになることに注意。
 Spiral Matrix II,Medium,○,上とほぼ同じ問題。テンプレなので解き方を覚える。
-Set Matrix Zeroes,Medium,,
 Largest Number,Medium,○,Python3ではcmpパラメータは廃止されたので、代わりにkeyパラメータにcmp_to_keyでラップした比較関数を渡す。
 ZigZag Conversion,Medium,○,シンプルにそのまま走査する。
 String to Integer (atoi),Medium,○,問題の様々な条件を確認することが求められる、コーディング面接的な問題。
