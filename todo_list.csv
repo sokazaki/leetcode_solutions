@@ -40,7 +40,7 @@ Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く�
 Longest Absolute File Path,Medium,,
 Flip Game,Easy,○,題意に従ってそのまま解く。
 Flip Game II,Medium,,
-Game of Life,Medium,,
+Game of Life,Medium,○,状態遷移のパターンごとに0-1以外の値を代入し、上手くIn-Placeで解く。
 Next Permutation,Medium,○,最悪計算量はO(N)、償却計算量はO(1)となる
 Summary Ranges,Medium,○,ヘルパー関数を用意すると実装が簡単になる。最後の文字はループから外して別に処理するのがポイント。
 Product of Array Except Self,Medium,○,前順走査と逆順走査のTwo PassでO(N)で解く。
