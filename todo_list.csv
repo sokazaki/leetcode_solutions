@@ -410,7 +410,7 @@ Interval List Intersections,Medium,○,Intersectionがある場合とない場�
 3Sum Closest,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。
 3Sum Smaller,Medium,○,上記の問題とほぼ同様。ただし、上記と同じ定数倍高速化をしようとすると、問題の設定上エラーとなることに注意。
 Find the Duplicate Number,Medium,○,ランナーテクニックでフロイドの循環検出法を実装してO(N)で解く。二分探索だとO(NlogN)となる。
-Minimum Window Substring,Hard,,
+Minimum Window Substring,Hard,○,TがSに含まれるかどうかを辞書を用いて判定しつつ、Two PointerでO(N)で解く。
 Sliding Window Maximum,Hard,,
 Sliding Window Median,Hard,,
 Longest Substring with At Most Two Distinct Characters,Hard,,
