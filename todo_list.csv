@@ -313,6 +313,7 @@ Palindromic Substrings,Medium,,
 Maximum Subarray,Easy,○,全探索:O(N^3)、全探索＋累積和:O(N^2)、分割統治法:O(NlogN)、Kadane's Algorithm:O(N)の四通りの解き方がある。
 Maximum Product Subarray,Medium,○,絶対値が最大となる正数か負数で場合分けして、DPでO(N)で解く。0に関してはどちらかに含めれば良い。
 Toss Strange Coins,Medium,○,二次元DPでO(NM)で解く。二次元配列は縦横共に1つ多めに用意する。
+Dice Roll Simulation,Medium,○,三次元配列となる所を上手く工夫して、二次元DPでO(N)で解く。
 Unique Paths,Medium,○,重複順列でシンプルに解ける。もちろんDPでも解ける。
 Unique Paths II,Medium,○,DPでシンプルに解く。DPテーブルを作らなくてもIn-Placeで解ける。
 Unique Paths III,Hard,,
