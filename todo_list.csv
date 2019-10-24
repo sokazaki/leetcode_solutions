@@ -308,7 +308,7 @@ Triangle,Medium,○,DPでIn-Placeで解ける。
 Paint Fence,Easy,○,同じ色で塗る場合と異なる色で塗る場合に分けてDPで解く。
 Longest Arithmetic Subsequence of Given Difference,Medium,○,ちゃんとO(N)で解けるDPの問題と見抜く。
 Longest Increasing Subsequence,Medium,○,動的計画法+二分探索でO(NlogN)で解く。
-Longest Palindromic Subsequence,Medium,,
+Longest Palindromic Subsequence,Medium,○,iからjまででの最長回文の長さを記録する二次元配列を用いて、DPでO(N^2)で解く。
 Longest Palindromic Substring,Medium,○,回文の長さが偶数か奇数で場合分けして、Two PointersでO(N^2)で解く。DPでO(N^2)で解くやり方や、ManacherでO(N)で解くやり方もある。
 Palindromic Substrings,Medium,○,回文の長さが偶数か奇数で場合分けして、Two PointersでO(N^2)で解く。DPでO(N^2)で解くやり方や、ManacherでO(N)で解くやり方もある。
 Maximum Subarray,Easy,○,全探索:O(N^3)、全探索＋累積和:O(N^2)、分割統治法:O(NlogN)、Kadane's Algorithm:O(N)の四通りの解き方がある。
