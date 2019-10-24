@@ -57,7 +57,7 @@ Reverse Words in a String,Medium,○,ビルトインメソッドを使うと一�
 Insert Delete GetRandom O(1),Medium,○,挿入した値の位置をメモするための辞書を作っておく。
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
 Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
-Simplify Path,Medium,,
+Simplify Path,Medium,○,splitメソッドを使うとかなり簡単に書ける
 Find Duplicate File in System,Medium,,
 Remove Sub-Folders from the Filesystem,Medium,○,ソートした後、前のフォルダのPath＋スラッシュと一致したらスルーする。スラッシュを追加しないとうまく機能しないことに注意。
 Longest Absolute File Path,Medium,○,タブや改行はPythonだと一文字で取り出せることに注意。コーナーケースが多い。
