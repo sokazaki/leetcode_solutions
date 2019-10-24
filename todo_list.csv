@@ -35,7 +35,6 @@ Multiply Strings,Medium,,
 Super Ugly Number,Medium,,
 Minimum Time Difference,Medium,○,時間を分に直してソートした後、前順に比較していく。最小時間+1440分を追加するとコードが簡単になる。また、バケツソートを用いるとO(N)にもできる。
 Find All Duplicates in an Array,Medium,,
-Text Justification,Hard,○,貪欲に空欄を追加していく。文字が一列に一つだけの場合に注意。
 Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
 Flip Game,Easy,○,題意に従ってそのまま解く。
 Flip Game II,Medium,,
@@ -60,7 +59,9 @@ Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
 Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Simplify Path,Medium,,
 Find Duplicate File in System,Medium,,
+Remove Sub-Folders from the Filesystem,Medium,○,ソートした後、前のフォルダのPath＋スラッシュと一致したらスルーする。スラッシュを追加しないとうまく機能しないことに注意。
 Longest Absolute File Path,Medium,○,タブや改行はPythonだと一文字で取り出せることに注意。コーナーケースが多い。
+Text Justification,Hard,○,貪欲に空欄を追加していく。文字が一列に一つだけの場合に注意。
 Shuffle an Array,Medium,,
 Beautiful Array,Medium,,
 K-th Symbol in Grammar,Medium,○,N=2やN=３の時を参考に、N=1かつK==1のベースケースに収束するように再帰を上手く書く。
@@ -433,7 +434,6 @@ Reorganize String,Medium,,
 Gas Station,Medium,,
 Non-overlapping Intervals,Medium,,
 Queue Reconstruction by Height,Medium,○,身長で降順ソート/前方許可人数で昇順ソートした後、前方許可人数に基づいて貪欲に列を構成する。
-Remove Sub-Folders from the Filesystem,Medium,○,ソートした後、前のフォルダのPath＋スラッシュと一致したらスルーする。スラッシュを追加しないとうまく機能しないことに注意。
 Remove K Digits,Medium,,
 Remove Duplicate Letters,Hard,,
 Merge Intervals,Medium,○,最初に開始時間でソートする。
