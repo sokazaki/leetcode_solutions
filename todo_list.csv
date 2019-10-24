@@ -403,6 +403,7 @@ Maximum Product of Word Lengths,Medium,,
 Longest Repeating Character Replacement,Medium,○,尺取り法(Two Pointers/Sliding Window)を用いてO(N)で処理
 Longest Substring Without Repeating Characters,Medium,○,尺取り法を用いてO(N)で処理
 Minimum Size Subarray Sum,Medium,○,尺取り法を用いてO(N)で処理。累積和＋二分探索を用いてO(NlogN)に処理する方法もある
+Get Equal Substrings Within Budget,Medium,○,rightはfor文で回して、leftはwhile文で調整する。costの計算はキューでO(1)でやらないとTLEする。
 Permutation in String,Medium,,
 Max Consecutive Ones,Easy,○,題意に従ってそのまま解く。
 Max Consecutive Ones II,Medium,,
