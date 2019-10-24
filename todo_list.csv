@@ -4,6 +4,7 @@ Fizz Buzz,Easy,○,有名な問題
 "Pow(x, n)",Medium,○,繰り返し二乗法を用いてO(logN)に落とす
 Rotate Array,Easy,○,２つの部分列をそれぞれ反転させた後、全体の列を反転させる。
 Non-decreasing Array,Easy,○,貪欲法っぽい感じでO(N)で解く。
+Remove Duplicates from Sorted Array,Easy,○,Two Pointersを使うとO(N)でIn-Placeで解ける。
 Sort Array By Parity,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で解ける。
 Sort Array By Parity II,Easy,○,Two Pointersを用いるとIn-PlaceでO(N)で解ける。偶奇の数は等しいので、片方の走査が終わった場合もう片方も終わっている。
 String Compression,Easy,○,Two Pointersを使って空間計算量O(1)で解く。
@@ -22,7 +23,6 @@ Plus One,Easy,○,リストの最後尾から繰り上がりを足していき�
 Count and Say,Easy,○,ヘルパー関数を作ることによって、やや実装が見やすくなる(気がする)。
 To Lower Case,Easy,○,ASCIIコード表を利用して変換する。
 Detect Capital,Easy,○,ビルトインメソッドを利用する。
-Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Roman to Integer,Easy,○,ハッシュテーブルを作ってやると簡単。
 Integer to Roman,Medium,○,ハッシュテーブルを作ってやると簡単。
 Merge Sorted Array,Easy,○,nums1とnums2を最後尾から比較しつつ、nums1に逆順で要素を入れていけば良い
@@ -34,10 +34,9 @@ Most Common Word,Easy,○,splitメソッドはスペースが複数個でも、�
 Multiply Strings,Medium,,
 Super Ugly Number,Medium,,
 Minimum Time Difference,Medium,○,時間を分に直してソートした後、前順に比較していく。最小時間+1440分を追加するとコードが簡単になる。また、バケツソートを用いるとO(N)にもできる。
-Remove Duplicates from Sorted Array,Easy,○,Two Pointersを使うとO(N)でIn-Placeで解ける。
 Find All Duplicates in an Array,Medium,,
+Text Justification,Hard,○,貪欲に空欄を追加していく。文字が一列に一つだけの場合に注意。
 Longest Common Prefix,Easy,○,zip関数をアスタリスク付きで上手く使う。
-Longest Absolute File Path,Medium,,
 Flip Game,Easy,○,題意に従ってそのまま解く。
 Flip Game II,Medium,,
 Game of Life,Medium,○,状態遷移のパターンごとに0-1以外の値を代入し、上手くIn-Placeで解く。
@@ -58,8 +57,10 @@ Encode and Decode Strings,Medium,,
 Reverse Words in a String,Medium,○,ビルトインメソッドを使うと一瞬でできる。真面目に解く場合はTwo Pointersを用いる。
 Insert Delete GetRandom O(1),Medium,○,挿入した値の位置をメモするための辞書を作っておく。
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
-Find Duplicate File in System,Medium,,
+Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Simplify Path,Medium,,
+Find Duplicate File in System,Medium,,
+Longest Absolute File Path,Medium,○,タブや改行はPythonだと一文字で取り出せることに注意。コーナーケースが多い。
 Shuffle an Array,Medium,,
 Beautiful Array,Medium,,
 K-th Symbol in Grammar,Medium,○,N=2やN=３の時を参考に、N=1かつK==1のベースケースに収束するように再帰を上手く書く。
@@ -72,7 +73,6 @@ Longest Substring with At Least K Repeating Characters,Medium,,
 Insert Interval,Hard,,
 Longest Consecutive Sequence,Hard,○,ハッシュマップを使ってO(N)で解く。バケツソートでもO(N)で解ける。
 First Missing Positive,Hard,○,配列内に存在する数には負の符号をつけていき、O(N)/O(1)で処理する。
-Text Justification,Hard,○,貪欲に空欄を追加していく。文字が一列に一つだけの場合に注意。
 Shortest Palindrome,Hard,,
 Valid Number,Hard,○,コーディング面接のような問題。様々な条件をしっかり議論する。
 Consecutive Numbers Sum,Hard,,
