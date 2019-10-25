@@ -306,6 +306,8 @@ Pascal's Triangle,Easy,○,パスカルの三角形の定義通りに実装す�
 Pascal's Triangle II,Easy,○,逆順で足し合わせていくことによって空間計算量O(N)で解ける。
 Triangle,Medium,○,DPでIn-Placeで解ける。
 Paint Fence,Easy,○,同じ色で塗る場合と異なる色で塗る場合に分けてDPで解く。
+Paint House,Easy,○,Dice Roll Simulationの簡易版。DPでO(NK)で解く。
+Paint House II,Hard,○,Dice Roll Simulationの簡易版。DPでO(NK)で解く。
 Longest Arithmetic Subsequence of Given Difference,Medium,○,ちゃんとO(N)で解けるDPの問題と見抜く。
 Longest Increasing Subsequence,Medium,○,動的計画法+二分探索でO(NlogN)で解く。
 Longest Palindromic Subsequence,Medium,○,iからjまででの最長回文の長さを記録する二次元配列を用いて、DPでO(N^2)で解く。
