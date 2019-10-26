@@ -486,8 +486,13 @@ Design Log Storage System,Medium,,
 Design Tic-Tac-Toe,Medium,○,プレイヤーの動きは毎回妥当だという事を利用する
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
-Max Points on a Line,Hard,,
+Number of Boomerangs,Easy,,
 Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
+Line Reflection,Medium,,
+Minimum Area Rectangle,Medium,,
+Minimum Area Rectangle II,Medium,,
+Max Points on a Line,Hard,,
+Erect the Fence,Hard,,
 Combine Two Tables,Easy,○,テーブルを結合して、それぞれの情報を抽出する。
 Second Highest Salary,Easy,○,2番目に大きい値なので、最大値を除いた最大値を返す
 Nth Highest Salary,Medium,○,LIMIT節では式は使えないことに注意。
