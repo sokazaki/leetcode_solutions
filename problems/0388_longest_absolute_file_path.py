@@ -1,36 +1,22 @@
 # O(N) Solution with Simple Approach
 
 import unittest
+from collections import defaultdict
 
 def lengthLongestPath(input):
-    tmp = ""
-    paths = []
-    for ch in input:
-        if ch == '\n' or ch == '\t':
-            if tmp != "":
-                paths.append(tmp)
-            paths.append(ch)
-            tmp = ""
-        else:
-            tmp += ch
-    if tmp != "":
-        paths.append(tmp)
+    input = input.split("\n")
+    dic = defaultdict(str)
+    res = 0
 
-    res, idx = 0, 0
-    curpath = []
-    for path in paths:
-        if path != '\n' and path != '\t':
-            while len(curpath) < idx+1:
-                curpath.append("")
-            while len(curpath) > idx+1:
-                curpath.pop()
-            curpath[idx] = path
-            if '.' in curpath[-1]:
-                res = max(len("".join(curpath))+len(curpath)-1, res)
-        elif path == "\n":
-            idx = 0
-        elif path == "\t":
-            idx += 1
+    for i in input:
+        candidate = i.split("\t")
+        idx = candidate.count("")
+        dic[idx] = i.split("\t")[-1]
+        path = []
+        if "." in dic[idx]:
+            for i in range(idx+1):
+                path.append(dic[i])
+            res = max(res, len("/".join(path)))
 
     return res
 
