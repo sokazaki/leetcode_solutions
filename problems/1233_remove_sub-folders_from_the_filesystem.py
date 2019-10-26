@@ -5,14 +5,16 @@ import unittest
 
 def removeSubfolders(folder):
     folder.sort()
+    diff = folder[0]
     res = [folder[0]]
-    prev, prev_len = folder[0]+"/", len(folder[0])+1
     for path in folder[1:]:
-        if path[:prev_len] != prev:
+        if diff + "/" in path:
+            continue
+        else:
+            diff = path
             res.append(path)
-            prev, prev_len = path + "/", len(path)+1
-    return res
 
+    return res
 
 class Test(unittest.TestCase):
 
