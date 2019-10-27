@@ -1,4 +1,4 @@
-# O(N) Solution with Hashmap
+# O(N^2) Solution with Hashmap
 
 import unittest
 from collections import defaultdict
