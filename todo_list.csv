@@ -490,7 +490,7 @@ Number of Boomerangs,Easy,○,三つ組の数え方に注意。iを固定した�
 Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
 Line Reflection,Medium,○,反転した点があるか確認するための辞書を作ってO(N)で解く。
 Minimum Area Rectangle,Medium,○,対角線上の点のみループで回して、他の２点は辞書でチェックしてO(N^2)で解く。
-Minimum Area Rectangle II,Medium,,
+Minimum Area Rectangle II,Medium,○,内積が0かを確認するのと対角線側の点が存在することを確認し、対角線側の点は辞書でチェックしてO(N^3)で解く。
 Max Points on a Line,Hard,,
 Erect the Fence,Hard,,
 Combine Two Tables,Easy,○,テーブルを結合して、それぞれの情報を抽出する。
