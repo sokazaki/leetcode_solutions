@@ -491,8 +491,8 @@ Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalse�
 Line Reflection,Medium,○,反転した点があるか確認するための辞書を作ってO(N)で解く。
 Minimum Area Rectangle,Medium,○,対角線上の点のみループで回して、他の２点は辞書でチェックしてO(N^2)で解く。
 Minimum Area Rectangle II,Medium,○,内積が0かを確認するのと対角線側の点が存在することを確認し、対角線側の点は辞書でチェックしてO(N^3)で解く。
-Max Points on a Line,Hard,,
-Erect the Fence,Hard,,
+Max Points on a Line,Hard,○,傾きを辞書のキーとして用い、O(N^2)で処理していく。傾きが無限となる場合や、同じ座標の点がある場合に注意。
+Erect the Fence,Hard,○,凸包を求める有名問題。ソートした後、上側凸包と下側凸包を外積を用いて求めていく。
 Combine Two Tables,Easy,○,テーブルを結合して、それぞれの情報を抽出する。
 Second Highest Salary,Easy,○,2番目に大きい値なので、最大値を除いた最大値を返す
 Nth Highest Salary,Medium,○,LIMIT節では式は使えないことに注意。
