@@ -486,7 +486,7 @@ Design Log Storage System,Medium,,
 Design Tic-Tac-Toe,Medium,○,プレイヤーの動きは毎回妥当だという事を利用する
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
-Number of Boomerangs,Easy,,
+Number of Boomerangs,Easy,○,三つ組の数え方に注意。iを固定した場合のjとkの組み合わせについて、全てのiに関して求める。
 Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
 Line Reflection,Medium,,
 Minimum Area Rectangle,Medium,,
