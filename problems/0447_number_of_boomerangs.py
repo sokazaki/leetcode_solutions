@@ -1,4 +1,4 @@
-# O(N) Solution with Two Pointers
+# O(N) Solution with Hashmap
 
 import unittest
 from collections import defaultdict
