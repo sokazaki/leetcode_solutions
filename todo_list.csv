@@ -491,7 +491,7 @@ Random Pick with Blacklist,Hard,,
 Random Flip Matrix,Medium,,
 Random Point in Non-overlapping Rectangles,Medium,,
 Random Pick with Weight,Medium,○,累積度数分布を作った後、二分探索でindexを求める。
-Generate Random Point in a Circle,Medium,,
+Generate Random Point in a Circle,Medium,○,モンテカルロ法で解く。
 Implement Rand10() Using Rand7(),Medium,,
 Number of Boomerangs,Easy,○,三つ組の数え方に注意。iを固定した場合のjとkの組み合わせについて、全てのiに関して求める。
 Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
