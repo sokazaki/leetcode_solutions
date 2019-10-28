@@ -346,8 +346,8 @@ Perfect Squares,Medium,,
 Maximal Square,Medium,○,[i-1][j-1]/[i-1][j]/[i][j-1]の部分問題に分けてメモ化しつつDPで解く。
 Word Break,Medium,○,文字列の始点と終点に基づいたDPテーブルを作って解く。
 Word Break II,Hard,,
-Coin Change,Medium,○,DPでシンプルに解く。日本の硬貨に限定すると、値段の高いものから貪欲に順に多く取っていけば最適解となる。
-Coin Change 2,Medium,,
+Coin Change,Medium,○,DPで解く。日本の硬貨に限定すると、値段の高いものから貪欲に順に多く取っていけば最適解となる。
+Coin Change 2,Medium,○,DPで解く。上記の問題とほぼ同様。
 Minimum Path Sum,Medium,○,空間計算量は元の二次元配列に合計の距離を上書きしていけばO(1)で済む。
 Regular Expression Matching,Hard,,
 Edit Distance,Hard,,
