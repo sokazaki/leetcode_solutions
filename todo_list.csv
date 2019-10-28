@@ -378,7 +378,6 @@ Search a 2D Matrix,Medium,○,二分探索を用いればO(NM)からO(logNM)に�
 Search a 2D Matrix II,Medium,○,探索開始位置を右上に設定すれば、O(N+M)で解ける。二分探索でもO(NlogM)orO(MlogN)で解ける。
 Kth Smallest Element in a Sorted Matrix,Medium,,
 Time Based Key-Value Store,Medium,○,timestampは昇順ソートされているので、そのまま二分探索が使える。
-Random Pick with Weight,Medium,○,累積度数分布を作った後、二分探索でindexを求める。
 Smallest Rectangle Enclosing Black Pixels,Hard,,
 Median of Two Sorted Arrays,Hard,○,jをiで上手く固定した後、B[j-1]<=A[i]かつA[i-1]<=B[j]を満たすiを二分探索で求める。
 ,,,
@@ -486,6 +485,14 @@ Design Log Storage System,Medium,,
 Design Tic-Tac-Toe,Medium,○,プレイヤーの動きは毎回妥当だという事を利用する
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
+Random Pick Index,Medium,,
+Linked List Random Node,Medium,,
+Random Pick with Blacklist,Hard,,
+Random Flip Matrix,Medium,,
+Random Point in Non-overlapping Rectangles,Medium,,
+Random Pick with Weight,Medium,○,累積度数分布を作った後、二分探索でindexを求める。
+Generate Random Point in a Circle,Medium,,
+Implement Rand10() Using Rand7(),Medium,,
 Number of Boomerangs,Easy,○,三つ組の数え方に注意。iを固定した場合のjとkの組み合わせについて、全てのiに関して求める。
 Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
 Line Reflection,Medium,○,反転した点があるか確認するための辞書を作ってO(N)で解く。
