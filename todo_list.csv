@@ -337,7 +337,7 @@ Best Time to Buy and Sell Stock with Cooldown,Medium,,
 Best Time to Buy and Sell Stock with Transaction Fee,Medium,,
 Range Sum Query - Immutable,Easy,○,累積和を用いてO(1)で処理する。
 Range Sum Query - Mutable,Medium,,
-Range Sum Query 2D - Immutable,Medium,,
+Range Sum Query 2D - Immutable,Medium,○,累積和(動的計画法)を用いてO(1)で処理する。[[0]*n]*mだと各行のアドレスが全て同じになってしまうことに注意。
 Range Sum Query 2D - Mutable,Hard,,
 Interleaving String,Hard,,
 Partition Equal Subset Sum,Medium,,
