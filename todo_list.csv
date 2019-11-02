@@ -427,7 +427,7 @@ Longest Substring with At Most K Distinct Characters,Hard,,
 "Greedy",,,
 Meeting Rooms,Easy,○,開始時間でソートした後、前順にチェックしていく
 Meeting Rooms II,Medium,○,開始時間でソートした後、heapで前順にチェックしていく(O(N)で済む)
-Jump Game,Medium,,
+Jump Game,Medium,○,到達可能な最大値を保存しつつ走査。GreedyにO(N)で解く。
 Jump Game II,Hard,,
 Campus Bikes,Medium,,
 Campus Bikes II,Medium,,
