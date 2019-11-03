@@ -428,7 +428,7 @@ Longest Substring with At Most K Distinct Characters,Hard,,
 Meeting Rooms,Easy,○,開始時間でソートした後、前順にチェックしていく
 Meeting Rooms II,Medium,○,開始時間でソートした後、heapで前順にチェックしていく(O(N)で済む)
 Jump Game,Medium,○,到達可能な最大値を保存しつつ走査。GreedyにO(N)で解く。
-Jump Game II,Hard,,
+Jump Game II,Hard,○,必ず最終地点に到達可能なことを利用し、Two Pointers+GreedyでO(N)で解く。
 Campus Bikes,Medium,,
 Campus Bikes II,Medium,,
 String Without AAA or BBB,Medium,,
