@@ -286,7 +286,7 @@ Least Operators to Express Number,Hard,,
 Walls and Gates,Medium,,
 Surrounded Regions,Medium,,
 Pacific Atlantic Water Flow,Medium,,
-Reconstruct Itinerary,Medium,,
+Reconstruct Itinerary,Medium,○,旅程が必ず存在するということを利用し、Stackを用いてGreedyに解く。
 Minesweeper,Hard,,
 Verifying an Alien Dictionary,Easy,○,辞書順のハッシュマップを用いて、素直に文字の順番を比較していく。
 Alien Dictionary,Hard,,
