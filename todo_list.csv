@@ -82,12 +82,12 @@ Read N Characters Given Read4 II - Call multiple times,Hard,,
 ,,,
 Trie,,,
 Implement Trie (Prefix Tree),Medium,○,トライノードを格納する辞書を用いてトライ木を実装する。パトリシア木/LOUDS/ダブル配列などの実装もある。
+Add and Search Word - Data structure design,Medium,○,PrefixSearchを行う必要がないため、リストを持つ辞書を作って解く。
 Implement Magic Dictionary,Medium,,
 Map Sum Pairs,Medium,,
 Replace Words,Medium,,
 Maximum XOR of Two Numbers in an Array,Medium,,
 Top K Frequent Words,Medium,○,比較演算用のクラスを作って問題を解く。heapqのpopは最小値から出てくることに注意。
-Add and Search Word - Data structure design,Medium,○,PrefixSearchを行う必要がないため、リストを持つ辞書を作って解く。
 Word Search,Medium,○,バックトラック法で解く。
 Word Search II,Hard,,
 Word Squares,Hard,,
