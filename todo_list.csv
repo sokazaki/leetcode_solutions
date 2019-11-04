@@ -432,6 +432,7 @@ Jump Game,Medium,○,到達可能な最大値を保存しつつ走査。Greedy�
 Jump Game II,Hard,○,必ず最終地点に到達可能なことを利用し、Two Pointers+GreedyでO(N)で解く。
 Campus Bikes,Medium,,
 Campus Bikes II,Medium,,
+Minimum Swaps to Make Strings Equal,Easy,○,問題文の例を参考にして、場合分けしてO(N)で解く。
 String Without AAA or BBB,Medium,,
 Minimum Domino Rotations For Equal Row,Medium,○,Counterはdefaultdictと同じく、存在しないキーの値は0を返すことに注意。
 Partition Labels,Medium,○,最も右に現れるindexを保存する辞書を作り、それを用いつつTwo Pointersで貪欲に解く。
