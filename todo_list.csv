@@ -82,7 +82,7 @@ Read N Characters Given Read4 II - Call multiple times,Hard,,
 ,,,
 Trie,,,
 Implement Trie (Prefix Tree),Medium,○,トライノードを格納する辞書を用いてトライ木を実装する。パトリシア木/LOUDS/ダブル配列などの実装もある。
-Add and Search Word - Data structure design,Medium,○,PrefixSearchを行う必要がないため、リストを持つ辞書を作って解く。
+Add and Search Word - Data Structure Design,Medium,○,PrefixSearchを行う必要がないため、リストを持つ辞書を作って解く。
 Implement Magic Dictionary,Medium,,
 Map Sum Pairs,Medium,,
 Replace Words,Medium,,
