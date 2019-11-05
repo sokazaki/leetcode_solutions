@@ -1,12 +1,13 @@
 # O(N) Time Complexity / O(1) Space Complexity Solution with Reservoir Sampling
 
+import random
+
 class Solution:
 
     def __init__(self, nums):
         self.nums = nums
 
     def pick(self, target):
-        res = None
         count = 0
         for i, num in enumerate(self.nums):
             if num == target:
