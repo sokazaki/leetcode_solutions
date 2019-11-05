@@ -25,14 +25,13 @@ class MaxStack:
 
     def popMax(self):
         n = self.maxstack.pop()
-        i = len(self.stack)-1
         tmp = []
         while n != self.stack[-1]:
             tmp.append(self.pop())
-        res = self.stack.pop()
+        self.stack.pop()
         for i in range(len(tmp)-1, -1, -1):
             self.push(tmp[i])
-        return res
+        return n
 
 
 # Your MaxStack object will be instantiated and called as such:
