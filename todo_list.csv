@@ -491,7 +491,7 @@ The Skyline Problem,Hard,,
 Guess the Word,Hard,,
 Random Pick Index,Medium,○,Reservoir SamplingでO(N)/O(1)で解く。target以外の値はスルーして、Reservoir(k)が1の場合に相当する。
 Linked List Random Node,Medium,,
-Random Pick with Blacklist,Hard,,
+Random Pick with Blacklist,Hard,○,Blacklistのindexが出た場合の辞書を作って処理する。
 Random Flip Matrix,Medium,,
 Random Point in Non-overlapping Rectangles,Medium,,
 Random Pick with Weight,Medium,○,累積度数分布を作った後、二分探索でindexを求める。
