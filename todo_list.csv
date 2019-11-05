@@ -125,7 +125,7 @@ LFU Cache,Hard,,
 Stack,,,
 Valid Parentheses,Easy,○,辞書を使って解く(括弧の向きが逆になることに注意)
 Min Stack,Easy,○,最小値保存用のスタックを別に作成する
-Max Stack,Easy,,
+Max Stack,Easy,○,最大値保存用のスタックを別に作成する。popMaxと空間計算量がO(N)になるため、この操作が頻繁に行われる際には別のアプローチを使う。
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
 Reverse Substrings Between Each Pair of Parentheses,Medium,○,上記とほぼ同様の問題。
 Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
