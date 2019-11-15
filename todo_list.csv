@@ -124,6 +124,7 @@ LFU Cache,Hard,,
 ,,,
 Stack,,,
 Valid Parentheses,Easy,○,辞書を使って解く(括弧の向きが逆になることに注意)
+Minimum Remove to Make Valid Parentheses,Medium,○,冗長な右括弧と左括弧をTwo-Passでそれぞれ除去してO(N)で解ける。
 Min Stack,Easy,○,最小値保存用のスタックを別に作成する
 Max Stack,Easy,○,最大値保存用のスタックを別に作成する。popMaxと空間計算量がO(N)になるため、この操作が頻繁に行われる際には別のアプローチを使う。
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
