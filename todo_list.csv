@@ -129,8 +129,8 @@ Min Stack,Easy,○,最小値保存用のスタックを別に作成する
 Max Stack,Easy,○,最大値保存用のスタックを別に作成する。popMaxと空間計算量がO(N)になるため、この操作が頻繁に行われる際には別のアプローチを使う。
 Decode String,Medium,○,繰り返し回数保存用のスタックを別に作成する
 Reverse Substrings Between Each Pair of Parentheses,Medium,○,上記とほぼ同様の問題。
-Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
 Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
+Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
 Evaluate Reverse Polish Notation,Medium,,
 Asteroid Collision,Medium,,
 Trapping Rain Water,Hard,,
@@ -140,6 +140,7 @@ Odd Even Jump,Hard,,
 Basic Calculator,Hard,,
 Basic Calculator II,Medium,,
 Basic Calculator III,Hard,,
+Basic Calculator IV,Hard,,
 ,,,
 Queue,,,
 Moving Average from Data Stream,Easy,○,Stream処理系タスクは基本的にキューを使う感じになる印象。
@@ -160,7 +161,7 @@ Top K Frequent Elements,Medium,○,ヒープを使うと計算量がO(NlogN)と�
 Find K Pairs with Smallest Sums,Medium,○,コーナーケースが多いので気をつける。ヒープを使うと計算量をO(NMlogNM)からO(KlogK)に落とせる。
 Find Median from Data Stream,Hard,○,mixheapとmaxheapを用いて、addはO(logN)、findはO(1)で解く。
 ,,,
-"HashMap, HashTable",,,
+"HashSet, HashMap, HashTable",,,
 Jewels and Stones,Easy,○,ハッシュテーブルを使って普通に解く。
 Subdomain Visit Count,Easy,○,ドメイン毎のハッシュテーブルを作って値を管理する。
 Happy Number,Easy,○,ハッピー列が最終的に循環列になるという性質を利用する。
