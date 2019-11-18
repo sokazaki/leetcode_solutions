@@ -147,7 +147,7 @@ Moving Average from Data Stream,Easy,○,Stream処理系タスクは基本的に
 Number of Recent Calls,Easy,○,キューを使うと時間/空間計算量共にO(1)で毎回処理できる。
 Kill Process,Medium,○,キューを用いたBFSで子プロセスを走査していく。
 Task Scheduler,Medium,○,キューを使ってO(NlogN)で解く方法と、O(N)で貪欲的に求める方法がある。
-Design Snake Game,Medium,,
+Design Snake Game,Medium,○,蛇の移動にキューを用いる。自分の胴体を噛んでしまう場合のチェックを忘れないように注意する。
 Design Circular Queue,Medium,,
 Design Circular Deque,Medium,,
 Implement Queue using Stacks,Easy,○,２つのスタックを用いてPushのみO(N)、他はO(1)で実装する
