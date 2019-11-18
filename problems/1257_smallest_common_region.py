@@ -22,7 +22,7 @@ def findSmallestRegion(regions, region1, region2):
     tmp2.append(region2)
 
     for x in tmp1:
-        if x in tmp2:
+        if x in set(tmp2):
             return x
 
 
