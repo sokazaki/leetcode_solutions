@@ -492,7 +492,7 @@ Design Tic-Tac-Toe,Medium,○,プレイヤーの動きは毎回妥当だとい�
 The Skyline Problem,Hard,,
 Guess the Word,Hard,,
 Random Pick Index,Medium,○,Reservoir SamplingでO(N)/O(1)で解く。target以外の値はスルーして、Reservoir(k)が1の場合に相当する。
-Linked List Random Node,Medium,,
+Linked List Random Node,Medium,○,Reservoir Samplingでも解けるが、毎回乱数生成する時間がかかるので、連結リストの長さを最初に記録してそれを用いる方法のほうが良い。
 Random Pick with Blacklist,Hard,○,Blacklistのindexが出た場合の辞書を作って処理する。
 Random Flip Matrix,Medium,,
 Random Point in Non-overlapping Rectangles,Medium,,
