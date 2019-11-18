@@ -132,7 +132,7 @@ Reverse Substrings Between Each Pair of Parentheses,Medium,○,上記とほぼ�
 Flatten Nested List Iterator,Medium,○,pop()をO(1)で用いるために、最初にリストを逆順にする
 Daily Temperature,Medium,○,スタックを用いてforwardのループで上手く処理する
 Evaluate Reverse Polish Notation,Medium,○,スタックを用いてO(N)で解く。割り算の場合に注意する。
-Asteroid Collision,Medium,,
+Asteroid Collision,Medium,○,スタックを用いてO(N)で解く。スタックが長さ1以下になったらbreakすることに注意。
 Trapping Rain Water,Hard,,
 Trapping Rain Water II,Hard,,
 Largest Rectangle in Histogram,Hard,,
