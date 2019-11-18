@@ -497,7 +497,7 @@ Random Pick Index,Medium,○,Reservoir SamplingでO(N)/O(1)で解く。target以
 Linked List Random Node,Medium,○,Reservoir Samplingでも解けるが、毎回乱数生成する時間がかかるので、連結リストの長さを最初に記録してそれを用いる方法のほうが良い。
 Random Pick with Blacklist,Hard,○,Blacklistのindexが出た場合の辞書を作って処理する。
 Random Flip Matrix,Medium,○,零行列を作るとTLEしてしまうので、辞書を使って上手く行列を作らないで処理する。
-Random Point in Non-overlapping Rectangles,Medium,,
+Random Point in Non-overlapping Rectangles,Medium,○,累積度数分布を作った後、二分探索でindexを求め、再度長方形内の点をサンプリングする。
 Random Pick with Weight,Medium,○,累積度数分布を作った後、二分探索でindexを求める。
 Generate Random Point in a Circle,Medium,○,モンテカルロ法で解く。
 Implement Rand10() Using Rand7(),Medium,○,上記の問題と同様。棄却サンプリングで解く。
