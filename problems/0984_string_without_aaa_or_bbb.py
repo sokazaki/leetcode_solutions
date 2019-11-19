@@ -12,7 +12,6 @@ def strWithout3a3b(A, B):
     elif A >= B:
         return 'aab' * (A-B) + 'ab' * (2*B - A)
     elif B >= 2*A:
-        print("3")
         return 'bba' * A + 'b' *(B-2*A)
     else:
         return 'bba' * (B-A) + 'ab' * (2*A - B)
