@@ -443,7 +443,7 @@ Minimum Swaps to Make Strings Equal,Easy,○,問題文の例を参考にして�
 String Without AAA or BBB,Medium,○,Greedyに場合分けして解く。
 Minimum Domino Rotations For Equal Row,Medium,○,Counterはdefaultdictと同じく、存在しないキーの値は0を返すことに注意。
 Partition Labels,Medium,○,最も右に現れるindexを保存する辞書を作り、それを用いつつTwo Pointersで貪欲に解く。
-Reorganize String,Medium,,
+Reorganize String,Medium,○,出現数が多いアルファベット順に、一間隔飛ばしで貪欲に詰めていく。
 Gas Station,Medium,○,ガスの累積和が最も高くなるような開始点を貪欲にO(N)で求める。
 Non-overlapping Intervals,Medium,,
 Queue Reconstruction by Height,Medium,○,身長で降順ソート/前方許可人数で昇順ソートした後、前方許可人数に基づいて貪欲に列を構成する。
