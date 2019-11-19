@@ -31,7 +31,7 @@ Reverse String,Easy,○,reverseメソッドや、リストのスライスの逆�
 Reverse Vowels of a String,Easy,○,小文字だけでなく大文字も母音となることに注意。
 Reverse Integer,Easy,○,数字の文字列をintでキャストすると接頭の0を消すことができる。また文字列の逆順はスライスで行うのが便利。
 Most Common Word,Easy,○,splitメソッドはスペースが複数個でも、自動的にスペースなしの単語リストに分割してくれる。
-Multiply Strings,Medium,,
+Multiply Strings,Medium,○,筆算の要領で実装する。Pythonだとオーバーフローしないので比較的楽。
 Super Ugly Number,Medium,,
 Minimum Time Difference,Medium,○,時間を分に直してソートした後、前順に比較していく。最小時間+1440分を追加するとコードが簡単になる。また、バケツソートを用いるとO(N)にもできる。
 Find All Duplicates in an Array,Medium,,
