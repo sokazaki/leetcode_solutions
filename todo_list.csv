@@ -71,7 +71,6 @@ Missing Ranges,Medium,,
 Increasing Triplet Subsequence,Medium,,
 Find the Celebrity,Medium,,
 Longest Substring with At Least K Repeating Characters,Medium,,
-Insert Interval,Hard,,
 Longest Consecutive Sequence,Hard,○,ハッシュマップを使ってO(N)で解く。バケツソートでもO(N)で解ける。
 First Missing Positive,Hard,○,配列内に存在する数には負の符号をつけていき、O(N)/O(1)で処理する。
 Shortest Palindrome,Hard,,
@@ -421,7 +420,6 @@ Max Consecutive Ones II,Medium,,
 Max Consecutive Ones III,Medium,,
 Container With Most Water,Medium,○,尺取り法を用いてO(N)で処理。横幅が大きい面積から処理していく。
 Sort Colors,Medium,○,オランダ国旗問題と呼ばれる有名問題。色ごとのポインタを用いて処理する。
-Interval List Intersections,Medium,○,Intersectionがある場合とない場合で分けて、Two Pointersで処理する。
 3Sum,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。重複ペアの除外に注意。
 3Sum Closest,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。
 3Sum Smaller,Medium,○,上記の問題とほぼ同様。ただし、上記と同じ定数倍高速化をしようとすると、問題の設定上エラーとなることに注意。
@@ -435,6 +433,13 @@ Longest Substring with At Most K Distinct Characters,Hard,,
 "Greedy",,,
 Meeting Rooms,Easy,○,開始時間でソートした後、前順にチェックしていく
 Meeting Rooms II,Medium,○,開始時間でソートした後、heapで前順にチェックしていく(O(N)で済む)
+Merge Intervals,Medium,○,最初に開始時間でソートする。
+Insert Interval,Hard,○,上記の問題の簡略版。Intervalsはソートされているので、NewIntervalsのIntervalsへの挿入はlogNで済む。
+Employee Free Time,Hard,○,Merge Intervalsとほぼ同じ問題。Employeeの区別はつけなくて良い。リスト内包表記の多重ループの書き方に気をつける。
+Interval List Intersections,Medium,○,Intersectionがある場合とない場合で分けて、Two Pointersで処理する。
+Find Right Interval,Medium,,
+Non-overlapping Intervals,Medium,,
+Minimum Number of Arrows to Burst Balloons,Medium,,
 Jump Game,Medium,○,到達可能な最大値を保存しつつ走査。GreedyにO(N)で解く。
 Jump Game II,Hard,○,必ず最終地点に到達可能なことを利用し、Two Pointers+GreedyでO(N)で解く。
 Campus Bikes,Medium,,
@@ -445,12 +450,9 @@ Minimum Domino Rotations For Equal Row,Medium,○,Counterはdefaultdictと同じ
 Partition Labels,Medium,○,最も右に現れるindexを保存する辞書を作り、それを用いつつTwo Pointersで貪欲に解く。
 Reorganize String,Medium,○,出現数が多いアルファベット順に、一間隔飛ばしで貪欲に詰めていく。
 Gas Station,Medium,○,ガスの累積和が最も高くなるような開始点を貪欲にO(N)で求める。
-Non-overlapping Intervals,Medium,,
 Queue Reconstruction by Height,Medium,○,身長で降順ソート/前方許可人数で昇順ソートした後、前方許可人数に基づいて貪欲に列を構成する。
 Remove K Digits,Medium,,
 Remove Duplicate Letters,Hard,,
-Merge Intervals,Medium,○,最初に開始時間でソートする。
-Employee Free Time,Hard,○,Merge Intervalsとほぼ同じ問題。Employeeの区別はつけなくて良い。リスト内包表記の多重ループの書き方に気をつける。
 Candy,Hard,○,Two-Passで貪欲に解く。One-Passでも解ける。
 Patching Array,Hard,,
 Minimum Number of K Consecutive Bit Flips,Hard,,
