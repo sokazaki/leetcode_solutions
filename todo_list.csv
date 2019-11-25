@@ -190,7 +190,6 @@ Valid Palindrome II,Easy,○,Two PointersでO(N)で解ける。
 Unique Word Abbreviation,Medium,,
 Unique Email Addresses,Easy,○,ビルトインメソッドのsplitとreplaceを使うと簡単。
 First Unique Character in a String,Easy,○,ハッシュマップを使ってTwo Passで解く。
-Find All Anagrams in a String,Easy,,
 Island Perimeter,Easy,○,True or 配列外のアクセスエラーはTrueとなることを利用。アクセスエラーを防ぐために外周を0埋めしても良い。
 Contains Duplicate,Easy,○,ハッシュテーブルを用いてそのまま解く。setはO(N)でlenはO(1)となる。
 Contains Duplicate II,Easy,○,ハッシュテーブルを用いてO(N)で解く。愚直に解くとO(N^2)となる。
@@ -414,7 +413,8 @@ Longest Repeating Character Replacement,Medium,○,尺取り法(Two Pointers/Sli
 Longest Substring Without Repeating Characters,Medium,○,尺取り法を用いてO(N)で処理
 Minimum Size Subarray Sum,Medium,○,尺取り法を用いてO(N)で処理。累積和＋二分探索を用いてO(NlogN)に処理する方法もある
 Get Equal Substrings Within Budget,Medium,○,rightはfor文で回して、leftはwhile文で調整する。costの計算はキューでO(1)でやらないとTLEする。
-Permutation in String,Medium,○,アルファベットの数は26なので、Sliding Windowで処理すればO(N)で出来る。
+Permutation in String,Medium,○,アルファベットの数は26なので、HashMap+Sliding Windowで処理すればO(N)で出来る。
+Find All Anagrams in a String,Medium,○,上と同様の問題。
 Max Consecutive Ones,Easy,○,題意に従ってそのまま解く。
 Max Consecutive Ones II,Medium,,
 Max Consecutive Ones III,Medium,,
