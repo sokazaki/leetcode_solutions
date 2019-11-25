@@ -6,7 +6,7 @@ import bisect
 def searchRange(nums, target):
     left = bisect.bisect_left(nums, target)
     right = bisect.bisect_right(nums, target)
-    if left>=len(nums) or nums[left] != target and nums[right-1] != target:
+    if left>=len(nums) or nums[left] != target:
         return [-1, -1]
     return [left, right-1]
 
