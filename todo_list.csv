@@ -166,6 +166,7 @@ Jewels and Stones,Easy,○,ハッシュテーブルを使って普通に解く�
 Subdomain Visit Count,Easy,○,ドメイン毎のハッシュテーブルを作って値を管理する。
 Happy Number,Easy,○,ハッピー列が最終的に循環列になるという性質を利用する。
 Isomorphic Strings,Easy,○,setを上手く使ってO(N)で解く。
+Bulls and Cows,Easy,○,辞書をうまく使ってbullとcowを個別に求める。
 Two Sum,Easy,○,ハッシュテーブルを用いてO(N)で処理。_ in dictはvalueではなくkeyを見つける事に注意。
 Two Sum II - Input array is sorted,Easy,○,Two Sumと同じくハッシュマップでO(N)で解けるが、ソートされてるのでTwo PointersでもO(N)で解ける。
 Two Sum III - Data structure design,Easy,○,解き方はTwo Sumと同じ。addとfindの計算量のトレードオフを考慮する。(DBの利用用途としてaddは多いがfindは少ないなど)
