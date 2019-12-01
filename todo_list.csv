@@ -56,6 +56,7 @@ Encode and Decode Strings,Medium,,
 Reverse Words in a String,Medium,○,ビルトインメソッドを使うと一瞬でできる。真面目に解く場合はTwo Pointersを用いる。
 Insert Delete GetRandom O(1),Medium,○,挿入した値の位置をメモするための辞書を作っておく。
 Insert Delete GetRandom O(1) - Duplicates allowed,Hard,,
+Check If It Is a Good Array,Hard,○,最大公約数を求める計算量はせいぜい定数なので、ベズーの等式を用いてO(N)で解ける。
 Reorder Log Files,Easy,○,Pythonのビルトインのソートは安定ソートとなることを利用すると楽に書ける。
 Simplify Path,Medium,○,splitメソッドを使うとかなり簡単に書ける
 Find Duplicate File in System,Medium,○,ハッシュテーブルを作って解く。
