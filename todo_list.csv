@@ -505,6 +505,7 @@ Generate Random Point in a Circle,Medium,○,モンテカルロ法で解く。
 Implement Rand10() Using Rand7(),Medium,○,上記の問題と同様。棄却サンプリングで解く。
 Number of Boomerangs,Easy,○,三つ組の数え方に注意。iを固定した場合のjとkの組み合わせについて、全てのiに関して求める。
 Check If It Is a Straight Line,Easy,○,傾きが等しくない場合はFalseとする。浮動小数点精度の誤差に注意する。
+Rectangle Overlap,Easy,○,それぞれの長方形の端点を利用して解く。交差部分の面積を求める場合もこの解法でそのまま解ける。
 Line Reflection,Medium,○,反転した点があるか確認するための辞書を作ってO(N)で解く。
 Minimum Area Rectangle,Medium,○,対角線上の点のみループで回して、他の２点は辞書でチェックしてO(N^2)で解く。
 Minimum Area Rectangle II,Medium,○,内積が0かを確認するのと対角線側の点が存在することを確認し、対角線側の点は辞書でチェックしてO(N^3)で解く。
