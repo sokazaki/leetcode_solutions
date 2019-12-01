@@ -367,7 +367,6 @@ Longest Valid Parentheses,Hard,,
 Wildcard Matching,Hard,,
 Frog Jump,Hard,,
 Distinct Subsequences,Hard,,
-Split Array Largest Sum,Hard,,
 Create Maximum Number,Hard,,
 Cherry Pickup,Hard,,
 Russian Doll Envelopes,Hard,,
@@ -383,6 +382,11 @@ Find First and Last Position of Element in Sorted Array,Medium,○,bisect_left�
 Search in Rotated Sorted Array,Medium,○,探索対象列が回転しているかどうかで場合分けをする。
 Search in Rotated Sorted Array II,Medium,,
 Capacity To Ship Packages Within D Days,Medium,○,二分探索の問題と見抜くのが難しい。二分探索+貪欲にlower_boundを探していく。
+Koko Eating Bananas,Medium,,
+Ugly Number III,Medium,,
+Minimize Max Distance to Gas Station,Hard,,
+Split Array Largest Sum,Hard,,
+Divide Chocolate,Hard,,
 Divide Two Integers,Medium,,
 Search a 2D Matrix,Medium,○,二分探索を用いればO(NM)からO(logNM)に落とせる。ただ、実際はメモリアクセスの都合で速度は変わらない気がする。
 Search a 2D Matrix II,Medium,○,探索開始位置を右上に設定すれば、O(N+M)で解ける。二分探索でもO(NlogM)orO(MlogN)で解ける。
