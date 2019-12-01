@@ -421,6 +421,7 @@ Find All Anagrams in a String,Medium,○,上と同様の問題。
 Max Consecutive Ones,Easy,○,題意に従ってそのまま解く。
 Max Consecutive Ones II,Medium,,
 Max Consecutive Ones III,Medium,,
+Backspace String Compare,Easy,○,スタックでO(N)/O(N)で解く方法と、Two PointersでO(N)/O(1)で解く方法がある。後者がやや難しい。
 Container With Most Water,Medium,○,尺取り法を用いてO(N)で処理。横幅が大きい面積から処理していく。
 Sort Colors,Medium,○,オランダ国旗問題と呼ばれる有名問題。色ごとのポインタを用いて処理する。
 3Sum,Medium,○,ソートした後、一番外側のループを回しつつ、内側の２変数はTwo Pointersで処理する。計算量はO(N^2)/O(1)となる。重複ペアの除外に注意。
