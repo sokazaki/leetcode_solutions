@@ -280,6 +280,7 @@ Friend Circles,Medium,○,DFSやUnion-Findで解く。計算量はどちらもO(
 Accounts Merge,Medium,,
 Most Stones Removed with Same Row or Column,Medium,,
 Number of Connected Components in an Undirected Graph,Medium,○,経路圧縮+ランク付きUnion-Findの計算量はアッカーマン関数の逆関数α(N)となる。DFSやBFSでも勿論解ける。
+Minimum Knight Moves,Medium,○,単純なBFSだとPythonではTLEとなるので工夫が必要。DPだと早く解ける。
 Course Schedule,Medium,,
 Course Schedule II,Medium,,
 Course Schedule III,Medium,,
