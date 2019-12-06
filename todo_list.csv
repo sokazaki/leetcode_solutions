@@ -385,7 +385,7 @@ Capacity To Ship Packages Within D Days,Medium,○,二分探索の問題と見�
 Koko Eating Bananas,Medium,,
 Ugly Number III,Medium,,
 Minimize Max Distance to Gas Station,Hard,,
-Split Array Largest Sum,Hard,,
+Split Array Largest Sum,Hard,○,二分探索の問題として上手く解く。
 Divide Chocolate,Hard,,
 Divide Two Integers,Medium,,
 Search a 2D Matrix,Medium,○,二分探索を用いればO(NM)からO(logNM)に落とせる。ただ、実際はメモリアクセスの都合で速度は変わらない気がする。
